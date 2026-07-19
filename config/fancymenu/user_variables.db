@@ -1,0 +1,140 @@
+type = user_variables
+
+variable {
+  name = unibox.show
+  value = true
+  reset_on_launch = false
+}
+
+variable {
+  name = spam_quick_command
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.targetH
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui.padding
+  value = 16
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.H
+  value = 100
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui_tasmgr.offy
+  value = 7
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui_tasmgr.offx
+  value = 13
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui.ver
+  value = 1.3.0
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.targetY
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui_taskmgr.moving
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.targetX
+  value = 1000
+  reset_on_launch = false
+}
+
+variable {
+  name = browzer.link
+  value = https://github.com/Shivter14/Shivtanium/raw/main/README.md
+  reset_on_launch = false
+}
+
+variable {
+  name = quick_command
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui.menu.anim
+  value = 
+  reset_on_launch = true
+}
+
+variable {
+  name = game_menu_offset
+  value = 21.1764705882353
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.targetW
+  value = 960
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui_taskmgr.x
+  value = 67
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui_taskmgr.y
+  value = 165
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.X
+  value = 1000
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.W
+  value = 960
+  reset_on_launch = false
+}
+
+variable {
+  name = unibox.Y
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = neosmp.out_of_date
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = ssui.menu
+  value = 
+  reset_on_launch = true
+}
+

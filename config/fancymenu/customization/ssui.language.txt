@@ -1,0 +1,131 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = language_select_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1706717070143
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:c8c214fa-dd62-4f63-9277-77fc2fcf2131-1706717021503] = [groups:][instances:]
+}
+
+menu_background {
+  panorama_name = shivtanium
+  background_type = panorama
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 3a01aa2c-3ea7-4dca-ac58-b79b05d2996f-1706716726088
+  [executable_block:3a01aa2c-3ea7-4dca-ac58-b79b05d2996f-1706716726088][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 32
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 32
+  width = 960
+  height = 447
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = ca9e7f8d-4125-403b-ba13-efaae80ee6ba-1706716726088
+  [loading_requirement_container_meta:ca9e7f8d-4125-403b-ba13-efaae80ee6ba-1706716726088] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 788d3ed9-72ba-4328-ab89-c30dcdb9a482-1706716726088
+  [executable_block:788d3ed9-72ba-4328-ab89-c30dcdb9a482-1706716726088][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 505962
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 485
+  y = 502
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a8e9bf49-0e31-426d-a43b-5d9ddb451b4b-1706716726088
+  [loading_requirement_container_meta:a8e9bf49-0e31-426d-a43b-5d9ddb451b4b-1706716726088] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 7ce30590-3e38-413b-af95-0e5a7af9733e-1706716726088
+  [executable_block:7ce30590-3e38-413b-af95-0e5a7af9733e-1706716726088][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 345962
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 325
+  y = 502
+  width = 150
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 39a4d7a6-8f9e-42be-97d6-1b7394022215-1706716726088
+  [loading_requirement_container_meta:39a4d7a6-8f9e-42be-97d6-1b7394022215-1706716726088] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = b45e693a-4508-4bfa-bf9d-9648092d14f3-1706716726088
+  [executable_block:b45e693a-4508-4bfa-bf9d-9648092d14f3-1706716726088][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 79511
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 763
+  y = 11
+  width = 192
+  height = 15
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = b1a07832-b813-4546-b2d2-9a0786c15791-1706716726088
+  [loading_requirement_container_meta:b1a07832-b813-4546-b2d2-9a0786c15791-1706716726088] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+

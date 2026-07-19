@@ -1,0 +1,122 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = %fancymenu:universal_layout%
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1756286006886
+  is_enabled = false
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:f6ef3685-e1e6-4018-916d-5d08132d4fc8-1756285958828] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  shape = rectangle
+  color = #FFFFFFFF
+  element_type = shape
+  instance_identifier = cfe3c5e4-26fb-4ded-8130-f5352613f6fe-1711351805619
+  appearance_delay = every_time
+  appearance_delay_seconds = 0.0
+  fade_in = true
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  advanced_posx = {"placeholder":"getvariable","values":{"name":"unibox.X"}}
+  advanced_posy = {"placeholder":"getvariable","values":{"name":"unibox.Y"}}
+  advanced_width = {"placeholder":"getvariable","values":{"name":"unibox.W"}}
+  advanced_height = {"placeholder":"getvariable","values":{"name":"unibox.H"}}
+  x = -38
+  y = -129
+  width = 50
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 124412f2-7968-4f2e-adfa-c424b7ba754a-1711351805619
+  [loading_requirement_container_meta:124412f2-7968-4f2e-adfa-c424b7ba754a-1711351805619] = [groups:][instances:6079a109-20f9-4bae-b3a9-1ad6913f2352-1711352143348;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:6079a109-20f9-4bae-b3a9-1ad6913f2352-1711352143348] = unibox.show:true
+}
+
+element {
+  is_async = false
+  tick_delay = 0
+  tick_mode = once_per_session
+  ticker_element_executable_block_identifier = 5e857ce4-923a-45cd-9878-ff499fd2a6c1-1711351587617
+  [executable_action_instance:32b448cc-66cc-43b9-a197-14a1d3fd32dd-1711351617322][action_type:set_variable] = unibox.X:0
+  [executable_action_instance:a2195fea-5fba-4c7e-91b9-e9cc2428295e-1711351716779][action_type:set_variable] = unibox.Y:0
+  [executable_action_instance:e7de073f-554b-4f73-be9e-224f3e656043-1711351761905][action_type:set_variable] = unibox.W:{"placeholder":"guiwidth"}
+  [executable_action_instance:416f11ad-d459-4c53-99ed-b37530e013db-1711351786729][action_type:set_variable] = unibox.H:0
+  [executable_action_instance:61a7fd82-a9de-4f2b-aea4-ee346ea6bb4b-1711352178322][action_type:set_variable] = unibox.show:false
+  [executable_action_instance:c7692c95-cfb9-4657-a348-ea2c0e110e4f-1711352755195][action_type:set_variable] = unibox.targetX:0
+  [executable_action_instance:7a3db9e2-f686-4153-83c0-1576ea5fe087-1711352769359][action_type:set_variable] = unibox.targetY:0
+  [executable_action_instance:da50adcb-b02e-4124-be59-d0cd8b28aadc-1711352800868][action_type:set_variable] = unibox.targetW:{"placeholder":"guiwidth"}
+  [executable_action_instance:b85308b9-0ef8-4cea-bdca-9ef7e2eb0d8a-1711352830290][action_type:set_variable] = unibox.targetH:0
+  [executable_block:5e857ce4-923a-45cd-9878-ff499fd2a6c1-1711351587617][type:generic] = [executables:32b448cc-66cc-43b9-a197-14a1d3fd32dd-1711351617322;a2195fea-5fba-4c7e-91b9-e9cc2428295e-1711351716779;e7de073f-554b-4f73-be9e-224f3e656043-1711351761905;416f11ad-d459-4c53-99ed-b37530e013db-1711351786729;61a7fd82-a9de-4f2b-aea4-ee346ea6bb4b-1711352178322;c7692c95-cfb9-4657-a348-ea2c0e110e4f-1711352755195;7a3db9e2-f686-4153-83c0-1576ea5fe087-1711352769359;da50adcb-b02e-4124-be59-d0cd8b28aadc-1711352800868;b85308b9-0ef8-4cea-bdca-9ef7e2eb0d8a-1711352830290;]
+  element_type = fancymenu_customization_item_ticker
+  instance_identifier = 8d4867a9-ab8b-4454-92f2-614fcce24d64-1711351587617
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -273
+  y = -144
+  width = 70
+  height = 70
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 19a569ee-3c68-4b8c-b014-1fc6330979f0-1711351587617
+  [loading_requirement_container_meta:19a569ee-3c68-4b8c-b014-1fc6330979f0-1711351587617] = [groups:][instances:]
+}
+
+element {
+  is_async = false
+  tick_delay = 0
+  tick_mode = normal
+  ticker_element_executable_block_identifier = 53c3c6e2-680b-4f51-b982-49bdc4744b33-1711352223563
+  [executable_block:bf1d21c5-66e6-41df-9a8a-e1b47a05707e-1711352377371][type:if] = [executables:]
+  [if_executable_block_body:bf1d21c5-66e6-41df-9a8a-e1b47a05707e-1711352377371] = 083d44d5-ac30-4520-9048-1f243cef9cf6-1711352288536
+  [loading_requirement_container_meta:083d44d5-ac30-4520-9048-1f243cef9cf6-1711352288536] = [groups:][instances:e4c7c2e9-0980-4d9e-a5e1-0bc16d433ce7-1711352291068;]
+  [loading_requirement:fancymenu_visibility_requirement_is_number][requirement_mode:if][req_id:e4c7c2e9-0980-4d9e-a5e1-0bc16d433ce7-1711352291068] = ["mode":"bigger-than","number":"{"placeholder":"getvariable","values":{"name":"unibox.targetX"}}","compare_with":"{"placeholder":"getvariable","values":{"name":"unibox.X"}}"]$
+  [executable_action_instance:e5784670-6b8f-44f2-ad73-d6d210870ae5-1711352516328][action_type:set_variable] = unibox.X:{"placeholder":"minnum","values":{"first":"{"placeholder":"calc","values":{"expression":"{"placeholder":"getvariable","values":{"name":"unibox.X"}} + (1000/{"placeholder":"fps"})","decimal":"true"}}","second":"{"placeholder":"getvariable","values":{"name":"unibox.targetX"}}"}}
+  [executable_block:53c3c6e2-680b-4f51-b982-49bdc4744b33-1711352223563][type:generic] = [executables:bf1d21c5-66e6-41df-9a8a-e1b47a05707e-1711352377371;e5784670-6b8f-44f2-ad73-d6d210870ae5-1711352516328;]
+  element_type = fancymenu_customization_item_ticker
+  instance_identifier = 009224e4-45f8-4a41-af76-1cf6b67005b2-1711352223563
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -123
+  y = -130
+  width = 70
+  height = 70
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 8939170e-3e95-440d-ae4e-e517f9f19479-1711352223563
+  [loading_requirement_container_meta:8939170e-3e95-440d-ae4e-e517f9f19479-1711352223563] = [groups:][instances:f45e57e8-a95b-4071-9696-c3562c4f3d88-1711352240863;]
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:f45e57e8-a95b-4071-9696-c3562c4f3d88-1711352240863] = unibox.show:true
+}
+
