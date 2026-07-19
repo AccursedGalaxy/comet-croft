@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "a1e62899ff0c28aee0268b170ee90389d009d927d9040e38359991cb353fe950"
-
-[[files]]
 file = "config/iris.properties"
 hash = "6a4760b11e55fd387935c8b461f17d6a69d8cf8d273e61cfeb0a59df042e9ebf"
 
