@@ -465,7 +465,7 @@ element {
 
 element {
   interactable = false
-  source = Shivtanium Client {"placeholder":"getvariable","values":{"name":"ssui.ver"}}%n%{"placeholder":"loadedmods"} / {"placeholder":"totalmods"} mods loaded%n%Minecraft {"placeholder":"mcversion"} {"placeholder":"loadername"}
+  source = Comet Croft {"placeholder":"getvariable","values":{"name":"ssui.ver"}}%n%{"placeholder":"loadedmods"} / {"placeholder":"totalmods"} mods loaded%n%Minecraft {"placeholder":"mcversion"} {"placeholder":"loadername"}
   source_mode = direct
   shadow = true
   enable_scrolling = false
@@ -607,92 +607,6 @@ element {
   corner_radius_bottom_left = 5.0
 }
 
-element {
-  interactable = true
-  source = [source:web]https://www.shivtanium.eu/api/client/
-  source_mode = resource
-  shadow = true
-  enable_scrolling = true
-  auto_line_wrapping = true
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  click_event_color = #0771FCFF
-  hover_event_color = #0771FCFF
-  quote_color = #818181FF
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  parse_markdown = true
-  table_show_header = true
-  table_alternate_row_colors = true
-  table_line_color = #787878FF
-  table_header_background_color = #323232FF
-  table_row_background_color = #282828FF
-  table_alternate_row_color = #3C3C3CFF
-  element_type = text_v2
-  instance_identifier = 9a0edbaa-010b-49a9-9238-c096fdad22e4-1778241327727
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = false
-  auto_sizing_base_screen_width = 1920
-  auto_sizing_base_screen_height = 1006
-  sticky_anchor = false
-  anchor_point = element
-  anchor_point_element = 7f05d387-a95b-448c-8c6b-4dccf1c4caa2-1778240499282
-  x = 0
-  y = 0
-  width = 130
-  height = 158
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 41c2a113-5cad-4d55-856d-a0e9c9490d73-1778241327727
-  [loading_requirement_container_meta:41c2a113-5cad-4d55-856d-a0e9c9490d73-1778241327727] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = false
-  stretch_y = false
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  base_color = #FFFFFFFF
-  grabber_color_normal = #00000077
-  scale = 1.0
-  text_border = 6
-  line_spacing = 2
-  quote_indent = 8
-  bullet_list_indent = 8
-  bullet_list_spacing = 3
-  table_line_thickness = 1.0
-  table_cell_padding = 8.0
-  table_margin = 4.0
-}
 
 vanilla_button {
   button_element_executable_block_identifier = 6144743b-2da9-4b7a-a85a-52c5e62077ef-1781608588067

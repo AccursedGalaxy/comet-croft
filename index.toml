@@ -210,27 +210,15 @@ hash = "e4fb2b121f82864f621141d5d3aa25f363280cfd45705a97d0cb4e13c6f0a066"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "848d00dc99d469bf83b7d5b878d3a0bd81f530a9d05c1698f75eba88a61a7a89"
+hash = "d0adf4b68c7483991a2645eaeabdaf88b9eb19ee242bda6acb96b6fdfcb76fd1"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "a3daed3aa3db2580aaeeb7edb34cc0c351f9c51132520142b2a4d59cff9a793b"
 
 [[files]]
-file = "config/fancymenu/customization/activate_minecraft.txt"
-hash = "1f20adb828992e16dc36a61a284b7ea3e659b5b128db8f77b1e78d85e95d3685"
-
-[[files]]
-file = "config/fancymenu/customization/browzer_layout.txt"
-hash = "66f84e407e07c309e99acec74190f84655f2ab9b9cde799294e9fd92498e707b"
-
-[[files]]
 file = "config/fancymenu/customization/chat_screen_layout.txt"
 hash = "d3aa8bacd169f971d0acc177b809a877ffd02571febc1e5763b982931df2ce54"
-
-[[files]]
-file = "config/fancymenu/customization/shivtanium_news.txt"
-hash = "dfddbed0ea8b243e62262afad6fa57664a926d5851e933b0d16c050f03a6a559"
 
 [[files]]
 file = "config/fancymenu/customization/shivtanium_resourcepacks_screen_layout.txt"
@@ -250,7 +238,7 @@ hash = "920de788bfbfcebc0f6214670a36868a46ad03d8353863e3f7b97e49a2980d14"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.loadingscreen.txt"
-hash = "b52d270863e7fcc3856d6eb3e0d7daf35d47f159f5d46d35ff37db8f7b2c0071"
+hash = "86999a416d9658ffee1ca32d1141cb49be3f42d105f7aaaa97af823446c61caf"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.multiplayer.txt"
@@ -266,11 +254,11 @@ hash = "e761deeb1e6044ad8d285f49459fc8d365a6eb9d9ce7fef2b5a2f2ceb76da3aa"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.titlescreen.txt"
-hash = "efb69118e6a5c9915d226bf541eb7e3c065ebdc8333709b9562215954f56f58f"
+hash = "bca744607cba2f2d26918ab64a531ac68df9a3306ccbc9395963da2af0f225f5"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.txt"
-hash = "10ad6e323a03b9954b021b89cc7957462ca9d8824cf2f8330e98827c1428e625"
+hash = "ce56127602dfe8d032b0d9e0a688738ef156f7fdeb698660cf452398d2a603c7"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.unibox.txt"
@@ -290,7 +278,7 @@ hash = "cdf5663a3074b081a1082970e99871f30589a6933309df5d85fae0bc28abaac8"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "192058a496bcc58734f0c1a1de9d8af8feecdb9d3a3366ec0cdf6d6248706e70"
+hash = "68d33127cfc4f943eed6f4bbf50585ada9e42a5803d8ee66b3d634ec7b4cc633"
 
 [[files]]
 file = "config/fancymenu/panoramas/Shivtanium/panorama/panorama_0.png"
@@ -456,6 +444,11 @@ hash = "d79f10b30cc6b8d5d14018806e4b167b6d49a490b7ad1765adbe53637fd87cdd"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
+hash = "48167cb20b31f92acec44aa905fd143272de2b0bde665813bac7dd9cab3f3870"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
@@ -558,6 +551,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "58ad6557713aee1971660e47d607f2ad64017d80357b1e9a986270de93162bc0"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "1308049fb354527f1471f220192d66577a2a8c1856f7c54cb5dc3cb0aaca2557"
 metafile = true
 
 [[files]]

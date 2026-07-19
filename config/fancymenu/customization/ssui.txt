@@ -457,7 +457,7 @@ element {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  label = Shivtanium
+  label = Comet Croft
   navigatable = true
   widget_active_state_requirement_container_identifier = 4bdd0463-b143-4295-8a85-eb97f1eedef9-1730574068060
   [loading_requirement_container_meta:4bdd0463-b143-4295-8a85-eb97f1eedef9-1730574068060] = [groups:][instances:]
