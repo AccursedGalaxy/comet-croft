@@ -17,7 +17,7 @@ export PATH="$HOME/go/bin:$PATH"   # packwiz lives here
 
 packwiz modrinth add <slug>        # add a mod
 packwiz update --all               # bump all pinned mods
-packwiz serve                      # serve pack at http://localhost:8080/pack.toml
+packwiz serve --port 8081     # 8080 is taken by the qwen36 llama.cpp server
 packwiz refresh                    # re-hash index after manual file edits
 ```
 
