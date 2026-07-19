@@ -1,0 +1,252 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = true
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/starry_night/layer_8.png
+  slide = false
+  repeat_texture = false
+  background_type = image
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/falling_star.gif
+  element_type = image
+  instance_identifier = cc-falling-star
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/layer_7.png
+  element_type = image
+  instance_identifier = cc-layer-7
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/layer_6.png
+  element_type = image
+  instance_identifier = cc-layer-6
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/layer_5.png
+  element_type = image
+  instance_identifier = cc-layer-5
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/layer_4.png
+  element_type = image
+  instance_identifier = cc-layer-4
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/layer_3.png
+  element_type = image
+  instance_identifier = cc-layer-3
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/layer_2.png
+  element_type = image
+  instance_identifier = cc-layer-2
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/starry_night/layer_1.png
+  element_type = image
+  instance_identifier = cc-layer-1
+  anchor_point = top-left
+  x = 0
+  y = 0
+  width = 100
+  height = 100
+  stretch_x = true
+  stretch_y = true
+  stay_on_screen = false
+}
+
+element {
+  interactable = false
+  source = COMET CROFT
+  source_mode = direct
+  shadow = true
+  scale = 3.0
+  base_color = #FFFFFFFF
+  parse_markdown = false
+  enable_scrolling = false
+  auto_line_wrapping = false
+  element_type = text_v2
+  instance_identifier = cc-title-text
+  anchor_point = top-centered
+  x = -100
+  y = 30
+  width = 200
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+}
+
+element {
+  interactable = false
+  source = a homestead under falling stars
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #B8A9D9FF
+  parse_markdown = false
+  enable_scrolling = false
+  auto_line_wrapping = false
+  element_type = text_v2
+  instance_identifier = cc-subtitle-text
+  anchor_point = top-centered
+  x = -80
+  y = 64
+  width = 160
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+}
+
+element {
+  interactable = false
+  source = Comet Croft v0.1.0 · MC {"placeholder":"mcversion"} · Art: "Starry Night" by Shiroze
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #8F86A8FF
+  parse_markdown = false
+  enable_scrolling = false
+  auto_line_wrapping = false
+  element_type = text_v2
+  instance_identifier = cc-credit-text
+  anchor_point = bottom-left
+  x = 3
+  y = -12
+  width = 280
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = cc-realms-exec
+  [executable_block:cc-realms-exec][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = mc_titlescreen_realms_button
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = cc-realms-req
+  [loading_requirement_container_meta:cc-realms-req] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+deep_element {
+  element_type = title_screen_logo
+  instance_identifier = deep:title_screen_logo
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 274
+  height = 52
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  is_hidden = true
+}
+
+deep_element {
+  element_type = title_screen_splash
+  instance_identifier = deep:title_screen_splash
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 60
+  height = 30
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  is_hidden = true
+}

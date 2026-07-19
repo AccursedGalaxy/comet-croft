@@ -1,6 +1,58 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fancymenu/assets/starry_night/falling_star.gif"
+hash = "ea704549c3133f67c68a10cc1203174e86df6a3eb0e5f848cb151ffb2476d9ed"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_1.png"
+hash = "4fc4e367c14ecd9d3082a54ae52a9129c944a7c0a2ae8577ea71ee6b9758f8cd"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_2.png"
+hash = "be9a75cb4762e9e594a50c9078b6c668aee25b38ba258cf7591ad56e66f08455"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_3.png"
+hash = "dc8a82d55ae794776ffb8e460afaf504a5c6a7ef453eb6c07c0dc782ae74f6a9"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_4.png"
+hash = "3da9ed652620b6bed1b567a032903da6b4ecd394c878c96e0d08720cbc33555e"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_5.png"
+hash = "3adc964d53d2e031574fbcb68608e83347f58ecff3f8097a6b2055ceac8d68cb"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_6.png"
+hash = "92171d498bbd2f90ca74334fe594f94a51c573a271a5b9cdbae199d998eb32f1"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_7.png"
+hash = "5f76c1defa96676500e00793ac520854f3f735d77e2337f6f1716e0ee5ae6656"
+
+[[files]]
+file = "config/fancymenu/assets/starry_night/layer_8.png"
+hash = "254167652848b0332572225a8882f9e41aae25b78091978174687c6c1089236a"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "0da1ca290038794d6867b5fc8b45da8e4504f32b99e6f2abbc870886226555da"
+
+[[files]]
+file = "config/fancymenu/customization/loading_screen_layout.txt"
+hash = "e519a54c8e920dbad2cc9315eea6ae68db62aafe119a3c38fbc37eb10951e589"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "8f7587e571b4090e63a8b6a4817a665bdfdb6a752250418caf22d1e6a97da0de"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "eb76da72c37b3ef0ff8f0316a731290797bbed6080f6f72546f31a3b93e7e5e3"
+
+[[files]]
 file = "config/iris.properties"
 hash = "6a4760b11e55fd387935c8b461f17d6a69d8cf8d273e61cfeb0a59df042e9ebf"
 
@@ -11,6 +63,10 @@ hash = "f10e01975242706ac1e2ca06589f2c7e120522d6a85034932e99a5813f204d46"
 [[files]]
 file = "config/yosbr/options.txt"
 hash = "6864b41a9dc6db48fd390bbf63fca1539be68411cb16d7208ffdab1a4ac4eb62"
+
+[[files]]
+file = "docs/THEME.md"
+hash = "2ee06f5224ee3e5b5f0f3ac500726625d9faf20f96e8be0ff16c49c098610479"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
