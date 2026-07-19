@@ -23,6 +23,17 @@ packwiz refresh                    # re-hash index after manual file edits
 
 Testing: launch the **Comet Croft (dev)** Prism instance while `packwiz serve` runs — its pre-launch hook (packwiz-installer-bootstrap) syncs the instance to the current repo state on every launch.
 
+## UI system (one coherent layer)
+
+- **Resourcify** — in-game browser/updater for resource packs, shaders, datapacks (the "pack explorer").
+- **Pack Manager** + **Async Pack Scan** — folder organization + fast scanning on the vanilla pack screen.
+- **FancyMenu + Drippy Loading Screen** (same author, one framework) — custom main menu and loading screen. Design them **in-game** with FancyMenu's editor (Mod Menu → FancyMenu, or right-click a menu); layouts land in `config/fancymenu/` and `config/drippyloadingscreen/` → commit them here.
+- **YOSBR** — `config/yosbr/options.txt` holds first-run defaults (auto-jump off, no tutorial, 260 fps cap). Applied once, never overrides user changes after.
+- **Iris** — `config/iris.properties` ships shaders OFF with Complementary Reimagined preselected (one click to enable).
+- **Mod Menu** — `config/modmenu.json`: libraries excluded from mod count.
+
+Config semantics: packwiz-installer syncs shipped configs but leaves user-modified files alone — ship opinionated defaults freely.
+
 ## Version bumps
 
 MC now ships quarterly drops (26.1 → 26.2 → …). To bump: edit `[versions]` in `pack.toml`, run `packwiz update --all`, fix stragglers, smoke test.
