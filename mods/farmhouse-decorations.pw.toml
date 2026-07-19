@@ -1,0 +1,13 @@
+name = "Farmhouse Decorations"
+filename = "fdm-26.4.0-fabric-26.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fRCEQtWX/versions/hzVmQzMB/fdm-26.4.0-fabric-26.1.2.jar"
+hash-format = "sha512"
+hash = "0a6883e5cd23b25225d451dd1e462d7df77fad8b4f989695747b3b4d52ecbccfff7249db36410159e002840aae6d995db5575e8b4de55c1143f3fcbbeee7c743"
+
+[update]
+[update.modrinth]
+mod-id = "fRCEQtWX"
+version = "hzVmQzMB"

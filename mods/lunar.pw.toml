@@ -1,0 +1,13 @@
+name = "Lunar"
+filename = "Lunar-fabric-26.1-0.2.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PwhlJMsW/versions/4Dob0J6w/Lunar-fabric-26.1-0.2.8.jar"
+hash-format = "sha512"
+hash = "aed5bb80a68341622ef3fb3bdc8ebc71311e236f816b32a7ab658bf76aa3a06ef59c94a76e4361197d1879114f62c17c91411ae531e885f71e918bfc18900bd5"
+
+[update]
+[update.modrinth]
+mod-id = "PwhlJMsW"
+version = "4Dob0J6w"

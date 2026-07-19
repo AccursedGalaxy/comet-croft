@@ -35,3 +35,40 @@ machine; system JDK is 17).
 Winter note: snow generates and persists all winter (melt disabled in
 winter sub-seasons by mod default), melts in spring. Purely visual +
 slow-growth; nothing destroys farms.
+
+## Tier 2 — Delight addon ring
+
+Added: More Delight, Rustic Delight, Ube's Delight, Crate Delight,
+Storage Delight, 3D Placeable Food, Display Delight (+ Delight Lib dep).
+
+- **No season datapack needed:** Rustic Delight and Ube's Delight ship
+  their own `sereneseasons` crop tags (cotton spring+summer; bell pepper
+  and coffee summer+autumn; ube/lemongrass spring+summer; garlic/ginger
+  summer+autumn; everything dormant in winter). The other five addons add
+  zero crop blocks. Deliberately NOT mirroring these tags in a pack
+  datapack — duplication would drift when upstream updates.
+- **All configs left at defaults** for now. Tuning candidates for the
+  polish pass: `config/rusticdelight.json` and `config/ubesdelight.json`
+  wild-crop spawn chances and trader toggles.
+- **Known wart (upstream, open issues):** More Delight × Rustic Delight
+  cutting-board collision on diced-potato outputs — one recipe silently
+  wins. Harmless; fixable later with a pack recipe override if it bothers
+  playtests.
+- Boot gate: PASS (36 mods server-side).
+
+## Tier 3 — Decor layer
+
+Added: Macaw's Furniture / Windows / Roofs / Fences & Walls / Lights &
+Lamps (rest of the suite by build-need later), Rechiseled (+ SuperMartijn642
+Core/Config libs + Fusion), Additional Lanterns, Swinging Lanterns,
+Lanterns Belong on Walls, Farmhouse Decorations. Configs at defaults —
+decor mods need none.
+
+- **Side-metadata fix:** Modrinth marks Fusion (Connected Textures) as
+  client-only, but Rechiseled hard-depends on it on the server too →
+  `mods/fusion-connected-textures.pw.toml` overridden to `side = "both"`.
+  Boot gate caught the server crash.
+- **Harness lesson:** always `packwiz refresh` after edits — a stale index
+  hash makes packwiz-installer abort with the misleading message "Update
+  cancelled by user!".
+- Boot gate: PASS (47 mods server-side).
