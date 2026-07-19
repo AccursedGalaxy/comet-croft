@@ -1,0 +1,86 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "8e6033c2642308835d119a073fdf24306394cdb6985c482a08e67b8087f6e90d"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "8ea78f8b4d5429e18848d02c5ab951a5af0ad88108f580b1fb71d715d642d15e"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
+metafile = true
+
+[[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "42f5637a87150687969d64b172ce8ef91bc3a92ee2eb68a2a17153350ff92b4b"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "aea5ea551600e691b75fac9dfa02670dc70903d732746d90e0c3711b2e6c564a"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "fed9bdaac0173f3cab2692f538441afda1e2cd46c6f6363790b424c009e34e03"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "59d8a7808f69deae5bc1c17ed2db6c28cb231398681f6f7902ae7e92da229e1a"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "41c95eea2813a8fe923ef8033f084cb264c610f549c97bb58db64734c9703c0c"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "d5060b22fa47d5d56e0f4617904731e9d397d1ba104320b7ec8e59f7ca0700a7"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "cd37520fbb14b8d5e9471d8c25324736e02dcf3be4b7c5df1699757b2264049f"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "137f9f7268efee46f378498be772d7828ac77ba239294c7051a782c9f0ee56ae"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "3cc0488195b6c6b8069e8b998db711f75829dc5e2385c45be17083ce86214303"
+metafile = true
+
+[[files]]
+file = "mods/placeholder-api.pw.toml"
+hash = "d20369e5848ca31ecbb49bae22e953439173bd4617ca239b23335366b2a6a0e9"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "6a487f3191e67284ec51e3c884d6fe30eac1cec120869c690d6eccc2db9dfc39"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "76f0c3b0f97c781fab964ec383b5031d780814e63abe7c456354187deaafaae2"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "c75f5e9a285cf6195065ba85e73081990f990de6efc7e2262a6eafe12d3dc277"
+metafile = true

@@ -1,0 +1,16 @@
+name = "Comet Croft"
+author = "AccursedGalaxy"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8cf6db600fb5a7cbca049e9efba8c531ff5e8b7610cf90b5a10850faeb2831de"
+
+[versions]
+fabric = "0.19.3"
+minecraft = "26.1.2"
+
+[options]
+acceptable-game-versions = ["26.1,26.1.1"]
