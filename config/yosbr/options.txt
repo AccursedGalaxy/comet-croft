@@ -1,0 +1,4 @@
+autoJump:false
+tutorialStep:none
+skipMultiplayerWarning:true
+maxFps:260

@@ -5,8 +5,25 @@ file = "README.md"
 hash = "a1e62899ff0c28aee0268b170ee90389d009d927d9040e38359991cb353fe950"
 
 [[files]]
+file = "config/iris.properties"
+hash = "6a4760b11e55fd387935c8b461f17d6a69d8cf8d273e61cfeb0a59df042e9ebf"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "f10e01975242706ac1e2ca06589f2c7e120522d6a85034932e99a5813f204d46"
+
+[[files]]
+file = "config/yosbr/options.txt"
+hash = "6864b41a9dc6db48fd390bbf63fca1539be68411cb16d7208ffdab1a4ac4eb62"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "785e74169e884a0535517140796a8448a831abf7f7dfa29cf6326b178c0dcf48"
+metafile = true
+
+[[files]]
+file = "mods/async-pack-scan.pw.toml"
+hash = "f211021a879363b00f09aaf419dcc33b54b6f77b23661154117281a9624d0039"
 metafile = true
 
 [[files]]
@@ -40,6 +57,11 @@ hash = "a474fff550faa54351f111d4baf2c582b9f1a7060c5e986ffe991e278713806f"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "0aeb91aea4a946c4764296dd3f5bb891899e763bae8f6c19e9ff99120270d997"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "42f5637a87150687969d64b172ce8ef91bc3a92ee2eb68a2a17153350ff92b4b"
 metafile = true
@@ -62,6 +84,11 @@ metafile = true
 [[files]]
 file = "mods/fallingtree.pw.toml"
 hash = "b1baa744204940671c7501296ae56e97da705f57b9d58bfdb522f87aa30d7d81"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "d79f10b30cc6b8d5d14018806e4b167b6d49a490b7ad1765adbe53637fd87cdd"
 metafile = true
 
 [[files]]
@@ -100,6 +127,11 @@ hash = "98f86579270d3087cd2c4ff14650a42e116446951b0bc138ecb8c9524867fec7"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "8ba3e0db33d4a59a2b2b78ca75f3312d117a722ccea52727a28326b440b2ab36"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "d5060b22fa47d5d56e0f4617904731e9d397d1ba104320b7ec8e59f7ca0700a7"
 metafile = true
@@ -110,8 +142,18 @@ hash = "da435f6743b812f333d2b26dce8faea336a37857af30b6d15855103a273e81da"
 metafile = true
 
 [[files]]
+file = "mods/libjf.pw.toml"
+hash = "e5271471cb36c733e2d8c438e077e959a47958c24ba65d1403109b0a52269cee"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "cd37520fbb14b8d5e9471d8c25324736e02dcf3be4b7c5df1699757b2264049f"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "6650c54bff58b2551d7c1d66474c545231040ddac892a1e80126a73233c5e4e8"
 metafile = true
 
 [[files]]
@@ -130,6 +172,11 @@ hash = "89fcae9fccf6aec59355405e1160ed15d523c34e08e555a0da6f46fb8a5087fe"
 metafile = true
 
 [[files]]
+file = "mods/pack-manager.pw.toml"
+hash = "2e024b4c880f5c5793cadaee48e431067a71751ac997899324f1ec23c3da7603"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "d20369e5848ca31ecbb49bae22e953439173bd4617ca239b23335366b2a6a0e9"
 metafile = true
@@ -137,6 +184,11 @@ metafile = true
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "6a487f3191e67284ec51e3c884d6fe30eac1cec120869c690d6eccc2db9dfc39"
+metafile = true
+
+[[files]]
+file = "mods/resourcify.pw.toml"
+hash = "e52710c9a98faeea7e660550d2f6dd9c999d042f12b36a534d94947fb91334fc"
 metafile = true
 
 [[files]]
@@ -185,6 +237,16 @@ hash = "e212db98871e5d51f2015f3134090353cec414333af3ba2e6015b8c642f5267b"
 metafile = true
 
 [[files]]
+file = "mods/yosbr.pw.toml"
+hash = "649c259a4777ba1b544b69d04a79f2b1b0e1a3c520033cc86a3c14d5fa53564a"
+metafile = true
+
+[[files]]
 file = "mods/zoomify.pw.toml"
 hash = "d623bb2b64ebdfdb20c1d43e10ccf4e8a9dd4efe8a284ab811dc66dc4ccbd734"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
 metafile = true
