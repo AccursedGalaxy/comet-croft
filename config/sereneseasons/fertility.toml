@@ -1,0 +1,8 @@
+#Comet Croft: gentle seasons. Out-of-season crops grow at ~1/6 speed but
+#NEVER break (behavior 0). Greenhouse glass (any glass block within 16 blocks
+#above a crop) fully bypasses seasonality. Do not set behavior to 1 or 2.
+[general]
+	seasonal_crops = true
+	crop_tooltips = true
+	out_of_season_crop_behavior = 0
+	underground_fertility_level = 48

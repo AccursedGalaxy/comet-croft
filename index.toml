@@ -54,15 +54,15 @@ hash = "19dc6937d9246f428e8fe8e731dafa030c8676a8fedcdd1e8bb0ee27c75c73a7"
 
 [[files]]
 file = "config/fancymenu/assets/logo.icns"
-hash = "ae0c0901be36310b24c2316a7b624b66904d40a1fb4b26998b2fac852372351c"
+hash = "9665b806091ba97c590a790cc8939283265e756d93091d753cb417ae3aceacdd"
 
 [[files]]
 file = "config/fancymenu/assets/logo_16x16.png"
-hash = "e5ec014cd77f5480e30f4ceeefe20e6314291208c738b307b91d7ca84a031dcd"
+hash = "05ffd5270df2eebdd2b9db243e3d483f6d94ea1311e6968559dd807fb1a8f2d5"
 
 [[files]]
 file = "config/fancymenu/assets/logo_32x32.png"
-hash = "3c0e822b5e7d89555100adc76abe902b6b091ed17005a2149b6fe0023433004e"
+hash = "633115e845aedb526b5e4031e967c8b18871a363559d572260a16a51f4ab1833"
 
 [[files]]
 file = "config/fancymenu/assets/themes/default/bar.png"
@@ -278,7 +278,7 @@ hash = "cdf5663a3074b081a1082970e99871f30589a6933309df5d85fae0bc28abaac8"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "68d33127cfc4f943eed6f4bbf50585ada9e42a5803d8ee66b3d634ec7b4cc633"
+hash = "4dfe2c74c23020e3ff8cf17463597c8473e82a89c5052a811fe18710c36d7e88"
 
 [[files]]
 file = "config/fancymenu/panoramas/Shivtanium/panorama/panorama_0.png"
@@ -357,8 +357,20 @@ file = "config/modmenu.json"
 hash = "f10e01975242706ac1e2ca06589f2c7e120522d6a85034932e99a5813f204d46"
 
 [[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "7329bccc70dbc943b29f3bc85cbd2b4f8b2b1caaf3ee5f5c69bcad8541bb212e"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "b434a842d5410e8e7d83c1efe30cfa6415002b0f2677aed222696108ee15bc04"
+
+[[files]]
 file = "config/yosbr/options.txt"
-hash = "6864b41a9dc6db48fd390bbf63fca1539be68411cb16d7208ffdab1a4ac4eb62"
+hash = "156eaced79dfa1dfbc9fad9bad2e62934748c9a1cbb09269bddd6c90d198fd24"
+
+[[files]]
+file = "docs/CONFIG.md"
+hash = "39e11b3f79b747c47e7e3b05346ee44ca68ceb3418cd143e33db1f5d88a701d3"
 
 [[files]]
 file = "docs/SLOTS.md"
@@ -367,6 +379,11 @@ hash = "26147154f469ad88b5a02a1b1ca33ee292d3f7b953a7d4ef089aa0e09f84baac"
 [[files]]
 file = "docs/THEME.md"
 hash = "2ee06f5224ee3e5b5f0f3ac500726625d9faf20f96e8be0ff16c49c098610479"
+
+[[files]]
+file = "mods/3d-placeable-food.pw.toml"
+hash = "5ddf30147b1362e288658817d9abd3b1069a6ebfb79185b575926befacf6d205"
+metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
@@ -406,6 +423,21 @@ metafile = true
 [[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "a474fff550faa54351f111d4baf2c582b9f1a7060c5e986ffe991e278713806f"
+metafile = true
+
+[[files]]
+file = "mods/crate-delight.pw.toml"
+hash = "b10c3dc2274d6fb02078ec88b31a3f60da33a895ec0a2fa9cc12e6f625b04e44"
+metafile = true
+
+[[files]]
+file = "mods/delight-lib.pw.toml"
+hash = "cf9ce07f6592c8672f96466f6bee6a47d459979b6a79194ed29f3dcc364abcbf"
+metafile = true
+
+[[files]]
+file = "mods/display-delight-fabric.pw.toml"
+hash = "891e847cb6abcd2c025b2c7934b49434d2a05233783999b4077edcc7765d7914"
 metafile = true
 
 [[files]]
@@ -456,6 +488,11 @@ metafile = true
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "74e95341b8bdf8953275719b14638a92bba736c8ab9c6a8d09275b56d76321be"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "53617f29fac13f3ef8cb25a6c6aeba6d080c28a306dccb71fe1f4da9d4a1c345"
 metafile = true
 
 [[files]]
@@ -519,6 +556,11 @@ hash = "137f9f7268efee46f378498be772d7828ac77ba239294c7051a782c9f0ee56ae"
 metafile = true
 
 [[files]]
+file = "mods/more-delight.pw.toml"
+hash = "f8dae1c48694cad725893b26223272b1fbfddacbe522cddcee850cdec6a70a43"
+metafile = true
+
+[[files]]
 file = "mods/moreculling.pw.toml"
 hash = "3cc0488195b6c6b8069e8b998db711f75829dc5e2385c45be17083ce86214303"
 metafile = true
@@ -549,6 +591,11 @@ hash = "e52710c9a98faeea7e660550d2f6dd9c999d042f12b36a534d94947fb91334fc"
 metafile = true
 
 [[files]]
+file = "mods/rustic-delight.pw.toml"
+hash = "d2804833d332220b4b0eeecda93d85cf231255f4ba2292875e754d13f2c5a026"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "58ad6557713aee1971660e47d607f2ad64017d80357b1e9a986270de93162bc0"
 metafile = true
@@ -574,8 +621,18 @@ hash = "c75f5e9a285cf6195065ba85e73081990f990de6efc7e2262a6eafe12d3dc277"
 metafile = true
 
 [[files]]
+file = "mods/storage-delight.pw.toml"
+hash = "e1ee9f33706a3c412210bd2351c81c1f482641512aa65ba75fc3d442907504b4"
+metafile = true
+
+[[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "ac96584d0966f0201a91bb2185476d83a28f1b92b2b89326501bc16fd364a8bb"
+metafile = true
+
+[[files]]
+file = "mods/ubes-delight.pw.toml"
+hash = "fccb50e4ba2c1cb2de4c7c746cc5352639006ae8ee1435ccc68a6f464b60131f"
 metafile = true
 
 [[files]]
@@ -606,6 +663,16 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "d623bb2b64ebdfdb20c1d43e10ccf4e8a9dd4efe8a284ab811dc66dc4ccbd734"
+metafile = true
+
+[[files]]
+file = "resourcepacks/qraftys-capitalized-font.pw.toml"
+hash = "4e15bb3092ac4b6c14d3ba7c14492addc8f405f6c487c88e25222d2e23497cea"
+metafile = true
+
+[[files]]
+file = "resourcepacks/reimaginedguidark.pw.toml"
+hash = "8f2eecff7e5f33a9d8a0255e119146855e7a5f4849a589c69830f4f4a9ffa522"
 metafile = true
 
 [[files]]

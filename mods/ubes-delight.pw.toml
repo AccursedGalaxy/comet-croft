@@ -1,0 +1,13 @@
+name = "Ube's Delight"
+filename = "ubesdelight-fabric-26.1.2-0.4.14.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PYjpoAys/versions/7sZz0uPp/ubesdelight-fabric-26.1.2-0.4.14.jar"
+hash-format = "sha512"
+hash = "ce6fb2c5583d33e84fee93ce66436f63e38c47b44acab3dd5774c3dcac827b297ac1aa7456f856f89c330d3603fed4dbcc1cca8ef60af7a2767788c9e1071a33"
+
+[update]
+[update.modrinth]
+mod-id = "PYjpoAys"
+version = "7sZz0uPp"

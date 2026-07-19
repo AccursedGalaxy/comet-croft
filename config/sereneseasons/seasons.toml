@@ -1,0 +1,19 @@
+#Comet Croft: season pacing. 12 sub-seasons/year, 3 per season.
+#sub_season_duration=2 days -> ~2h real time per season, ~8h per in-game year.
+[time_settings]
+	day_duration = 24000
+	sub_season_duration = 2
+	starting_sub_season = 1
+	progress_season_while_offline = true
+
+[weather_settings]
+	generate_snow_ice = true
+	change_weather_frequency = true
+
+[aesthetic_settings]
+	change_grass_color = true
+	change_foliage_color = true
+	change_birch_color = true
+
+[dimension_settings]
+	whitelisted_dimensions = ["minecraft:overworld"]
