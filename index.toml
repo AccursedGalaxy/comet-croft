@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "config/fancymenu/assets/starry_night/falling_star.gif"
-hash = "ea704549c3133f67c68a10cc1203174e86df6a3eb0e5f848cb151ffb2476d9ed"
+hash = "166bd2482240316a732e9152eaf03345b317fb66cb506d0aebd99ae702c50843"
 
 [[files]]
 file = "config/fancymenu/assets/starry_night/layer_1.png"
@@ -37,16 +37,24 @@ file = "config/fancymenu/assets/starry_night/layer_8.png"
 hash = "254167652848b0332572225a8882f9e41aae25b78091978174687c6c1089236a"
 
 [[files]]
+file = "config/fancymenu/assets/starry_night/scene_composite.png"
+hash = "deed838f91c86408a127c5c8cb8520b4d447054df7fc13d40e3f9917c35a5de8"
+
+[[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "0da1ca290038794d6867b5fc8b45da8e4504f32b99e6f2abbc870886226555da"
 
 [[files]]
 file = "config/fancymenu/customization/loading_screen_layout.txt"
-hash = "e519a54c8e920dbad2cc9315eea6ae68db62aafe119a3c38fbc37eb10951e589"
+hash = "2216f6db2b4edc6169551ad8ab7fc981d47f43aa5b103e13ca0d1033cf3cb83d"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "8f7587e571b4090e63a8b6a4817a665bdfdb6a752250418caf22d1e6a97da0de"
+hash = "0c37c2edcb7c2adc3437055f81c9482a32dcb7a144e13325e4814f9c1873dba3"
+
+[[files]]
+file = "config/fancymenu/customization/universal_menus_layout.txt"
+hash = "5a4c5c5d92aa7b6e00e6816fb065654bc063c6b0c7dfe2036ef64a0c8eb331c6"
 
 [[files]]
 file = "config/fancymenu/options.txt"
