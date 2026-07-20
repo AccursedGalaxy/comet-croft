@@ -91,8 +91,8 @@ menu_background {
 menu_background {
   instance_identifier = cdfe39f6-f89c-442f-98fe-cd0bd27dacac-1777908548724
   background_type = glsl
-  show_background = false
-  inline_shader_source = 
+  show_background = true
+  inline_shader_source = // Comet Croft title-screen background (Shadertoy-style, FancyMenu GLSL background).%n%// Night sky in the pack palette: deep blues, twinkling stars, faint milky band,%n%// a whisper of aurora, and a comet pass every ~27 seconds.%n%// Source of truth for the inline_shader_source in ssui.titlescreen.txt —%n%// re-encode with branding/encode_shader.py after editing.%n%%n%float hash21(vec2 p) {%n%    p = fract(p * vec2(123.34, 456.21));%n%    p += dot(p, p + 45.32);%n%    return fract(p.x * p.y);%n%}%n%%n%float vnoise(vec2 p) {%n%    vec2 i = floor(p);%n%    vec2 f = fract(p);%n%    f = f * f * (3.0 - 2.0 * f);%n%    float a = hash21(i);%n%    float b = hash21(i + vec2(1.0, 0.0));%n%    float c = hash21(i + vec2(0.0, 1.0));%n%    float d = hash21(i + vec2(1.0, 1.0));%n%    return mix(mix(a, b, f.x), mix(c, d, f.x), f.y);%n%}%n%%n%float starLayer(vec2 suv, float density, float thresh, float size, float twSpeed) {%n%    vec2 g = suv * density;%n%    vec2 id = floor(g);%n%    vec2 f = fract(g) - 0.5;%n%    float h = hash21(id);%n%    float star = 0.0;%n%    if (h > thresh) {%n%        vec2 off = (vec2(hash21(id + 7.3), hash21(id + 2.9)) - 0.5) * 0.7;%n%        float d = length(f - off);%n%        float tw = 0.65 + 0.35 * sin(iTime * twSpeed * (0.5 + h) + h * 50.0);%n%        star = smoothstep(size, 0.0, d) * tw * (h - thresh) / (1.0 - thresh);%n%    }%n%    return star;%n%}%n%%n%void mainImage(out vec4 fragColor, in vec2 fragCoord) {%n%    vec2 uv = fragCoord / iResolution.xy;%n%    float asp = iResolution.x / iResolution.y;%n%    vec2 suv = vec2(uv.x * asp, uv.y);%n%%n%    // sky gradient: warm-less deep blues, slightly lifted at the horizon%n%    vec3 top = vec3(0.027, 0.035, 0.100);%n%    vec3 mid = vec3(0.055, 0.078, 0.190);%n%    vec3 hor = vec3(0.100, 0.140, 0.280);%n%    vec3 col = mix(hor, mid, smoothstep(0.0, 0.45, uv.y));%n%    col = mix(col, top, smoothstep(0.45, 1.0, uv.y));%n%%n%    // faint milky band across the upper sky%n%    float band = exp(-abs((uv.y - 0.62) - 0.18 * sin(uv.x * 2.2 + 0.7)) * 5.0);%n%    float n = vnoise(suv * 6.0 + vec2(3.1, 7.7)) * 0.5 + vnoise(suv * 13.0) * 0.5;%n%    col += vec3(0.10, 0.12, 0.20) * band * n * 0.35;%n%%n%    // aurora curtain, very subtle, slow drift%n%    float ay = 0.78 + 0.04 * sin(suv.x * 2.5 + iTime * 0.05)%n%                    + 0.02 * sin(suv.x * 6.0 - iTime * 0.11);%n%    float curtain = exp(-abs(uv.y - ay) * 10.0);%n%    float wave = 0.5 + 0.5 * vnoise(vec2(suv.x * 3.0 + iTime * 0.07, iTime * 0.03));%n%    vec3 acol = mix(vec3(0.05, 0.35, 0.28), vec3(0.15, 0.20, 0.45),%n%                    vnoise(vec2(suv.x * 1.5, iTime * 0.02)));%n%    col += acol * curtain * wave * 0.22;%n%%n%    // stars, two depths, fading out toward the horizon%n%    float s = starLayer(suv, 42.0, 0.93, 0.10, 1.6) * 0.9;%n%    s += starLayer(suv + vec2(11.7, 4.3), 90.0, 0.95, 0.14, 2.4) * 0.5;%n%    col += vec3(0.85, 0.90, 1.00) * s * smoothstep(0.05, 0.30, uv.y);%n%%n%    // the comet: one pass every 27s, ~3.5s on screen, varied path per cycle%n%    float period = 27.0;%n%    float dur = 3.5;%n%    float cyc = floor(iTime / period);%n%    float lt = iTime - cyc * period;%n%    if (lt < dur) {%n%        float pr = lt / dur;%n%        float h1 = hash21(vec2(cyc, 3.7));%n%        float h2 = hash21(vec2(cyc, 9.2));%n%        vec2 a = vec2(-0.15 * asp + h1 * 0.25, 0.92 - h2 * 0.10);%n%        vec2 b = vec2(1.10 * asp, 0.55 + h1 * 0.25);%n%        vec2 dir = normalize(b - a);%n%        vec2 pos = mix(a, b, pr);%n%        vec2 rel = suv - pos;%n%        float behind = -dot(rel, dir);%n%        float dperp = abs(dot(rel, vec2(-dir.y, dir.x)));%n%        float env = sin(pr * 3.14159);%n%        float tail = exp(-dperp * dperp * 6000.0)%n%                   * smoothstep(0.30, 0.0, behind) * step(0.0, behind);%n%        float head = exp(-dot(rel, rel) * 9000.0) * 2.0;%n%        col += (vec3(0.55, 0.75, 1.00) * tail * 0.55%n%              + vec3(1.00, 0.98, 0.90) * head) * env;%n%    }%n%%n%    // gentle vignette so UI reads on top%n%    float vig = 1.0 - 0.35 * length(uv - 0.5);%n%    fragColor = vec4(col * vig, 1.0);%n%}
   buffer_a_inline_source = 
   buffer_b_inline_source = 
   buffer_c_inline_source = 
@@ -349,63 +349,6 @@ layout_action_executable_blocks {
   open_screen_executable_block_identifier = 4d85ee6e-7d57-4a88-bb1b-1c24bed733c4-1778684314780
   [executable_action_instance:e64f0104-edf0-48d8-b464-d88515303ffa-1778684327271][action_type:set_variable] = neosmp.out_of_date:false
   [executable_block:4d85ee6e-7d57-4a88-bb1b-1c24bed733c4-1778684314780][type:generic] = [executables:e64f0104-edf0-48d8-b464-d88515303ffa-1778684327271;]
-}
-
-element {
-  element_type = video
-  instance_identifier = 3f21a868-13f7-4b05-b6bd-9eebc8b0a746-1784572682747
-  source = [source:local]/config/fancymenu/assets/blackhole.mp4
-  appearance_delay = no_delay
-  disappearance_delay = no_delay
-  fade_in_v2 = no_fading
-  fade_out = no_fading
-  auto_sizing = true
-  auto_sizing_base_screen_width = 3420
-  auto_sizing_base_screen_height = 1380
-  auto_sizing_base_gui_scale = 4
-  sticky_anchor = false
-  anchor_point = mid-centered
-  x = -371
-  y = -136
-  width = 400
-  height = 200
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 3ad4312e-65fd-4733-8cae-74ac57fa452b-1784572682747
-  [loading_requirement_container_meta:3ad4312e-65fd-4733-8cae-74ac57fa452b-1784572682747] = [groups:][instances:]
-  enable_parallax = false
-  invert_parallax = false
-  animated_offset_x = 0
-  animated_offset_y = 0
-  load_once_per_session = false
-  layer_hidden_in_editor = false
-  advanced_rotation_mode = false
-  advanced_vertical_tilt_mode = false
-  advanced_horizontal_tilt_mode = false
-  should_be_affected_by_decoration_overlays = false
-  in_editor_color = #FFC800FF
-  advanced_posx = -2147483648
-  advanced_posy = -2147483648
-  advanced_width = -2147483648
-  advanced_height = -2147483648
-  stretch_x = true
-  stretch_y = true
-  appearance_delay_seconds = 1.0
-  disappearance_delay_seconds = 1.0
-  fade_in_speed = 1.0
-  fade_out_speed = 1.0
-  base_opacity = 1.0
-  parallax_intensity_x = 0.5
-  parallax_intensity_y = 0.5
-  rotation_degrees = 0.0
-  advanced_rotation_degrees = 0.0
-  vertical_tilt_degrees = 0.0
-  advanced_vertical_tilt_degrees = 0.0
-  horizontal_tilt_degrees = 0.0
-  advanced_horizontal_tilt_degrees = 0.0
-  loop = true
-  volume = 1.0
-  sound_source = master
-  play_in_editor = true
 }
 
 element {

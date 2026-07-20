@@ -5,6 +5,10 @@ file = ".ruff_cache/0.15.8/2304267214684566047"
 hash = "207574b78118139ad29de351aa3553b05b226bba957ff53c7c86052163659334"
 
 [[files]]
+file = ".ruff_cache/0.15.8/8877813772905291819"
+hash = "ea24ac36b04c460e4c7d82d8b5f75543dbd363a97773e466337a6e6024b056ae"
+
+[[files]]
 file = ".ruff_cache/CACHEDIR.TAG"
 hash = "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae"
 
@@ -23,10 +27,6 @@ hash = "0f314f191bc7a4a73447c7826f83dedab7892c1df52765537490b899c68a2613"
 [[files]]
 file = "config/fancymenu/assets/bar_right.png"
 hash = "f2a24cd4708708126bb2673a18d86e679de19f7891ac395f0f87dd4c696185bb"
-
-[[files]]
-file = "config/fancymenu/assets/blackhole.mp4"
-hash = "454dccfd95bd123e9fd63a341964235be9625c544d06288caef7470865960c1d"
 
 [[files]]
 file = "config/fancymenu/assets/box.png"
@@ -270,7 +270,7 @@ hash = "e761deeb1e6044ad8d285f49459fc8d365a6eb9d9ce7fef2b5a2f2ceb76da3aa"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.titlescreen.txt"
-hash = "55cdd9f4cf8e3f33fe1d82333106bd1c539fc707ec8879dd5f514702603319fc"
+hash = "0f0688315708a66cc912b9e77a668ca96a4b9119655c7c258cb275fd18449c87"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.txt"
@@ -363,10 +363,6 @@ hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 [[files]]
 file = "config/fancymenu/user_variables.db"
 hash = "c9ca46efc71d60036fd8e29470279a52f1fec4208beb1c029ad4be31a67cb697"
-
-[[files]]
-file = "config/fancymenu/video_element_controller_metas.json"
-hash = "6b264bbc4805869144923aea0c1bd84c0a9ed30cb89799f90d42ba14ac2638bf"
 
 [[files]]
 file = "config/fast-rtp.json"
@@ -931,16 +927,6 @@ metafile = true
 [[files]]
 file = "mods/ubes-delight.pw.toml"
 hash = "fccb50e4ba2c1cb2de4c7c746cc5352639006ae8ee1435ccc68a6f464b60131f"
-metafile = true
-
-[[files]]
-file = "mods/watermedia-binaries.pw.toml"
-hash = "3ef23f21b86395b4c8cf8cfbf38f23fbc859aaff99e874b5ce6c901abeee3e29"
-metafile = true
-
-[[files]]
-file = "mods/watermedia.pw.toml"
-hash = "b606df4e35b39785a7e02c05f31014877fa3cf1448a2f3e8797e557b19a80fa5"
 metafile = true
 
 [[files]]
