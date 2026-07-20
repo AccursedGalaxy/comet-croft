@@ -6,3 +6,15 @@ branding/
 CometCroft-Prism.zip
 .ruff_cache/
 testing/
+
+# Secrets / agent + dev tooling — must never ship in the distributed pack
+.env
+.env.*
+*.env
+.agent-memory.db
+*.db
+.claude/
+docs/
+*.log
+*.py
+.DS_Store

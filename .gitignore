@@ -1,3 +1,7 @@
 *.mrpack
 *.mrpack
 .env
+
+# agent tooling cruft
+.agent-memory.db
+*.db

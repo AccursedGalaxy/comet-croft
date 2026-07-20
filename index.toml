@@ -1,14 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".agent-memory.db"
-hash = "c5ec2d190af176dd7a37f904d8e561e2374a0bafbcc775f31ede8164e0a01e97"
-
-[[files]]
-file = ".env"
-hash = "cf2c54a5360611a093f69af6d21542ac10847fb7402cb640dc49dafa5fa7af3b"
-
-[[files]]
 file = "config/fabric-essentials.json"
 hash = "7456922773b4b12cb81b6c8f98bd4e51c5bf7debb0dcc674e7afc59dbacaf8a5"
 
@@ -357,10 +349,6 @@ file = "config/fancymenu/ui_themes/spooky_season.json"
 hash = "cfa46554bbb027efe3c2184a073ee652000acac2500cd5136764f901355ec0cd"
 
 [[files]]
-file = "config/fancymenu/user_variables.db"
-hash = "c9ca46efc71d60036fd8e29470279a52f1fec4208beb1c029ad4be31a67cb697"
-
-[[files]]
 file = "config/fast-rtp.json"
 hash = "65a103ab1d369715453e1494a288ec4bb5fad983e9b68beddb6b38576bef1a98"
 
@@ -431,26 +419,6 @@ hash = "c623d0f3415865b285beb70b6851c2ed269a010d7cbfa4b2b44ec659ca0bcfd2"
 [[files]]
 file = "config/yosbr/options.txt"
 hash = "156eaced79dfa1dfbc9fad9bad2e62934748c9a1cbb09269bddd6c90d198fd24"
-
-[[files]]
-file = "docs/CONFIG.md"
-hash = "085141ab1022768d9b16817265ebdbe7574ac55899c79af8e994dfc43bb15987"
-
-[[files]]
-file = "docs/PERFORMANCE.md"
-hash = "a04941c78b39afd9e89f624d38c4fc274a19fe1eeef460fcb097cca89bace68e"
-
-[[files]]
-file = "docs/SERVER.md"
-hash = "02f463e0805eb4fe0822c9e6e7ef83de884ea569bc19103b6a4d2186622155f5"
-
-[[files]]
-file = "docs/SLOTS.md"
-hash = "eba0e5e8c0b8771e86b79633be48a3876a312675ba8d70a726737549908cf8a0"
-
-[[files]]
-file = "docs/THEME.md"
-hash = "2ee06f5224ee3e5b5f0f3ac500726625d9faf20f96e8be0ff16c49c098610479"
 
 [[files]]
 file = "global_packs/required_data/remove-terralith-intro/data/terralith/function/toast.mcfunction"
