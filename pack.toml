@@ -1,12 +1,13 @@
 name = "Comet Croft"
 author = "AccursedGalaxy"
 version = "0.1.0"
+description = "A cozy Vanilla++ homestead pack: real seasons on the ground, comets and meteor falls in the sky."
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c18e9c13d387b8a835c8ba73ca970f2952b656e746cb314ff44ae74dfdcbaffe"
+hash = "b7a3490c058f1da555245906ec37aff21f83a723318d6211eb40faa5f8521448"
 
 [versions]
 fabric = "0.19.3"

@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".ruff_cache/0.15.8/2304267214684566047"
+hash = "207574b78118139ad29de351aa3553b05b226bba957ff53c7c86052163659334"
+
+[[files]]
+file = ".ruff_cache/CACHEDIR.TAG"
+hash = "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae"
+
+[[files]]
 file = "config/fabric-essentials.json"
 hash = "7456922773b4b12cb81b6c8f98bd4e51c5bf7debb0dcc674e7afc59dbacaf8a5"
 
@@ -58,15 +66,15 @@ hash = "19dc6937d9246f428e8fe8e731dafa030c8676a8fedcdd1e8bb0ee27c75c73a7"
 
 [[files]]
 file = "config/fancymenu/assets/logo.icns"
-hash = "9665b806091ba97c590a790cc8939283265e756d93091d753cb417ae3aceacdd"
+hash = "20e95a3b9681818f74a45d7990a8b3b061f1a85aca292afd05b1ef870c4ca68a"
 
 [[files]]
 file = "config/fancymenu/assets/logo_16x16.png"
-hash = "05ffd5270df2eebdd2b9db243e3d483f6d94ea1311e6968559dd807fb1a8f2d5"
+hash = "21196f148f87307485f53842ce35804bb9ec6cd6947edd289c6609b1142b3705"
 
 [[files]]
 file = "config/fancymenu/assets/logo_32x32.png"
-hash = "633115e845aedb526b5e4031e967c8b18871a363559d572260a16a51f4ab1833"
+hash = "6b24e6ac9304adb3280044513816c6d26302d16b3213c5df235d80369d431651"
 
 [[files]]
 file = "config/fancymenu/assets/themes/default/bar.png"
@@ -386,7 +394,7 @@ hash = "163410ad325eeffad66ea586f609381b0650b0b16b03a1ac92830e64d7118443"
 
 [[files]]
 file = "config/structurify.json"
-hash = "6971d99a64e12d74e81eca2b6aa355c7df98c532607c23fe04d165800086fb10"
+hash = "edf8281f2c64a9aeece45c7be6ef0636af7405e1b1aaf11b476d68beef40c5fb"
 
 [[files]]
 file = "config/tectonic.json"
