@@ -1,0 +1,13 @@
+name = "Seasonal Integration"
+filename = "Seasonal Integration-v1.6.1-Mc1.21.1+.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/w3gipv9f/versions/OuUv46bR/Seasonal%20Integration-v1.6.1-Mc1.21.1%2B.jar"
+hash-format = "sha512"
+hash = "7e746aeb15fbb8961dd234b189d7f8516797bff5e5fa738907b1f3c68aacfa9d86e7da7cbe5a9dacb4b51fd4326688cb20989babf04b04757ef485ca93d55adc"
+
+[update]
+[update.modrinth]
+mod-id = "w3gipv9f"
+version = "OuUv46bR"

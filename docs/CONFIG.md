@@ -72,3 +72,253 @@ decor mods need none.
   hash makes packwiz-installer abort with the misleading message "Update
   cancelled by user!".
 - Boot gate: PASS (47 mods server-side).
+
+## Tier 4 — Ambience layer
+
+Added: AmbientSounds (+CreativeCore), Sound Physics Remastered, Presence
+Footsteps, Falling Leaves, Cool Rain.
+
+**Quiet-biased defaults shipped via YOSBR** (`config/yosbr/config/...`) —
+these are player *preferences*, so they apply on first run only and stay
+player-adjustable afterwards (unlike the hard-shipped gameplay configs):
+- `ambientsounds-client.json`: engine `volume = 0.55` (~45% cut; the only
+  global loudness knob the mod has). NOTE: filename inferred from
+  CreativeCore convention, not confirmed — verify in-game that the
+  AmbientSounds GUI shows volume 55%; if not, find the generated filename
+  in the instance's config/ and rename ours.
+- `presencefootsteps/userconfig.json` (path confirmed): global volume 55
+  (default 70), own steps 70, other players 60, hostile 55, passive 45,
+  wet 40, foliage 70. Mob footsteps kept on but under vanilla sounds.
+- `fallingleaves2.json` (path confirmed): `leafSpawnRate = 10` (half
+  default), light conifer dusting 4 (default 0), snowflakes 18 (default
+  30), autumn burst factor kept at 1.8.
+- `coolrain.json` (path confirmed): all category volumes cut ~40%
+  (vanilla rain 0.12, surfaces 0.1–0.4), storm winds/thunder quieter and
+  rarer (winds 0.9/freq 25, thunder 6.0/freq 220).
+- Sound Physics Remastered: deliberately NOT shipped — its defaults are
+  physically-motivated. If interiors read too echoey in playtests, first
+  lever is `reverbGain` 1.0 → ~0.7–0.8.
+
+Ear-check list for playtests: forest day/night, rain on a farmhouse roof
+(inside + outside), a storm, walking through crops, winter snowfall
+density. Bias: ambience should sit UNDER vanilla sounds; when in doubt,
+quieter.
+
+## Tier 5 — Sky layer
+
+Added: Spyglass Astronomy, Skyboxify, Oh My Meteors (+Fzzy Config), Lunar.
+Lunar pinned to its 26.1 build via version URL (packwiz refuses auto-add on
+26.1.2); boots and runs fine on 26.1.2.
+
+**`config/ohmymeteors/ohmymeteors_config.toml`** (copied from generated,
+then tuned — do the same after mod updates):
+- `meteor_spawn_chance = 400000` (was 30000). Rolled per tick with a player
+  online: ≈1 meteor per ~16 MC days ≈ 1–2 per our 24-day year. An occasion.
+- Non-destructive impacts: `meteor_griefing = false`,
+  `scatter_meteor_griefing = false`, `only_replace_air = true`,
+  `spawn_fire_with_meteor = false`. Crater structure still places (over air
+  only), meteor still mineable — the cozy version of a meteor fall.
+- Overworld only; spawn distance 15–40 blocks from a player.
+
+**`config/lunar-common.toml`** (TOML, not the json5 some docs claim):
+- `lunarEventChance = 0.05` (was 0.4) — one event night per ~20 nights,
+  i.e. roughly once per in-game year. Rare means rare.
+- Event pool trimmed to mild moods: blood 40 (stat-buffed spawns only, no
+  siege mechanic exists in this mod), white 40 (monster-free calm night),
+  miner 40 (Haste), hero 40, big 15, eclipse 15.
+- **Disabled deliberately:** `crimsonMoonWeight = 0` (wither skeletons/
+  ghasts — too hostile), `tinyMoonWeight = 0` (open upstream bug #31: low
+  gravity kills farm animals), `badOmenMoonWeight = 0` (can chain into a
+  vanilla village raid — the one siege-shaped thing in the mod).
+- All events sleep-through-able (defaults kept).
+
+Spyglass Astronomy and Skyboxify ship no pack config: Spyglass is tuned by
+in-game `/sga:admin` commands per world (yearlength default 8 days; consider
+`/sga:admin yearlength set 24` to match the Serene Seasons year); Skyboxify
+is driven by OptiFine-format sky resource packs we author later (this is the
+comet/aurora art channel — layers support time-of-day fades and day-loop
+scheduling).
+
+**Playtest flags:** (1) Spyglass Astronomy's Iris shader compat PR is
+unmerged — verify stars/planets render under Complementary before shipping;
+(2) Lunar has no first-event grace period on new worlds; (3) OMM meteors
+only spawn near online players — SP pacing matches math above.
+
+## Tier 5 errata (found by Tier 6 boot gate)
+
+**Oh My Meteors migrated its config format TOML → YAML** — the tuned
+`config/ohmymeteors/ohmymeteors_config.toml` was silently dead; the mod
+regenerated defaults as `ohmymeteors_config.yml`. All Tier 5 tuning
+(spawn chance 400000, griefing off, air-only structure placement, no
+fire, overworld-only, 15–40 block spawn distance) is now ported into the
+`.yml` and the stale `.toml` is deleted. Lesson reinforced: after any mod
+update, re-check that the config file the pack ships is the one the mod
+actually reads (the boot log line "Config '<name>' is missing, generating
+default one" is the tell).
+
+## Tier 6 — Worldgen & structures
+
+Added (20 mods + 4 auto-deps): Tectonic (+Lithostitched), Geophilic,
+Continents · Towns & Towers (+Cristel Lib), Moog's Missing Villages
+(+Moog's Structure Lib), Improved Village Placement · Structory,
+Structory: Towers, Explorify · YUNG's API + Better Mineshafts /
+Strongholds / Ocean Monuments / Desert Temples / Jungle Temples / Witch
+Huts / Extras · Hopo Better Ruined Portals · Structurify, Structure
+Layout Optimizer (+Resourceful Config). Rationale and rejects:
+docs/SLOTS.md Slots 7–8; perf constraints: docs/PERFORMANCE.md.
+
+**`config/tectonic.json`** — generated defaults, pinned deliberately so
+upstream default drift can't silently reshape worlds between pack
+versions. Defaults ARE the theme (huge mountains, deep valleys, vanilla
+biomes). Documented playtest knobs if terrain fights the homestead
+fantasy: `flat_terrain_skew` (raise for more farmable valleys),
+`vertical_scale` 1.125 (lower toward 1.0 to tame peaks),
+`continents_scale`/`ocean_offset` (land/ocean balance vs the Continents
+datapack). Terrain-affecting changes need a new world to judge fairly.
+
+**`config/structurify.json`** —
+- `enable_global_spacing_and_separation_modifier = true`, modifier
+  **1.3** — every structure set (vanilla + all Tier 6 additions) spreads
+  1.3x apart. THEME: gently lived-in, not theme-park; neighbors should
+  be a journey. Also the laptop lever: fewer structure starts per chunk
+  = cheaper gen. Raise toward 1.5–2.0 if playtests still feel dense.
+- `prevent_structure_overlap = true` — no village/tower mashups.
+- Per-structure entries (`structures`/`structure_sets` arrays) stay
+  empty until a playtest names an offender.
+
+**`config/structure_layout_optimizer.jsonc`** —
+`deduplicateShuffledTemplatePoolElementList = true`: extra jigsaw-gen
+speed; the cost (vanilla structure-layout seed parity) is already spent
+by Tectonic reshaping all terrain.
+
+**Left at generated defaults on purpose:** YUNG suite (its defaults are
+the vanilla+ gold standard), Towns & Towers rarity json5s + Cristel Lib
+`vanilla_structures` (Structurify's global modifier already handles
+density pack-wide — tuning rarity in two places would fight), Improved
+Village Placement, Lithostitched, Geophilic/Continents/Structory/
+Explorify (datapacks, no config). **Deliberately NOT shipping
+`config/c2me.toml`:** it auto-sizes worker threads per machine; shipping
+a laptop-capped value would kneecap desktops. The laptop guidance lives
+in docs/PERFORMANCE.md instead.
+
+**Side-metadata fix (client crash + silent singleplayer stripping):**
+Modrinth marked Lithostitched *and 10 other worldgen mods* (all YUNG's
+Better *, YUNG's Extras, MMV + its lib, Improved Village Placement,
+Structure Layout Optimizer) as server-side. For packwiz that means
+"exclude from client installs" — the client crashed on Tectonic's
+missing Lithostitched dep, and the other ten would have silently
+vanished from singleplayer worldgen. All 11 overridden to
+`side = "both"`. Rule of thumb going forward: **every worldgen/structure
+mod must be `side = "both"`** — Modrinth's "server" label means "not
+needed to join a multiplayer server", not "unused by the client".
+
+**Known warts:**
+- Six benign `Pack declares support for version newer than 81` warnings
+  at boot — the 26.2-tagged Stardust-style jars (Continents, Structory,
+  Structory: Towers et al.) declare a future pack format; vanilla's
+  fallback reads them fine and all worldgen registers. Goes away when
+  upstream republishes proper 26.1 metadata.
+- C2ME on 26.1.2 is alpha-channel (0.4.0-alpha line) — pin bumps
+  deliberately, never blind-update it with the rest of the pack.
+- The default-enabled resourcepacks in `config/yosbr/options.txt` are
+  pinned by exact zip filename (`file/...`). Any packwiz update that
+  changes a resourcepack's filename must update that line in the same
+  change, or fresh installs silently get the pack disabled. YOSBR also
+  only seeds fresh installs — existing instances keep their own
+  options.txt.
+
+**Playtest flags:** (1) settle the Terralith question (two test worlds,
+with/without — see SLOTS.md Slot 7); (2) judge structure density at
+modifier 1.3 during real play; (3) gen-speed benchmark on a weak machine
+(Tectonic v3 had slow-gen history — PERFORMANCE.md); (4) villages under
+Tectonic terrain — Improved Village Placement should handle slopes, but
+verify no floating/buried villages.
+
+Boot gate: PASS (200 mods server-side, Done in ~21s, Structurify config
+confirmed loaded, OMM yml confirmed read).
+
+## Tier 6b — Terralith (A/B verdict: IN)
+
+Added `terralith` 2.6.2 + `seasonal-integration` 1.6.1 (mod jar — adds
+Terralith's biomes to Serene Seasons' tropical/blacklist tags; no config,
+no pack datapack needed). A/B on seed `cometcroft` vs the Tectonic-only
+control; Robin preferred the Terralith terrain. Terratonic (Tectonic's
+built-in Terralith merge via Lithostitched) verified live by headless
+probe: `locate biome terralith:alpine_grove` hit at y=188.
+
+- Terralith ships no config; all terrain knobs remain in
+  `config/tectonic.json`.
+- Perf note (PERFORMANCE.md): Terralith is the heaviest common worldgen
+  datapack at GEN time only — the laptop preset's C2ME + render-distance
+  guidance is what absorbs it; runtime cost stays flat.
+- Boot gate: PASS (202 mods server-side).
+
+**Playtest watch:** Serene Seasons snow behavior in terralith:* cold/
+tropical biomes across a season change (seasonal-integration's tags are
+the fix under test); structure placement into Terralith biomes (Towns &
+Towers advertises Terralith compat; watch for biome-mismatched villages).
+
+## Tier 7 — QoL command layer
+
+Added: **Melius Essentials** (`melius-essentials` — the maintained Fabric
+Essentials fork, 26.1.2-exact) + **FastRTP** (`fastrtp`). Both
+server-side mods that work in singleplayer; both needed the
+`side = "both"` override (same Modrinth "server" label trap as Tier 6 —
+now confirmed as the default assumption for any server-utility mod).
+Considered and rejected: Essential Commands (26.1.1-only, no
+fly/walk-speed commands), DarkRTP (`/trigger darkrtp` + "dark mage"
+RPG flavor text — off-theme, no real /rtp), Fabric Essentials original
+(dead at 1.21.1).
+
+Command surface: `/home` `/sethome` `/warp` `/setwarp` `/tpa` `/back`
+`/fly` `/flyspeed` `/walkspeed` `/heal` `/feed` `/hat` + portable
+crafting stations (`/anvil` `/enderchest` `/workbench` …) from Melius;
+`/rtp` `/rtpback` from FastRTP.
+
+**`config/fabric-essentials.json`** — defaults except
+`homes.defaultLimit` 3 → **5** (a homestead pack lives in its homes).
+Teleport waiting period is 0 by default (kept — no artificial delay in a
+cozy pack).
+
+**`config/fast-rtp.json`** — defaults except:
+- `radius = 10000`, `minRadius = 500` (was unlimited/0): keeps /rtp
+  inside a sane band — far enough to be a fresh start, bounded so it
+  doesn't force-generate chunks tens of thousands of blocks out
+  (PERFORMANCE.md: chunk gen is our one real cost).
+- Kept: 30s cooldown, overworld-only default dimension, and the biome
+  blacklist (no ocean/beach/river landings — vanilla tags, which
+  Terralith biomes also carry).
+
+**Permissions caveat:** both mods gate player commands via
+fabric-permissions-api. In singleplayer everything works with cheats ON;
+without cheats some Melius commands (fly/speed/heal) resolve to op-level
+and will refuse. On a shared server, LuckPerms (`luckperms`, on-version)
+is the tool if per-player gating is ever wanted — deliberately NOT added
+until there's a real server to admin.
+
+Boot gate: PASS (208 mods server-side).
+
+## Tier 8 — Server readiness
+
+Added: **LuckPerms** 5.5.57 + **Chunky** 1.5.3, both `side = "server"`
+ON PURPOSE — they exist only in server installs; singleplayer falls back
+to vanilla op rules and never carries them. (The inverse of the Tier 6/7
+side fixes: for genuinely server-only admin tooling, "server" is
+correct.)
+
+Side hygiene pass for lean servers: FancyMenu, Konkrete, Melody, and
+Cool Rain were mismarked `both` (client-only UI/audio) → flipped to
+`client`. Server install verified to contain zero client mods.
+
+Server bootstrap: `server/setup.sh` (packwiz-ignored, never ships to
+clients) — one command produces a ready server: Fabric 26.1.2/0.19.3,
+server-side pack install, whitelisted server.properties (view 8/sim 8,
+sync-chunk-writes off), start.sh with the PERFORMANCE.md G1 flags at 4G
+and a pack re-sync on every boot (pack update = git push + server
+restart). Full admin guide incl. the two-tier LuckPerms model (default =
+homes/warps/tpa/back; trusted = fly/speed/heal — free flight is
+deliberately not default) lives in **docs/SERVER.md**.
+
+Verified end-to-end: setup.sh run in a clean directory against the local
+pack → 204 server mods, Done in ~7s, LuckPerms + Chunky active,
+FancyMenu family absent.

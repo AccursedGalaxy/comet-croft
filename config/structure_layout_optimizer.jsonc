@@ -1,0 +1,11 @@
+{
+    // The version of the config file. Do not change this unless you know what you are doing.
+    "rconfig:version": 0,
+    /*
+     * Deliberately ON for Comet Croft: extra jigsaw-gen speed in a
+     * structure-mod-heavy pack. The cost is vanilla seed parity for
+     * structure layouts, which this pack already gave up (Tectonic
+     * reshapes all terrain). Structures still generate correctly.
+     */
+    "deduplicateShuffledTemplatePoolElementList": true
+}

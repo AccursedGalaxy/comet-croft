@@ -1,0 +1,7 @@
+{
+  "engines": "basic",
+  "volume": 0.55,
+  "useSoundMasterSource": false,
+  "scanStepAmount": 100,
+  "playSoundWithOffset": true
+}

@@ -127,10 +127,113 @@ deliver a coherent pack); v1.x adds the comet visually; the charged-world
 mechanics follow. Aurora/eclipse ideas fold into this mod's backlog rather
 than getting their own.
 
+## Slot 7 — Terrain & biomes ✅ (installed Tier 6; Terralith decided IN)
+
+(Phase 2 research, verified against the Modrinth API 2026-07-20. Guiding
+constraint from docs/PERFORMANCE.md: datapack-technology worldgen only —
+all cost at chunk-gen time, zero runtime tax, which is what keeps the
+laptop/MacBook target viable. C2ME parallelizes exactly this cost.)
+
+**Core pick: Tectonic (mod) + Geophilic + Continents** — all confirmed on
+26.1/26.1.1/26.1.2 Fabric, all Stardust-style datapack tech:
+- **Tectonic** (`tectonic`, 14.6M dl) — terrain *shaping* only: huge
+  mountains, deep valleys, dramatic skylines behind the farmhouse, while
+  every biome stays a vanilla biome. Config can tame the scale. This alone
+  delivers the theme's "enormous sky over a small croft" screenshots.
+- **Geophilic** (`geophilic`, 9.0M dl) — subtle polish of existing vanilla
+  biomes; the Vanilla++ archetype, near-zero cost.
+- **Continents** (`continents`, 1.1M dl) — landmass/ocean grouping with
+  real coastlines; invisible to a vanilla player.
+
+This trio adds **zero new biome IDs**, so it is perfectly transparent to
+Serene Seasons — no compat work at all.
+
+**DECIDED (A/B 2026-07-20): Terralith is IN.** (`terralith` 2.6.2 +
+`seasonal-integration` 1.6.1 mod jar for the Serene Seasons biome tags —
+remove both together if this ever reverses.) A/B on seed `cometcroft`
+against the Tectonic-only control; Robin judged the Terralith world
+better terrain. Terratonic merge verified live by headless probe
+(terralith biomes at Tectonic elevations). Full stack is now
+Tectonic + Terralith + Continents + Geophilic. Vanilla blocks only,
+but ~100 new biome names stretches "vanilla player recognizes everything",
+it's the heaviest common gen-time datapack, and it needs the
+`seasonal-integration` datapack (on-version) for correct Serene Seasons
+snow/tropical behavior. Verdict: generate two test worlds (with/without)
+and judge by screenshots; the pack is coherent without it.
+
+Rejected: Biomes O' Plenty / Terrestria / Traverse (fantasy biome identity
+breaks the Vanilla++ promise), Wilder Wild (fine mod, but runtime
+entities/particles/sounds make it a content mod — wrong cost class for
+laptops), WWOO (credible but 26.1.2-only and drifts "realistic" rather
+than "Minecraft"), Regions Unexplored / Terra (off-version anyway).
+Underground (Lithosphere, YUNG's Cave Biomes) deferred — not where this
+pack's identity lives; revisit on demand.
+
+## Slot 8 — Structures ✅ (installed Tier 6; accents deferred to playtest)
+
+Same restraint rule as everywhere: the world should feel *gently
+lived-in*, never like a loot-crawl. Strategy: replace vanilla structures
+rather than pile new ones on, keep additions sparse, and ship the tooling
+to thin density further.
+
+**Villages:**
+- **Towns & Towers** (`towns-and-towers`, 15.0M dl, on-version) —
+  biome-themed vanilla-style villages; varies vanilla spawns rather than
+  adding density. The on-version village pick (CTOV is stuck at 1.21.11).
+- **Moog's Missing Villages** (`mmv-moogs-missing-villages`, 462k dl) —
+  surgical: just the missing jungle + swamp villages, vanilla style.
+- **Improved Village Placement** (`improved-village-placement`, 1.9M dl) —
+  flatter village sites; quiet QoL that matters more under Tectonic
+  terrain.
+
+**Wilderness accents (sparse, loot-light):**
+- **Structory** + **Structory: Towers** (`structory`/`structory-towers`,
+  ~7M dl each) — atmospheric small ruins, cottages, lone towers; the most
+  on-brief structure set that exists.
+- **Explorify** (`explorify`, 7.9M dl) — explicitly minimal vanilla-
+  friendly additions.
+
+**Vanilla glow-up (replace, don't add):** the YUNG suite on 26.1.2 —
+Better Mineshafts, Strongholds, Ocean Monuments, Desert Temples, Jungle
+Temples, Witch Huts, Extras — plus **Hopo Better Ruined Portals**. All
+restrained redesigns of things vanilla already spawns. (No YUNG's
+"Better Villages" exists — the suite has no village mod.)
+
+**Restraint & perf tooling:**
+- **Structurify** (`structurify`, 2.5M dl) — per-structure spacing/
+  separation config; our knob to globally spread structures 1.5–2x if
+  playtests feel dense, and the laptop preset's thinning lever.
+- **Structure Layout Optimizer** (`structure-layout-optimizer`, 5.8M dl) —
+  jigsaw gen perf win, pairs with C2ME.
+
+Considering (accents, decide in playtest): Dungeons & Taverns *splinter
+packs only* (pillager-outpost + swamp-hut overhauls — tavern flavor
+without the dungeon half), Moog's Voyager Structures (130+ cozy
+vanilla-block structures but needs immediate re-raring via its config
+pack), WITS (structure-name HUD, trivial).
+
+Rejected: full Dungeons & Taverns (half dungeon content), Legacies &
+Legends / ATI Structures (loot-centric), Adorabuild (overlaps Structory,
+denser), Guard Villagers (Fabric dead at 1.21.1), When Dungeons Arise
+(off-version and the canonical heavy offender anyway). Explorer's Compass
+skipped: locating structures by gadget cuts against wandering-under-the-
+sky; revisit if playtesters get lost.
+
+Gap note: searched for astronomy/observatory-themed structures
+(abandoned observatories, stargazing sites) — nothing exists on 26.1.x.
+That's a natural candidate for the custom Comet mod's backlog (a rare
+ruined-observatory structure would tie Slots 5/7/8 together).
+
 ## Version-watch list
 
 Mods that would upgrade a slot the moment they port to 26.1.x:
 Reactive Music (1.21.11) · Supplementaries (1.21.1) · Handcrafted (1.21.1) ·
 Naturalist (1.21.1) · Seasonal Let's Do compat (1.21.11) · Moonstone
-Meteorites (1.21.11, cozy worldgen craters) · Celestria (1.21.1, shooting
-stars + insomnia events).
+Meteorites (1.21.11, cozy vanilla-block meteorite craters — the single most
+on-theme worldgen mod found; watch closely) · Celestria (1.21.1, shooting
+stars + insomnia events) · CTOV (1.21.11, would contend for the village
+slot) · Repurposed Structures (has 26.1 and 26.2 builds but skips
+26.1.1/26.1.2 — a 26.1.2 jar may just be unpublished; its Farmer's Delight
+village compat pack IS on-version) · Better Villages (1.21.11) ·
+Additional Structures (1.21.11) · Philip's Ruins (1.21.11) · Moss Ruins /
+Campsite Structures (1.21.x, small cozy accents).

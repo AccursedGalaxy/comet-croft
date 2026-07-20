@@ -1,0 +1,13 @@
+name = "FastRTP | Random Teleport"
+filename = "FastRTP-1.5.8-26.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YWmj2r1d/versions/Cqgcg2gx/FastRTP-1.5.8-26.1.jar"
+hash-format = "sha512"
+hash = "3cf9592014ab0e7dfa48db8af311ad592a05db2c19f67ecc27ae6bac464c7a8279fa4fc249d9db849f6c504ef7d41d48009f5d5e0f3c82e041261bbce4804c3a"
+
+[update]
+[update.modrinth]
+mod-id = "YWmj2r1d"
+version = "Cqgcg2gx"
