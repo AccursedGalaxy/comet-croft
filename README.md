@@ -1,8 +1,11 @@
 # Comet Croft
 
-A performance- and building-oriented Vanilla++ modpack for Minecraft **26.1.2** on **Fabric**.
+A cozy Vanilla++ modpack for Minecraft **26.1.2** on **Fabric**, built to run well on laptops.
 
 > A croft is a small homestead. This one sits under a sky where comets fall.
+
+Farm through real seasons and build the place up room by room. At night, look
+up: the sky keeps its own calendar, and sometimes it sends something down.
 
 ## Layout
 
