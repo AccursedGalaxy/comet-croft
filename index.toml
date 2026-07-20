@@ -409,8 +409,12 @@ file = "config/yosbr/config/seasonhud-client.toml"
 hash = "4a4f6647e6da5c8108f83427036dae0ea8033faaec5f60958b2015089d903493"
 
 [[files]]
+file = "config/yosbr/config/spiceoffabric.hjson"
+hash = "54addfba083970b3547c0b7d55010f63885c908b7a51f2d2cc8265af6218b718"
+
+[[files]]
 file = "config/yosbr/config/xaero/minimap/profiles/default.cfg"
-hash = "f40bf8a22fd002440518b453e3b3a672359229c7091fe11e9e96b71acf9c1cdf"
+hash = "c6894ba0e0cf24f1f42c512affbbad59886041d98c4222cc5f594f5a753f7091"
 
 [[files]]
 file = "config/yosbr/config/xaerohud.txt"
