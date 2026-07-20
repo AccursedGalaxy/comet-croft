@@ -282,7 +282,7 @@ hash = "cdf5663a3074b081a1082970e99871f30589a6933309df5d85fae0bc28abaac8"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "424ea678f8c0d212ebefb7b6ae577f88d880f65e5d8b244a5d411f249cbccf11"
+hash = "4dc44eb1056ba825def68647a47b943b264f92a8a85fbd4869ae98051230d0fe"
 
 [[files]]
 file = "config/fancymenu/panoramas/Shivtanium/panorama/panorama_0.png"
@@ -410,7 +410,7 @@ hash = "4a4f6647e6da5c8108f83427036dae0ea8033faaec5f60958b2015089d903493"
 
 [[files]]
 file = "config/yosbr/config/xaero/minimap/profiles/default.cfg"
-hash = "a86a2bdc372ffff08639482f725d8b36572f394c6dfb19acac59d2bae8173e29"
+hash = "f40bf8a22fd002440518b453e3b3a672359229c7091fe11e9e96b71acf9c1cdf"
 
 [[files]]
 file = "config/yosbr/config/xaerohud.txt"
@@ -839,6 +839,11 @@ hash = "d20369e5848ca31ecbb49bae22e953439173bd4617ca239b23335366b2a6a0e9"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+hash = "291dba5f2740bc848b22df3da20ff0d70c8d9e7b61ac2be584327b8eb6b4efcf"
+metafile = true
+
+[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "8c272ec6b1bd2c3b526920d224af6b769d5fc03c473fb721e50e7481a6d094e2"
 metafile = true
@@ -991,6 +996,11 @@ metafile = true
 [[files]]
 file = "mods/ubes-delight.pw.toml"
 hash = "fccb50e4ba2c1cb2de4c7c746cc5352639006ae8ee1435ccc68a6f464b60131f"
+metafile = true
+
+[[files]]
+file = "mods/universal-graves.pw.toml"
+hash = "27e83db4ce5d610b8e79dfc7914922e3ba3fa6737d476425ee7c62562a4fad3d"
 metafile = true
 
 [[files]]
