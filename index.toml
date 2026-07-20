@@ -521,6 +521,11 @@ hash = "b13fbed45cf8bd3bd7bdcfdd75ffcf1258a4aeb02e606c5e23f73c05fba5bd3d"
 metafile = true
 
 [[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
+hash = "b1c57fcec95e8fdf81cc9fde1731493eaf958d3602e2783abe6f038719731e16"
+metafile = true
+
+[[files]]
 file = "mods/coolrain.pw.toml"
 hash = "da73b8bc4ce8afdf67271b39d7ab75bb5013f09ebcb1ce3a53bc738cbbce4d53"
 metafile = true
@@ -546,6 +551,11 @@ hash = "288e36db1236f9fdf52278eae50ca4614861ac4b8e2d3d65cfbcb860292d66bf"
 metafile = true
 
 [[files]]
+file = "mods/crop-and-kettle.pw.toml"
+hash = "6ce31004534418b5a5dddc530be23981c0e0fbf26c2efe51ed8648bcb855ec45"
+metafile = true
+
+[[files]]
 file = "mods/delight-lib.pw.toml"
 hash = "cf9ce07f6592c8672f96466f6bee6a47d459979b6a79194ed29f3dcc364abcbf"
 metafile = true
@@ -561,6 +571,11 @@ hash = "0aeb91aea4a946c4764296dd3f5bb891899e763bae8f6c19e9ff99120270d997"
 metafile = true
 
 [[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "7897b302a81d821dfd3c2c431d97b2020f631d228effcd000374c73fae8f7c2d"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "42f5637a87150687969d64b172ce8ef91bc3a92ee2eb68a2a17153350ff92b4b"
 metafile = true
@@ -568,6 +583,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "aea5ea551600e691b75fac9dfa02670dc70903d732746d90e0c3711b2e6c564a"
+metafile = true
+
+[[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "06babbfec4b69f8d7b8dfbc3adb9c26fb1fd4f148d6c6f2ff5b07e8c1e141c5f"
 metafile = true
 
 [[files]]
@@ -608,6 +628,11 @@ metafile = true
 [[files]]
 file = "mods/farmhouse-decorations.pw.toml"
 hash = "a88230bd730062542909b19e4cb6cfad9d4f9de8ec3a4dbf3e7b51f912f7c6fa"
+metafile = true
+
+[[files]]
+file = "mods/farming-for-blockheads.pw.toml"
+hash = "8cff3ff09278d834456920c1ff377a2069a8cfbaef0a44514f3e0a5cccacb071"
 metafile = true
 
 [[files]]
@@ -663,6 +688,11 @@ metafile = true
 [[files]]
 file = "mods/improved-village-placement.pw.toml"
 hash = "e4f942190515a453ac4187a75b1b123015908ccfdf6b4455b19871c958c840c2"
+metafile = true
+
+[[files]]
+file = "mods/incendium.pw.toml"
+hash = "88420f1bfe7a5c2997f8e6a52b68a4a4c39ea8292d3b527ce6639b57a798fcc3"
 metafile = true
 
 [[files]]
@@ -766,8 +796,18 @@ hash = "885444f9444eed0b2f71445d795a7a3462c5646edd1940468a791cc46a6626ec"
 metafile = true
 
 [[files]]
+file = "mods/mes-moogs-end-structures.pw.toml"
+hash = "1cb8c40a13f61da31fd0a038d94c5fc289765a88379940d39061411707dae1a2"
+metafile = true
+
+[[files]]
 file = "mods/mmv-moogs-missing-villages.pw.toml"
 hash = "2e02ead0d9715858cb5ff4dab6f290181ba0b3f7c32765045a6e3f34524bdc1d"
+metafile = true
+
+[[files]]
+file = "mods/mns-moogs-nether-structures.pw.toml"
+hash = "013bc1d1b6beb990e412e1c88a83c832e4f75c94c3c2e6dd6788a87835ba425d"
 metafile = true
 
 [[files]]
@@ -778,6 +818,11 @@ metafile = true
 [[files]]
 file = "mods/moogs-structure-lib.pw.toml"
 hash = "f860827206ba371e52e26f6a8ded10efb3435d63863d51e8f68e3457d4598797"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "894ee34cd14eeceaec40cd812b92d413322c587ed4d779ee9c5ac9d0a22ba722"
 metafile = true
 
 [[files]]
@@ -793,6 +838,16 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "89fcae9fccf6aec59355405e1160ed15d523c34e08e555a0da6f46fb8a5087fe"
+metafile = true
+
+[[files]]
+file = "mods/mss-moogs-soaring-structures.pw.toml"
+hash = "32c4811fee2ac7211203518e1d059f4d95d4eff01691c9db5d9d471073126c9e"
+metafile = true
+
+[[files]]
+file = "mods/nullscape.pw.toml"
+hash = "c9e46710c13d24455373c6d04e0ff61425880aefcf900f8b5e24fe56a00240b4"
 metafile = true
 
 [[files]]
@@ -883,6 +938,16 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "7560a0a8d7737d587fc2e3484e5573a743988549c2ce5f24746f8ea816cad5c9"
+metafile = true
+
+[[files]]
+file = "mods/spanish-delight-refabricated.pw.toml"
+hash = "9586dbe9ae5fbda2bb31e47487e6c2064466d56fe3645210929206617d7ac4de"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-fabric.pw.toml"
+hash = "b32628466d1ae6d476d8b231825df85a6112ddd34752ca9ba57a2feb3e7ec9e5"
 metafile = true
 
 [[files]]

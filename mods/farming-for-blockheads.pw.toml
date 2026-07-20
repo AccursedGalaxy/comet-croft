@@ -1,0 +1,12 @@
+name = "Farming for Blockheads"
+filename = "farmingforblockheads-fabric-26.1.2-26.1.2.2.jar"
+
+[download]
+url = "https://cdn.modrinth.com/data/4WJZr8JU/versions/kNcKXJtk/farmingforblockheads-fabric-26.1.2-26.1.2.2.jar"
+hash-format = "sha512"
+hash = "48ea720e6024935c2b3ed3b517749c802b0b16dba2534ed28064c92d09bb27f21e37e9073f70acb430ef2ea6174f0df917be2dbdfbecfef34bee1cff1b5ce2c4"
+
+[update]
+[update.modrinth]
+mod-id = "4WJZr8JU"
+version = "kNcKXJtk"

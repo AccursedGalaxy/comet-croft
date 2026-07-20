@@ -1,0 +1,12 @@
+name = "Spice of Fabric"
+filename = "spice-of-fabric-1.6.3-beta.2+mc26.1.2.jar"
+
+[download]
+url = "https://cdn.modrinth.com/data/roxihOCb/versions/VRBtct4P/spice-of-fabric-1.6.3-beta.2%2Bmc26.1.2.jar"
+hash-format = "sha512"
+hash = "321da6272ea27a638af52c93266c119b75c41915644fb73688d9d3ff1758e05bd511c2ae00087c9f316edddb81ceb87bf6ff9cc462580565fa4b8b70abcf1482"
+
+[update]
+[update.modrinth]
+mod-id = "roxihOCb"
+version = "VRBtct4P"

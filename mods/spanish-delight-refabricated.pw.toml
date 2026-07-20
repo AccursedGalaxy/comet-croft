@@ -1,0 +1,12 @@
+name = "Spanish Delight Refabricated"
+filename = "spanishdelight-26.1.2-1.0.10.jar"
+
+[download]
+url = "https://cdn.modrinth.com/data/E2LV3K2B/versions/PoAm1rBj/spanishdelight-26.1.2-1.0.10.jar"
+hash-format = "sha512"
+hash = "3c4db2eafa3b7d2f411fa03bf5ca745989ef79f72be12144f596c9de5cc5e6bbd2e5b563cbf4e80d9240d03688d0f0479f7d577b08efb4f3223ec25c2d5dcd8d"
+
+[update]
+[update.modrinth]
+mod-id = "E2LV3K2B"
+version = "PoAm1rBj"

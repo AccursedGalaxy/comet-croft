@@ -1,0 +1,12 @@
+name = "Crop & Kettle"
+filename = "crop-and-kettle-v1.3.11.jar"
+
+[download]
+url = "https://cdn.modrinth.com/data/hd2YH2vf/versions/ZV8NYzi5/crop-and-kettle-v1.3.11.jar"
+hash-format = "sha512"
+hash = "475b248a771dcc55beceb5529160ecfde22121d6de7daa70ac3350f3ec6ebedbee34fdddcf3b472a46ea1cd2f1ba2e1452284f7d60076537239a0b0166da9dc0"
+
+[update]
+[update.modrinth]
+mod-id = "hd2YH2vf"
+version = "ZV8NYzi5"
