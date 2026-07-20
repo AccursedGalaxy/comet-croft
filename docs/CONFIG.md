@@ -322,3 +322,15 @@ deliberately not default) lives in **docs/SERVER.md**.
 Verified end-to-end: setup.sh run in a clean directory against the local
 pack → 204 server mods, Done in ~7s, LuckPerms + Chunky active,
 FancyMenu family absent.
+
+## Menu video (FancyMenu + WaterMedia)
+
+Title screen plays `config/fancymenu/assets/blackhole.mp4` via FancyMenu's
+video element. Video decoding needs **WaterMedia V3** (`watermedia`
+3.0.0.21) + **WaterMedia Binaries** (`watermedia-binaries` 3.0.0-rc.4),
+both client-only, both **pinned via version URL** — their Modrinth
+metadata stops at 1.21.11 (the jars are multi-version, 1.20.1→1.21.11 in
+one file; FancyMenu 3.9.8 on 26.1.2 links exactly these builds).
+packwiz auto-update will NOT bump pinned mods; re-pin manually alongside
+FancyMenu updates. Playtest flag: verify video playback on 26.1.2 —
+the 26.x gap in WaterMedia's metadata means untested territory upstream.

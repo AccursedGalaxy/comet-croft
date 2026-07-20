@@ -1,0 +1,13 @@
+name = "WATERMeDIA: Multimedia API"
+filename = "watermedia-3.0.0.21.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/G922NeHS/versions/OUchGva4/watermedia-3.0.0.21.jar"
+hash-format = "sha512"
+hash = "9de8c19da3e3e9f105832ad45cfcc3ce1ea50ad94e9cbe794f99e90501287fd7433602d8e3d5ee2c75a964d5b0e15485b2e095b51ab2cfce53d4925f7fcb793b"
+
+[update]
+[update.modrinth]
+mod-id = "G922NeHS"
+version = "OUchGva4"
