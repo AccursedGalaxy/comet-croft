@@ -994,6 +994,16 @@ hash = "fccb50e4ba2c1cb2de4c7c746cc5352639006ae8ee1435ccc68a6f464b60131f"
 metafile = true
 
 [[files]]
+file = "mods/veinminer-client.pw.toml"
+hash = "2e4bb5f8b63c23a4064a33b72240b828656012842f24aa358e237ec7596f6cd3"
+metafile = true
+
+[[files]]
+file = "mods/veinminer.pw.toml"
+hash = "3031c6c522039ef45278e4703bc4618d52a99202b93fc474333d54579d8fc9c0"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
 hash = "d1ebf0c1e73ff572c51ff6d3b16b43501cd686b6f2be388be17c9ff727d7d38e"
 metafile = true

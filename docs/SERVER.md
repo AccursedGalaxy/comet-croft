@@ -40,6 +40,11 @@ server-side mod set, `server.properties` with the pack's defaults
    and generates lazily; that's fine, it's async (FastRTP).
 3. Set the sky calendar to match seasons: `/sga:admin yearlength set 24`
    (see CONFIG.md Tier 5).
+4. After the first boot generates the world, stop the server once and set
+   claiming's `permissionSystem = "luck_perms"` (and the forceload cap) in
+   `<world>/serverconfig/openpartiesandclaims-server.toml` — see Land
+   claiming below. Defaults work without this; it just wires claim limits
+   to LuckPerms ranks.
 
 ## Permissions (LuckPerms)
 
@@ -87,6 +92,59 @@ Admin commands (`/setwarp`, `/broadcast`, `/invulnerable`, Chunky,
 Structurify reloads) stay op-only; `op <name>` as usual. The LuckPerms
 web editor (`lp editor`) is the comfortable way to manage all of this
 once the server is live.
+
+## Land claiming (Open Parties and Claims)
+
+Claiming is **Open Parties and Claims** (OPAC), not FTB Chunks — the FTB
+family has no Fabric build for 26.1.x (CurseForge/Forge-only), and OPAC is
+the Fabric-native standard anyway. It's `server_side=required,
+client_side=optional`: protection is enforced by the server for everyone,
+but a player needs OPAC client-side (ships in the pack) to *see* claims and
+use the GUI.
+
+**Why it's the right fit here:** Xaero's Minimap and World Map implement
+OPAC's API, so claims render as coloured chunk overlays on the maps the pack
+already ships — automatically, no toggle. With the World Map open you can
+right-click to claim/unclaim/forceload directly.
+
+**Player basics** (no permissions needed by default):
+
+- `'` (apostrophe) — open the OPAC map/claims GUI (rebindable in Controls).
+- `/openpac-claims claim` / `unclaim` — claim/unclaim the chunk you're in.
+- `/openpac-claims forceload` / `unforceload` — keep a claimed chunk loaded
+  while you're offline (costs server tick — capped, see below).
+- Parties (shared claims): `/openpac-parties create`,
+  `member invite <player>`, `/openpac-parties join <party>`, `about`,
+  `chat <msg>` (or `/opm <msg>`).
+
+**Config lives in the world, not `config/`:**
+`<world>/serverconfig/openpartiesandclaims-server.toml`. It's read on start
+and **rewritten on stop**, so the workflow is *stop → edit → start* — live
+edits get clobbered. Defaults are already sane for a friends server (claims
+protected from other players, explosions and fire-spread blocked, 1-year
+inactivity expiry). The three things worth setting:
+
+```toml
+# [serverConfig.claims]
+maxPlayerClaims = 500            # generous; fine among friends, lower if you want scarcity
+maxPlayerClaimForceloads = 6     # PERF lever — each forceload keeps a chunk ticking
+                                 # even when the owner is offline. 10 is the default;
+                                 # 6 keeps our gen-time-only cost model honest (PERFORMANCE.md)
+permissionSystem = "luck_perms"  # default is "prometheus" (not in pack); point it at LuckPerms
+```
+
+**LuckPerms overrides** (optional — only if you want per-rank limits). With
+`permissionSystem = "luck_perms"`, these nodes override the config numbers;
+grant on a group and set the value in the LuckPerms editor:
+
+```
+lp group trusted permission set xaero.pac_max_claims 1000
+lp group trusted permission set xaero.pac_max_forceloads 12
+```
+
+Admin: `/openpac-claims admin-mode` (edit others' claims) and
+`/openpac-claims server-claim-mode` then `claim` (spawn/server claims) — both
+op-gated, or grant `xaero.pac_admin_mode` / `xaero.pac_server_claims`.
 
 ## Server-side notes already handled by the pack
 
