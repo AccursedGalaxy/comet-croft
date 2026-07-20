@@ -479,6 +479,11 @@ hash = "1b8f4603e81c48badce4a9321dea87bdeb9d3b5a2f0be566139d087afad73a47"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "4ba6b317dc2829a188b8554cbb5e8805df10f620db606b4070a513e33a86b875"
+metafile = true
+
+[[files]]
 file = "mods/continents.pw.toml"
 hash = "a516cae54142a38262b5b0163a30e119df844ee4bd11ad1cbea5accbc0334540"
 metafile = true
@@ -534,6 +539,11 @@ hash = "891e847cb6abcd2c025b2c7934b49434d2a05233783999b4077edcc7765d7914"
 metafile = true
 
 [[files]]
+file = "mods/dragon-drops-elytra.pw.toml"
+hash = "20419e1f44c045d49800ffa10c37ff5b9da7418d659222e6f29766d2f65b4120"
+metafile = true
+
+[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "0aeb91aea4a946c4764296dd3f5bb891899e763bae8f6c19e9ff99120270d997"
 metafile = true
@@ -546,6 +556,26 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "42f5637a87150687969d64b172ce8ef91bc3a92ee2eb68a2a17153350ff92b4b"
+metafile = true
+
+[[files]]
+file = "mods/easy-elytra-takeoff.pw.toml"
+hash = "74cd2afdf313ecc9b5dc7eb5a627f72aeda19ee5fcaac3bfffd1b071af97a9df"
+metafile = true
+
+[[files]]
+file = "mods/elytra-contrails-mod.pw.toml"
+hash = "dcbbae43c3b7c0fa76e67e134bb550bb98914a37a3195853d1e2b2ad82aeb011"
+metafile = true
+
+[[files]]
+file = "mods/elytra-physics.pw.toml"
+hash = "de16a2a2208b6e9ad285b3f2f8ff99f0c6ede5f6f3cdb5dd9986fab1b5cb264a"
+metafile = true
+
+[[files]]
+file = "mods/elytra-trims.pw.toml"
+hash = "f08af8ec771665144906892f54051444665b9dac570527f01f1d494f2d9b3f03"
 metafile = true
 
 [[files]]
@@ -716,6 +746,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "b30169bad5b57d8d2b0f9d25f0db10a84ec34bd90a3b1b2ff58595a9e7c21b91"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "70e367ace41ac2936f37587a3f0b55c15575d26f63eddfc7191fc4b80966719a"
 metafile = true
 
 [[files]]
@@ -991,6 +1026,16 @@ metafile = true
 [[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "ac96584d0966f0201a91bb2185476d83a28f1b92b2b89326501bc16fd364a8bb"
+metafile = true
+
+[[files]]
+file = "mods/trinkets-elytra.pw.toml"
+hash = "7dcdb3743945969579b1faebe569712be98672d33ef02ac0f30cd9e9b699087c"
+metafile = true
+
+[[files]]
+file = "mods/trinkets-updated.pw.toml"
+hash = "3d581bf3de996341f4a89c1ec729ea9f559e94a4215ab91ab01eb074e1e9ca11"
 metafile = true
 
 [[files]]
