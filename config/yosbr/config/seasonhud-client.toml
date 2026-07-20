@@ -1,0 +1,10 @@
+#Comet Croft: season display defaults.
+#Sub-seasons shown (Early/Mid/Late) — pack runs 3 sub-seasons x 2 days per season.
+#Minimap integration puts the season under the Xaero minimap.
+[SeasonHUD]
+	enable_mod = true
+	enable_show_sub_season = true
+	enable_show_day = "SHOW_DAY"
+	enable_minimap_integration = true
+	enable_show_minimap_hidden = true
+	season_name_color = true

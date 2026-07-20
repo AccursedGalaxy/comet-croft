@@ -1,16 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".ruff_cache/0.15.8/2304267214684566047"
-hash = "207574b78118139ad29de351aa3553b05b226bba957ff53c7c86052163659334"
+file = ".agent-memory.db"
+hash = "c5ec2d190af176dd7a37f904d8e561e2374a0bafbcc775f31ede8164e0a01e97"
 
 [[files]]
-file = ".ruff_cache/0.15.8/8877813772905291819"
-hash = "ea24ac36b04c460e4c7d82d8b5f75543dbd363a97773e466337a6e6024b056ae"
-
-[[files]]
-file = ".ruff_cache/CACHEDIR.TAG"
-hash = "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae"
+file = ".env"
+hash = "cf2c54a5360611a093f69af6d21542ac10847fb7402cb640dc49dafa5fa7af3b"
 
 [[files]]
 file = "config/fabric-essentials.json"
@@ -270,7 +266,7 @@ hash = "e761deeb1e6044ad8d285f49459fc8d365a6eb9d9ce7fef2b5a2f2ceb76da3aa"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.titlescreen.txt"
-hash = "0f0688315708a66cc912b9e77a668ca96a4b9119655c7c258cb275fd18449c87"
+hash = "78419948621c893fcaf23dc68c8754e95bd388f8e0030bc6992b35d826f81e96"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.txt"
@@ -421,6 +417,18 @@ file = "config/yosbr/config/presencefootsteps/userconfig.json"
 hash = "065d813748cd7a858139afa8a72770ac15b54c7179058212770dca70f853801e"
 
 [[files]]
+file = "config/yosbr/config/seasonhud-client.toml"
+hash = "4a4f6647e6da5c8108f83427036dae0ea8033faaec5f60958b2015089d903493"
+
+[[files]]
+file = "config/yosbr/config/xaero/minimap/profiles/default.cfg"
+hash = "a86a2bdc372ffff08639482f725d8b36572f394c6dfb19acac59d2bae8173e29"
+
+[[files]]
+file = "config/yosbr/config/xaerohud.txt"
+hash = "c623d0f3415865b285beb70b6851c2ed269a010d7cbfa4b2b44ec659ca0bcfd2"
+
+[[files]]
 file = "config/yosbr/options.txt"
 hash = "156eaced79dfa1dfbc9fad9bad2e62934748c9a1cbb09269bddd6c90d198fd24"
 
@@ -443,6 +451,14 @@ hash = "eba0e5e8c0b8771e86b79633be48a3876a312675ba8d70a726737549908cf8a0"
 [[files]]
 file = "docs/THEME.md"
 hash = "2ee06f5224ee3e5b5f0f3ac500726625d9faf20f96e8be0ff16c49c098610479"
+
+[[files]]
+file = "global_packs/required_data/remove-terralith-intro/data/terralith/function/toast.mcfunction"
+hash = "77b6a7b4fddd39224a8c56adcc6e4f42ef6792cf0206657bd27c01d3fdee9d6e"
+
+[[files]]
+file = "global_packs/required_data/remove-terralith-intro/pack.mcmeta"
+hash = "8f69a534000ad0e61e5f7a8c4ad734129db93b5254d3739d7fa346ff8b573188"
 
 [[files]]
 file = "mods/3d-placeable-food.pw.toml"
@@ -627,6 +643,11 @@ metafile = true
 [[files]]
 file = "mods/glitchcore.pw.toml"
 hash = "53617f29fac13f3ef8cb25a6c6aeba6d080c28a306dccb71fe1f4da9d4a1c345"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "4054621ba956c149298aeddeb452272f9b9cab2fff6a525ca76e73a5321e10fc"
 metafile = true
 
 [[files]]
@@ -827,6 +848,11 @@ metafile = true
 [[files]]
 file = "mods/seasonal-integration.pw.toml"
 hash = "741d3648918457fe0e6c509b1f3319b3250b8d2c37869d21865c31a3f0d882eb"
+metafile = true
+
+[[files]]
+file = "mods/seasonhud-fabric.pw.toml"
+hash = "a50691d985af23cf26735f25bef5e63ee30ec2288efc402a7aebc42bb9f93afc"
 metafile = true
 
 [[files]]

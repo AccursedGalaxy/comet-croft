@@ -4,3 +4,5 @@ CREDITS.md
 server/
 branding/
 CometCroft-Prism.zip
+.ruff_cache/
+testing/
