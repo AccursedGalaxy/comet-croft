@@ -7,6 +7,16 @@ A cozy Vanilla++ modpack for Minecraft **26.1.2** on **Fabric**, built to run we
 Farm through real seasons and build the place up room by room. At night, look
 up: the sky keeps its own calendar, and sometimes it sends something down.
 
+## How to play (Prism Launcher)
+
+1. Add Instance → Import → paste this URL:
+   `https://raw.githubusercontent.com/AccursedGalaxy/comet-croft/master/CometCroft-Prism.zip`
+2. Launch. The first start downloads the full pack (a few minutes); after
+   that the instance updates itself from this repo on every launch.
+
+Needs Java 21+ (Prism normally sets this up for you). 8GB machines: keep
+render distance around 8 and shaders off — see `docs/PERFORMANCE.md`.
+
 ## Layout
 
 - `pack.toml` — pack metadata (name, versions). **The pack name lives only here** — renaming the pack = edit `name` here + rename this repo dir. Nothing else hardcodes it.
