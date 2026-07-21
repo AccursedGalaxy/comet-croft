@@ -1,0 +1,29 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:food/keeping_it_fresh",
+  "category": "cometcroft:food",
+  "name": "book.cometcroft.field_guide.food.keeping_it_fresh.name",
+  "icon": {
+    "id": "minecraft:apple"
+  },
+  "x": 4,
+  "y": 0,
+  "sort_number": 4,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.food.keeping_it_fresh.page0.title",
+      "text": "book.cometcroft.field_guide.food.keeping_it_fresh.page0.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.food.keeping_it_fresh.page1.title",
+      "text": "book.cometcroft.field_guide.food.keeping_it_fresh.page1.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.food.keeping_it_fresh.description"
+}

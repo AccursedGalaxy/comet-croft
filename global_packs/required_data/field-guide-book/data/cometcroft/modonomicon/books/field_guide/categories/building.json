@@ -1,0 +1,8 @@
+{
+  "name": "book.cometcroft.field_guide.building.name",
+  "icon": {
+    "id": "minecraft:oak_stairs"
+  },
+  "display_mode": "index",
+  "sort_number": 5
+}

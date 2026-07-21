@@ -1,0 +1,38 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:food/the_keg",
+  "category": "cometcroft:food",
+  "name": "book.cometcroft.field_guide.food.the_keg.name",
+  "icon": {
+    "id": "alcocraftplus:keg"
+  },
+  "x": 7,
+  "y": 0,
+  "sort_number": 7,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.food.the_keg.page0.title",
+      "text": "book.cometcroft.field_guide.food.the_keg.page0.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "alcocraftplus:spruce_keg",
+      "recipe_id_2": "alcocraftplus:spruce_mug",
+      "id": "page1",
+      "sort_number": 1,
+      "text": "book.cometcroft.field_guide.food.the_keg.page1.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": "alcocraftplus:sun_pale_ale",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.food.the_keg.page2.title",
+      "text": "book.cometcroft.field_guide.food.the_keg.page2.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.food.the_keg.description"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "book.cometcroft.field_guide.food.name",
+  "icon": {
+    "id": "farmersdelight:cooking_pot"
+  },
+  "display_mode": "index",
+  "sort_number": 2
+}

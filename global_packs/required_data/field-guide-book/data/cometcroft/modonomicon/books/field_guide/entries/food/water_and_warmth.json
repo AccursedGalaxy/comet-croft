@@ -1,0 +1,43 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:food/water_and_warmth",
+  "category": "cometcroft:food",
+  "name": "book.cometcroft.field_guide.food.water_and_warmth.name",
+  "icon": {
+    "id": "homeostatic:leather_flask"
+  },
+  "x": 5,
+  "y": 0,
+  "sort_number": 5,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.food.water_and_warmth.page0.title",
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page0.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "homeostatic:leather_flask",
+      "id": "page1",
+      "sort_number": 1,
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.food.water_and_warmth.page2.title",
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "homeostatic:thermometer",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page3.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.food.water_and_warmth.description"
+}

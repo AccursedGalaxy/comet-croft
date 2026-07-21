@@ -1,5 +1,5 @@
 ---
 name: Seasons
 icon: sereneseasons:calendar
-sort: 2
+sort: 3
 ---

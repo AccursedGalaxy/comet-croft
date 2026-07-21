@@ -1,0 +1,29 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:getting_started/keys_worth_knowing",
+  "category": "cometcroft:getting_started",
+  "name": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.name",
+  "icon": {
+    "id": "minecraft:lever"
+  },
+  "x": 3,
+  "y": 0,
+  "sort_number": 3,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page0.title",
+      "text": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page0.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page1.title",
+      "text": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page1.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.description"
+}

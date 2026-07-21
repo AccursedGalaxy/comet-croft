@@ -1,0 +1,29 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:food/eat_the_rainbow",
+  "category": "cometcroft:food",
+  "name": "book.cometcroft.field_guide.food.eat_the_rainbow.name",
+  "icon": {
+    "id": "minecraft:cake"
+  },
+  "x": 3,
+  "y": 0,
+  "sort_number": 3,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.food.eat_the_rainbow.page0.title",
+      "text": "book.cometcroft.field_guide.food.eat_the_rainbow.page0.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.food.eat_the_rainbow.page1.title",
+      "text": "book.cometcroft.field_guide.food.eat_the_rainbow.page1.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.food.eat_the_rainbow.description"
+}

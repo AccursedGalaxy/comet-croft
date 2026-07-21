@@ -1,0 +1,44 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:food/the_cooking_pot",
+  "category": "cometcroft:food",
+  "name": "book.cometcroft.field_guide.food.the_cooking_pot.name",
+  "icon": {
+    "id": "farmersdelight:cooking_pot"
+  },
+  "x": 1,
+  "y": 0,
+  "sort_number": 1,
+  "pages": [
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:cooking_pot",
+      "id": "page0",
+      "sort_number": 0,
+      "text": "book.cometcroft.field_guide.food.the_cooking_pot.page0.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.food.the_cooking_pot.page1.title",
+      "text": "book.cometcroft.field_guide.food.the_cooking_pot.page1.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": "farmersdelight:vegetable_soup",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.food.the_cooking_pot.page2.title",
+      "text": "book.cometcroft.field_guide.food.the_cooking_pot.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:stuffed_potato",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.food.the_cooking_pot.page3.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.food.the_cooking_pot.description"
+}

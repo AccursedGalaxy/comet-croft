@@ -1,0 +1,65 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:food/a_real_kitchen",
+  "category": "cometcroft:food",
+  "name": "book.cometcroft.field_guide.food.a_real_kitchen.name",
+  "icon": {
+    "id": "cookingforblockheads:cooking_table"
+  },
+  "x": 2,
+  "y": 0,
+  "sort_number": 2,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.food.a_real_kitchen.page0.title",
+      "text": "book.cometcroft.field_guide.food.a_real_kitchen.page0.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:stove",
+      "id": "page1",
+      "sort_number": 1,
+      "text": "book.cometcroft.field_guide.food.a_real_kitchen.page1.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:cutting_board",
+      "id": "page2",
+      "sort_number": 2,
+      "text": "book.cometcroft.field_guide.food.a_real_kitchen.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page3",
+      "sort_number": 3,
+      "title": "book.cometcroft.field_guide.food.a_real_kitchen.page3.title",
+      "text": "book.cometcroft.field_guide.food.a_real_kitchen.page3.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "cookingforblockheads:cooking_table",
+      "id": "page4",
+      "sort_number": 4,
+      "text": "book.cometcroft.field_guide.food.a_real_kitchen.page4.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page5",
+      "sort_number": 5,
+      "title": "book.cometcroft.field_guide.food.a_real_kitchen.page5.title",
+      "text": "book.cometcroft.field_guide.food.a_real_kitchen.page5.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": "cookingforblockheads:white_fridge",
+      "id": "page6",
+      "sort_number": 6,
+      "title": "book.cometcroft.field_guide.food.a_real_kitchen.page6.title",
+      "text": "book.cometcroft.field_guide.food.a_real_kitchen.page6.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.food.a_real_kitchen.description"
+}

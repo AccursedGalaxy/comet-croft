@@ -101,8 +101,16 @@ file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/
 hash = "4c87d38eab2e240f1f5f9352ca03fdf06347bc245641831acbe58ebfb740b05b"
 
 [[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/building.json"
+hash = "3f236f20289643d231f18ec2a949728598f47c16705d6e93be05dae276872a40"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/food.json"
+hash = "17d2954c3319bfb1f4aae1d28f5c8bbf48494e648fa528a4549faa0137163291"
+
+[[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/further_afield.json"
-hash = "1c67ad0a66b6ca30723b563abfa73e2da2e2ce8b8770424b9973ad2dc886b73e"
+hash = "ab7ea6b8f93f2c22c8f04c7812c189e6ac8b40ae8683ae0851b4468b79454ec7"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/getting_started.json"
@@ -110,19 +118,59 @@ hash = "b7610ecdb7552fc999398aa2707fd8b5de4505d59638e397e55e5afc260611f8"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/seasons.json"
-hash = "6f7c49d4e9657d98099508e861fa6cfe836975625b8b4ed4184a6c82217df65d"
+hash = "1f432c2e5f19913d33517481b5bf840193c1fd9b5bfceb18587181e3bc16cc61"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/the_sky.json"
-hash = "85a2bcad61bc37cb1316420c46358a7be1fe7a0a8531459ba876429de651ac42"
+hash = "77dc3efc91632c997a1f9a33a90077833fddd3d9acba6ef2ca9b6f3ac58b3bcf"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/together.json"
-hash = "01a25f79f62d3c5181c622914514c72d495fc4c144ee19b1bbeef581fabc6a57"
+hash = "90c03713b6adff6a91f9d0004d7f4d5ca6bc7aa063ee16af64d375318fef2445"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/building/a_prettier_croft.json"
+hash = "c8d4716bbe87091cb6e16e65846b7ae905696fd813b1625b7555b847ac08c10a"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/building/timber_and_stone.json"
+hash = "d5dd4a6a9a391f03edf7ecca8a29b0f12b883a8bac91eb1af7715d086d5fbe92"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/a_real_kitchen.json"
+hash = "918883b4ec4530f26e358bc07454eecb419844932a7b120fba6a46c16cb8c911"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/eat_the_rainbow.json"
+hash = "26ae902301223144839a96bca27e1ffbbbe868676f86219dd82b54401da66ca0"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/keeping_it_fresh.json"
+hash = "8d5dd460282af17d30d38fb41518229b04fa1744144fcb26166d324fa04ce429"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/the_cooking_pot.json"
+hash = "56487be85350fbdcc3c3aa69de2e39190b0b48743fcaa68178958f2be312bb8e"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/the_keg.json"
+hash = "7b9c4c802f9ff41155c1be0ded4d5baa45a39933dc8095ccca3ca66f7c89921e"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/the_seed_market.json"
+hash = "80cdd25705b47a1203e703b14c925b86697e2890830c0407af969a367cc9e2b5"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/water_and_warmth.json"
+hash = "d2931ed93dc7a5f80d158980d5a9d96bd9b092eec10a9ba8bfef11460c995429"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/earning_wings.json"
 hash = "d1d106e3022da004647d25192483bd6f4781a54f19133133a0b3977548a5f7f2"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/finding_your_way.json"
+hash = "87f57b88e91fe774b69474e30995a3da24ef38187a289cb6f8366d7a991cb2c7"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/if_you_fall.json"
@@ -137,16 +185,20 @@ file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/
 hash = "8fbc61f33508f1ebc38c86a83d35bd8f75e3f1e5289379e8692fbcdf10b8f359"
 
 [[files]]
-file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/cooking.json"
-hash = "22dee3ad0d3035be61d76456327ad6a628d27f01057202d872dcecc967dec149"
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/keys_worth_knowing.json"
+hash = "a43546e73dc35691e592f4e49e58f724d406612afdfa9fecd6244f30054e5656"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/storage.json"
-hash = "036b348fea9eb523c8c4f45e2db059c5b727a65f9b3835311d5fce07bbe3c284"
+hash = "5b9976c927ddf60a35387e174901190a9bbd44a15a0b5db31a011d402e737f7d"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/welcome.json"
-hash = "dc758bba2ac294ca7fbb631da3393852472a53fe7dc61ccc5bc948b717dfc761"
+hash = "9a9179c139e99390462c1e77f5d88b846d0e03d8a4c0cccf9a129c890b6df0f1"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/your_first_days.json"
+hash = "8486e49119158e0157388923efe7449f42e606d15586ca64e496ed9af7e36510"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/seasons/farming_the_seasons.json"
@@ -266,7 +318,7 @@ hash = "141e60406e2575c3318e790285893af7a5f56876686bde02235a9b28683bb293"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/assets/cometcroft/lang/en_us.json"
-hash = "186b10e50b3f689122409832ebdec1c6402e24e6bd5a236aa76d344b75420db0"
+hash = "f6de04d2fbad1edc5cfd0aa6fd219fcf7bd94e57579002fde74b8043e02b8e8d"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/pack.mcmeta"

@@ -6,9 +6,9 @@
   "icon": {
     "id": "extended_drawers:single_drawer"
   },
-  "x": 3,
+  "x": 4,
   "y": 0,
-  "sort_number": 3,
+  "sort_number": 4,
   "pages": [
     {
       "type": "modonomicon:text",

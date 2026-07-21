@@ -1,5 +1,5 @@
 ---
 name: Better Together
 icon: minecraft:bell
-sort: 5
+sort: 7
 ---
