@@ -1,6 +1,6 @@
 name = "Boids"
 filename = "boids-2.0.0+26.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/2OckSy74/versions/smefztgO/boids-2.0.0%2B26.1.jar"

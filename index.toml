@@ -318,13 +318,8 @@ hash = "4bf6c35d8ed1052b126f85118edefbb416a649a18d992c9138338c5fe9b9592c"
 metafile = true
 
 [[files]]
-file = "mods/birds-boids-addon.pw.toml"
-hash = "17fa364e08638aed1cc62eecfd6c2f0ef317738e13067fc71df1618d1553d26f"
-metafile = true
-
-[[files]]
 file = "mods/boids.pw.toml"
-hash = "1b32c863051c7968b28c973877d4c2a5b910fbc0cb1df94506be8f9b50a5861d"
+hash = "bf641f6bce1d99a7ff7effba3446481e88cd067673f9435aee08eced8c36a34e"
 metafile = true
 
 [[files]]
