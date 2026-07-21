@@ -1,5 +1,7 @@
 package dev.cometcroft.menu.screen;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import net.fabricmc.loader.api.FabricLoader;
@@ -14,6 +16,7 @@ import net.minecraft.client.gui.screens.options.OptionsScreen;
 import net.minecraft.client.gui.screens.worldselection.SelectWorldScreen;
 import net.minecraft.client.input.KeyEvent;
 import net.minecraft.network.chat.Component;
+import net.minecraft.util.FormattedCharSequence;
 import org.joml.Matrix3x2fStack;
 
 import com.mojang.realmsclient.RealmsMainScreen;
@@ -54,27 +57,24 @@ public class CometCroftTitleScreen extends Screen {
     private String toast;
     private float toastUntil;
 
-    // the How to Play panel copy (council-reviewed, humanized). The renderer
-    // draws the "R:"/"U:" keybind rows in lantern gold, the rest in subtitle blue.
-    private static final String[] HELP_LINES = {
-        "Comet Croft is a cozy homestead pack.",
-        "Farm through the seasons, build your",
-        "croft, and keep an eye on the sky.",
+    // the How to Play panel copy (council-reviewed, humanized), as paragraphs:
+    // the panel re-wraps them to whatever width/columns the screen affords.
+    // "R:"/"U:" keybind paragraphs render in lantern gold, the rest subtitle blue.
+    private static final String[] HELP_PARAS = {
+        "Comet Croft is a cozy homestead pack. Farm through the seasons, build your croft, and keep an eye on the sky.",
         "",
-        "Two keys do most of the work. Open",
-        "your inventory, hover an item, and:",
+        "Two keys do most of the work. Open your inventory, hover an item, and:",
         "",
         "R:  how is this made?",
         "U:  what's it used for?",
         "",
-        "That's the whole trick. (R and U are",
-        "the defaults. If they do nothing, check",
-        "Options → Controls.) Nearly everything",
-        "else you can just try.",
+        "That's the whole trick. (R and U are the defaults. If they do nothing, check Options → Controls.) Nearly everything else you can just try.",
         "",
-        "New here? Open the Comet Croft Field",
-        "Guide in your starting inventory.",
+        "New here? Open the Comet Croft Field Guide in your starting inventory.",
     };
+
+    /** GUI px kept clear at the bottom for the footer line. */
+    private static final int FOOTER_RESERVE = 16;
 
     public CometCroftTitleScreen() {
         super(Component.literal("Comet Croft"));
@@ -105,6 +105,7 @@ public class CometCroftTitleScreen extends Screen {
     }
 
     private int wordmarkScale() {
+        if (this.height < 240) return 2;
         return this.height < 300 ? 3 : 4;
     }
 
@@ -113,18 +114,37 @@ public class CometCroftTitleScreen extends Screen {
         return Math.max(20, (int) (this.width * 0.065f));
     }
 
+    /** Total stack height for a given set of button metrics. */
+    private static int stackHeight(int heroH, int rowH, int utilH, int gap) {
+        return heroH + gap + (rowH + gap) * 3 + 4 + (utilH + gap) + utilH;
+    }
+
     private void initMainMenu() {
         Minecraft mc = Minecraft.getInstance();
-        int bw = Math.max(240, Math.min(420, (int) (this.width * 0.36f)));
         int bx = leftPad();
+        int bw = Math.max(240, Math.min(420, (int) (this.width * 0.36f)));
+        bw = Math.min(bw, this.width - bx - 12);
 
+        // metric tiers: comfortable → compact → dense. The stack shrinks until
+        // it fits between the header and the footer; the final clamps keep the
+        // bottom on-screen no matter what — an off-screen button is worse than
+        // a tight header.
+        int availTop = headerBottom() + 8;
+        int availBottom = this.height - FOOTER_RESERVE;
         int heroH = 34, rowH = 24, utilH = 18, gap = 6;
-        int total = heroH + gap + (rowH + gap) * 3 + 4 + (utilH + gap) + utilH;
-        // never above the header block; otherwise vertically centered
-        int by = Math.max(headerBottom() + 12, (this.height - total) / 2);
+        String heroSub = "return to the croft";
+        if (availTop + stackHeight(heroH, rowH, utilH, gap) > availBottom) {
+            heroH = 28; rowH = 20; utilH = 16; gap = 4; heroSub = null;
+        }
+        if (availTop + stackHeight(heroH, rowH, utilH, gap) > availBottom) {
+            heroH = 22; rowH = 16; utilH = 14; gap = 3;
+        }
+        int total = stackHeight(heroH, rowH, utilH, gap);
+        int by = Math.max(availTop, (this.height - total) / 2);
+        by = Math.max(8, Math.min(by, availBottom - total));
 
         var hero = addRenderableWidget(new CometButton(bx, by, bw, heroH, CometButton.Style.HERO,
-                Component.literal("Singleplayer"), "return to the croft",
+                Component.literal("Singleplayer"), heroSub,
                 b -> mc.setScreen(new SelectWorldScreen(this))));
         int y = by + heroH + gap;
         addRenderableWidget(new CometButton(bx, y, bw, rowH, CometButton.Style.PRIMARY,
@@ -170,18 +190,80 @@ public class CometCroftTitleScreen extends Screen {
         setInitialFocus(hero);
     }
 
-    /** Height of the How to Play panel body (text lines only), in gui px. */
-    private int helpBodyHeight() {
-        return HELP_LINES.length * (font.lineHeight + 2);
+    /** One wrapped help line, positioned relative to the panel's top-left. */
+    private record HelpLine(FormattedCharSequence seq, int relX, int relY, boolean key) {}
+
+    /** Computed How to Play panel geometry + wrapped text for this screen size. */
+    private record HelpLayout(int x, int y, int w, int h, List<HelpLine> lines) {}
+
+    private static final int HELP_PAD = 14;      // panel side padding
+    private static final int HELP_TOP = 24;      // title chrome above the body
+    private static final int HELP_BOTTOM = 30;   // back-button chrome below the body
+    private static final int HELP_GUTTER = 18;   // gap between columns
+
+    /**
+     * Lays the help copy out for the current screen: single column at a
+     * comfortable measure when the height allows, otherwise two balanced
+     * columns (split at a paragraph break) so no GUI scale clips the panel.
+     */
+    private HelpLayout helpLayout() {
+        int lineH = font.lineHeight + 2;
+        int maxPanelH = this.height - 16;
+        for (int cols = 1; cols <= 2; cols++) {
+            int pwMax = Math.min(cols == 1 ? 300 : 470, this.width - 24);
+            int colW = (pwMax - HELP_PAD * 2 - (cols - 1) * HELP_GUTTER) / cols;
+            // wrap paragraphs to the column measure; blank paragraphs = spacers
+            List<FormattedCharSequence> seqs = new ArrayList<>();
+            List<Boolean> keys = new ArrayList<>();
+            for (String para : HELP_PARAS) {
+                if (para.isEmpty()) {
+                    seqs.add(null);
+                    keys.add(false);
+                    continue;
+                }
+                boolean key = para.startsWith("R:") || para.startsWith("U:");
+                for (FormattedCharSequence seq : font.split(Component.literal(para), colW - (key ? 10 : 0))) {
+                    seqs.add(seq);
+                    keys.add(key);
+                }
+            }
+            // 2 columns: break at the spacer nearest the middle
+            int split = seqs.size();
+            if (cols == 2) {
+                int mid = seqs.size() / 2, best = -1;
+                for (int i = 0; i < seqs.size(); i++) {
+                    if (seqs.get(i) == null && (best == -1 || Math.abs(i - mid) < Math.abs(best - mid))) best = i;
+                }
+                split = best == -1 ? mid : best;
+            }
+            int rows = Math.max(split, seqs.size() - split);
+            int ph = HELP_TOP + rows * lineH + HELP_BOTTOM;
+            if (ph > maxPanelH && cols < 2) continue; // too tall → try 2 columns
+            int pw = HELP_PAD * 2 + colW * cols + (cols - 1) * HELP_GUTTER;
+            int px = (this.width - pw) / 2;
+            int py = Math.max(8, (this.height - ph) / 2);
+            List<HelpLine> lines = new ArrayList<>();
+            int row = 0;
+            for (int i = 0; i < seqs.size(); i++) {
+                if (cols == 2 && i == split) row = 0;          // second column restarts at the top
+                if (i == split && seqs.get(i) == null) continue; // swallow the splitting spacer
+                if (seqs.get(i) != null) {
+                    int col = i < split ? 0 : 1;
+                    int relX = HELP_PAD + col * (colW + HELP_GUTTER) + (keys.get(i) ? 10 : 0);
+                    lines.add(new HelpLine(seqs.get(i), relX, HELP_TOP + row * lineH, keys.get(i)));
+                }
+                row++;
+            }
+            return new HelpLayout(px, py, pw, ph, lines);
+        }
+        throw new IllegalStateException("unreachable: 2-column layout always returns");
     }
 
     private void initHelpPanel() {
-        int pw = Math.min(300, this.width - 40);
-        int ph = 24 + helpBodyHeight() + 30;
-        int px = (this.width - pw) / 2;
-        int py = Math.max(8, (this.height - ph) / 2);
-        var back = addRenderableWidget(new CometButton(px + (pw - 140) / 2, py + ph - 26, 140, 20,
-                CometButton.Style.CONFIRM_QUIET,
+        HelpLayout hl = helpLayout();
+        int backW = Math.min(140, hl.w() - 16);
+        var back = addRenderableWidget(new CometButton(hl.x() + (hl.w() - backW) / 2, hl.y() + hl.h() - 26,
+                backW, 20, CometButton.Style.CONFIRM_QUIET,
                 Component.literal("back to the croft"), null,
                 b -> { helpOpen = false; rebuildWidgets(); }));
         setInitialFocus(back);
@@ -316,12 +398,15 @@ public class CometCroftTitleScreen extends Screen {
         gfx.text(font, splash, -font.width(splash) / 2, -font.lineHeight / 2, SPLASH_GOLD, true);
         pose.popMatrix();
 
-        // footer
+        // footer; the right-hand motto yields rather than colliding on narrow guis
         int fy = this.height - 12;
         String left = "Comet Croft v0.1.0 ◆ Minecraft 26.1.2 ◆ " + modCount + " mods";
         gfx.text(font, left, padX, fy, FOOTER);
         String right = "made under a strange sky";
-        gfx.text(font, right, this.width - padX - font.width(right), fy, 0xFF6F7C9B);
+        int rx = this.width - padX - font.width(right);
+        if (rx > padX + font.width(left) + 16) {
+            gfx.text(font, right, rx, fy, 0xFF6F7C9B);
+        }
 
         // toast
         if (toast != null && sky.time() < toastUntil) {
@@ -335,25 +420,18 @@ public class CometCroftTitleScreen extends Screen {
         // How to Play: scrim + panel, same chrome as the quit confirm
         if (helpOpen) {
             gfx.fill(0, 0, this.width, this.height, 0x8C04070E);
-            int pw = Math.min(300, this.width - 40);
-            int ph = 24 + helpBodyHeight() + 30;
-            int panelX = (this.width - pw) / 2;
-            int panelY = Math.max(8, (this.height - ph) / 2);
-            gfx.fillGradient(panelX, panelY, panelX + pw, panelY + ph, 0xF7161E34, 0xF70C1222);
-            gfx.outline(panelX, panelY, pw, ph, 0x29FFCD96);
+            HelpLayout hl = helpLayout();
+            gfx.fillGradient(hl.x(), hl.y(), hl.x() + hl.w(), hl.y() + hl.h(), 0xF7161E34, 0xF70C1222);
+            gfx.outline(hl.x(), hl.y(), hl.w(), hl.h(), 0x29FFCD96);
             pose.pushMatrix();
-            pose.translate(panelX + pw / 2f, panelY + 8);
+            pose.translate(hl.x() + hl.w() / 2f, hl.y() + 8);
             pose.scale(1.25f);
             String title = "How to Play";
             gfx.text(font, title, -font.width(title) / 2, 0, CREAM, true);
             pose.popMatrix();
-            int ly = panelY + 24;
-            for (String line : HELP_LINES) {
-                if (!line.isEmpty()) {
-                    boolean key = line.startsWith("R:") || line.startsWith("U:");
-                    gfx.text(font, line, panelX + 14 + (key ? 10 : 0), ly, key ? LANTERN : SUBTITLE);
-                }
-                ly += font.lineHeight + 2;
+            for (HelpLine line : hl.lines()) {
+                gfx.text(font, line.seq(), hl.x() + line.relX(), hl.y() + line.relY(),
+                        line.key() ? LANTERN : SUBTITLE, true);
             }
         }
 
