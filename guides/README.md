@@ -36,6 +36,8 @@ Some text about cooking. You can make words **bold** or *italic*,
 and a blank line starts a new paragraph.
 
 A line starting with # begins a new page, with that text as its title.
+Every heading needs at least one line of text under it before the next
+@recipe or @item — the build script will remind you if one is bare.
 
 @recipe farmersdelight:cooking_pot
 This paragraph appears under the recipe as a caption.

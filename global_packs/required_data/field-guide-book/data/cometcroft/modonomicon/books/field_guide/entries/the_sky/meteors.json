@@ -1,0 +1,36 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:the_sky/meteors",
+  "category": "cometcroft:the_sky",
+  "name": "book.cometcroft.field_guide.the_sky.meteors.name",
+  "icon": {
+    "id": "ohmymeteors:meteoric_chunk"
+  },
+  "x": 1,
+  "y": 0,
+  "sort_number": 1,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.the_sky.meteors.page0.title",
+      "text": "book.cometcroft.field_guide.the_sky.meteors.page0.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "ohmymeteors:meteoric_alloy",
+      "id": "page1",
+      "sort_number": 1,
+      "text": "book.cometcroft.field_guide.the_sky.meteors.page1.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "ohmymeteors:basic_meteor_laser",
+      "id": "page2",
+      "sort_number": 2,
+      "text": "book.cometcroft.field_guide.the_sky.meteors.page2.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.the_sky.meteors.description"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "book.cometcroft.field_guide.together.name",
+  "icon": {
+    "id": "minecraft:bell"
+  },
+  "display_mode": "index",
+  "sort_number": 5
+}

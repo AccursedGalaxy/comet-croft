@@ -1,0 +1,22 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:together/handy_commands",
+  "category": "cometcroft:together",
+  "name": "book.cometcroft.field_guide.together.handy_commands.name",
+  "icon": {
+    "id": "minecraft:oak_sign"
+  },
+  "x": 1,
+  "y": 0,
+  "sort_number": 1,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.together.handy_commands.page0.title",
+      "text": "book.cometcroft.field_guide.together.handy_commands.page0.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.together.handy_commands.description"
+}

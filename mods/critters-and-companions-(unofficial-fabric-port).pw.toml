@@ -1,0 +1,13 @@
+name = "Critters and Companions (Unofficial Fabric Port)"
+filename = "crittersandcompanions-26.1.2-0.2.3-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/shNmXuqa/versions/YdXFbYIv/crittersandcompanions-26.1.2-0.2.3-fabric.jar"
+hash-format = "sha512"
+hash = "a5a27653c04a7d7af08eca470503b87822b9bec83e4e4dc5dadcbf547bcdcebbce6202eaa8d79f51173ae2b09ebe6e7f1350b3dce4f655a767f14d892317e042"
+
+[update]
+[update.modrinth]
+mod-id = "shNmXuqa"
+version = "YdXFbYIv"

@@ -1,0 +1,37 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:further_afield/pack_your_bag",
+  "category": "cometcroft:further_afield",
+  "name": "book.cometcroft.field_guide.further_afield.pack_your_bag.name",
+  "icon": {
+    "id": "travelersbackpack:standard"
+  },
+  "x": 2,
+  "y": 0,
+  "sort_number": 2,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.further_afield.pack_your_bag.page0.title",
+      "text": "book.cometcroft.field_guide.further_afield.pack_your_bag.page0.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": "travelersbackpack:standard",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.further_afield.pack_your_bag.page1.title",
+      "text": "book.cometcroft.field_guide.further_afield.pack_your_bag.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.further_afield.pack_your_bag.page2.title",
+      "text": "book.cometcroft.field_guide.further_afield.pack_your_bag.page2.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.further_afield.pack_your_bag.description"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "book.cometcroft.field_guide.the_sky.name",
+  "icon": {
+    "id": "minecraft:spyglass"
+  },
+  "display_mode": "index",
+  "sort_number": 3
+}

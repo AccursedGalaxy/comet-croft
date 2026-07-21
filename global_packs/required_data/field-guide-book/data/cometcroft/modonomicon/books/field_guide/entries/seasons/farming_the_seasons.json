@@ -1,0 +1,36 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:seasons/farming_the_seasons",
+  "category": "cometcroft:seasons",
+  "name": "book.cometcroft.field_guide.seasons.farming_the_seasons.name",
+  "icon": {
+    "id": "minecraft:wheat"
+  },
+  "x": 2,
+  "y": 0,
+  "sort_number": 2,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.seasons.farming_the_seasons.page0.title",
+      "text": "book.cometcroft.field_guide.seasons.farming_the_seasons.page0.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.seasons.farming_the_seasons.page1.title",
+      "text": "book.cometcroft.field_guide.seasons.farming_the_seasons.page1.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "sereneseasons:season_sensor",
+      "id": "page2",
+      "sort_number": 2,
+      "text": "book.cometcroft.field_guide.seasons.farming_the_seasons.page2.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.seasons.farming_the_seasons.description"
+}

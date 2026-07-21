@@ -101,16 +101,80 @@ file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/
 hash = "4c87d38eab2e240f1f5f9352ca03fdf06347bc245641831acbe58ebfb740b05b"
 
 [[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/further_afield.json"
+hash = "1c67ad0a66b6ca30723b563abfa73e2da2e2ce8b8770424b9973ad2dc886b73e"
+
+[[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/getting_started.json"
 hash = "b7610ecdb7552fc999398aa2707fd8b5de4505d59638e397e55e5afc260611f8"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/seasons.json"
+hash = "6f7c49d4e9657d98099508e861fa6cfe836975625b8b4ed4184a6c82217df65d"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/the_sky.json"
+hash = "85a2bcad61bc37cb1316420c46358a7be1fe7a0a8531459ba876429de651ac42"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/together.json"
+hash = "01a25f79f62d3c5181c622914514c72d495fc4c144ee19b1bbeef581fabc6a57"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/earning_wings.json"
+hash = "d1d106e3022da004647d25192483bd6f4781a54f19133133a0b3977548a5f7f2"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/if_you_fall.json"
+hash = "7f29c8075c93075563f7b2959b2080a666b138a08ed1174ac3d10e7e882b4efb"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/pack_your_bag.json"
+hash = "8d372b6553546a41c9734b30f0f3701f35e8dfe66b51be5f594e5fae083852a5"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/waystones.json"
+hash = "8fbc61f33508f1ebc38c86a83d35bd8f75e3f1e5289379e8692fbcdf10b8f359"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/cooking.json"
 hash = "22dee3ad0d3035be61d76456327ad6a628d27f01057202d872dcecc967dec149"
 
 [[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/storage.json"
+hash = "036b348fea9eb523c8c4f45e2db059c5b727a65f9b3835311d5fce07bbe3c284"
+
+[[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/welcome.json"
 hash = "dc758bba2ac294ca7fbb631da3393852472a53fe7dc61ccc5bc948b717dfc761"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/seasons/farming_the_seasons.json"
+hash = "fb79aea4aaab224b6c5bd63eb21bdfc866666a216a5952eb2032873e31976370"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/seasons/the_turning_year.json"
+hash = "16526b00bbebff5164395966146ff8dac503c438916ffeadb822adb0e8130bd3"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/the_sky/meteors.json"
+hash = "16f9af9c425d185cefcb063ce4507fefb1982a5193fe4e760ed576303e91ca51"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/the_sky/stargazing.json"
+hash = "536af87a3b2ffb25c9ff9d67c6c9355b0b5468fc14d6970047507c43b7c64329"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/the_sky/strange_moons.json"
+hash = "b2ebd4803ce89d8c00cf14741fb46defb24dbefcaeb82ee92936f2ffb1e47d13"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/together/claiming_land.json"
+hash = "1535c5c6fefc984be5f8c2bb25ba2d83af11cd9100b80f4a5a7f201e0e0b34ea"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/together/handy_commands.json"
+hash = "702f17d7daf6affeefec25a156b8de2792ef215963ccae3182c202ebada1dfa6"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/pack.mcmeta"
@@ -177,6 +241,14 @@ file = "global_packs/required_data/lootr-advancement-fix/pack.mcmeta"
 hash = "7fe73ae1fd35e80dc0856341121c9a0a45266b7f4840f1b7ca338a6c4b46902a"
 
 [[files]]
+file = "global_packs/required_data/mvs-cathedral-loot-fix/data/minecraft/loot_table/mvs/cathedral_common.json"
+hash = "d1279d83e6eef1cc701a91f0d65dd09aa112863c2bc5ec9a521138e435f523e3"
+
+[[files]]
+file = "global_packs/required_data/mvs-cathedral-loot-fix/pack.mcmeta"
+hash = "36e52ed1c1b6cb2d6c6a444fdb1ba84c7d5ed4e88341f0b0c4b272247ca5ae5f"
+
+[[files]]
 file = "global_packs/required_data/remove-terralith-intro/data/terralith/function/toast.mcfunction"
 hash = "77b6a7b4fddd39224a8c56adcc6e4f42ef6792cf0206657bd27c01d3fdee9d6e"
 
@@ -194,7 +266,7 @@ hash = "141e60406e2575c3318e790285893af7a5f56876686bde02235a9b28683bb293"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/assets/cometcroft/lang/en_us.json"
-hash = "8980a89ef81ca70b9d32cb352dd9c90ae4ef7421f97368f66b77884b4f7203f4"
+hash = "186b10e50b3f689122409832ebdec1c6402e24e6bd5a236aa76d344b75420db0"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/pack.mcmeta"
@@ -246,6 +318,16 @@ hash = "4bf6c35d8ed1052b126f85118edefbb416a649a18d992c9138338c5fe9b9592c"
 metafile = true
 
 [[files]]
+file = "mods/birds-boids-addon.pw.toml"
+hash = "17fa364e08638aed1cc62eecfd6c2f0ef317738e13067fc71df1618d1553d26f"
+metafile = true
+
+[[files]]
+file = "mods/boids.pw.toml"
+hash = "1b32c863051c7968b28c973877d4c2a5b910fbc0cb1df94506be8f9b50a5861d"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "8ea78f8b4d5429e18848d02c5ab951a5af0ad88108f580b1fb71d715d642d15e"
 metafile = true
@@ -290,6 +372,11 @@ hash = "da73b8bc4ce8afdf67271b39d7ab75bb5013f09ebcb1ce3a53bc738cbbce4d53"
 metafile = true
 
 [[files]]
+file = "mods/cosy-critters.pw.toml"
+hash = "003b647751686aed727a344b59e42b62d25a8d52c58410a4c0d505c3bd840ca7"
+metafile = true
+
+[[files]]
 file = "mods/crafting-tweaks.pw.toml"
 hash = "a474fff550faa54351f111d4baf2c582b9f1a7060c5e986ffe991e278713806f"
 metafile = true
@@ -307,6 +394,11 @@ metafile = true
 [[files]]
 file = "mods/cristel-lib.pw.toml"
 hash = "288e36db1236f9fdf52278eae50ca4614861ac4b8e2d3d65cfbcb860292d66bf"
+metafile = true
+
+[[files]]
+file = "mods/critters-and-companions-(unofficial-fabric-port).pw.toml"
+hash = "2cb7cbac874a6a5552cbf2984cc46bfda965d7f1f8622a96f24190e2027f25f1"
 metafile = true
 
 [[files]]
@@ -347,6 +439,11 @@ metafile = true
 [[files]]
 file = "mods/easy-elytra-takeoff.pw.toml"
 hash = "9d6846ea82088a47315bcd7d234a5e6baf4f91940de12df35861301bccc15c2c"
+metafile = true
+
+[[files]]
+file = "mods/ecologics.pw.toml"
+hash = "64801ac09437ee4761f9379d375945f2de6abfa160a62ae6992339d3d6d5c648"
 metafile = true
 
 [[files]]
@@ -430,8 +527,18 @@ hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true
 
 [[files]]
+file = "mods/fish-of-thieves.pw.toml"
+hash = "16a2ce6625996c55c3759479b2a8c82a8f3af684d5fc57763576d06cd0832c7a"
+metafile = true
+
+[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 hash = "74e95341b8bdf8953275719b14638a92bba736c8ab9c6a8d09275b56d76321be"
+metafile = true
+
+[[files]]
+file = "mods/friends-and-foes.pw.toml"
+hash = "29a07ed59a2b20c42ace01361e39413ed3b2822346d157e8518e118dc53b7217"
 metafile = true
 
 [[files]]
@@ -442,6 +549,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "de954e56216772900768426c541731ec91d0c7bd1c5037ad2f6cc5552f87c635"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "833e17466c66c772e2e25c2728fd0aa6570aac63f605769f6b1f4c55d3564da5"
 metafile = true
 
 [[files]]
@@ -682,6 +794,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-config.pw.toml"
 hash = "d5a2925609b3dcf060253a1d75414e4c7747c9d5c206c5ff83a678f75b94ff5b"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "2bd03b3199bbd216be2e69ee41a3d52ecb13c485e2fc899111f826c5e1b57b19"
 metafile = true
 
 [[files]]

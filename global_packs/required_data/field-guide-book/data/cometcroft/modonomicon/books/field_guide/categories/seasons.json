@@ -1,0 +1,8 @@
+{
+  "name": "book.cometcroft.field_guide.seasons.name",
+  "icon": {
+    "id": "sereneseasons:calendar"
+  },
+  "display_mode": "index",
+  "sort_number": 2
+}

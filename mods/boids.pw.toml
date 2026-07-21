@@ -1,0 +1,13 @@
+name = "Boids"
+filename = "boids-2.0.0+26.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/2OckSy74/versions/smefztgO/boids-2.0.0%2B26.1.jar"
+hash-format = "sha512"
+hash = "17442319cef9c3dd1dcd6c969cf49608922e7755ba1f44a976af6aa64b87110602074fc049bdf7d8fb05e6da7140fe8638d34b74db7cf8be5f8c3a67a0d7c6f1"
+
+[update]
+[update.modrinth]
+mod-id = "2OckSy74"
+version = "smefztgO"

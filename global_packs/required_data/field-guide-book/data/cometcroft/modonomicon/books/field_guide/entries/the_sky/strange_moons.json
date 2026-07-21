@@ -1,0 +1,22 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:the_sky/strange_moons",
+  "category": "cometcroft:the_sky",
+  "name": "book.cometcroft.field_guide.the_sky.strange_moons.name",
+  "icon": {
+    "id": "minecraft:clock"
+  },
+  "x": 3,
+  "y": 0,
+  "sort_number": 3,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.the_sky.strange_moons.page0.title",
+      "text": "book.cometcroft.field_guide.the_sky.strange_moons.page0.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.the_sky.strange_moons.description"
+}

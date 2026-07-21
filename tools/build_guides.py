@@ -239,6 +239,14 @@ def compile_entry(path: Path, category_id: str, entry_id: str, sort: int) -> dic
         text = "\n".join(cur_text).strip()
         if not text and cur_title is None:
             return
+        if not text:
+            # Modonomicon rejects a text page without a "text" key (observed
+            # at boot: "No key text in MapLike"), so a bare heading is an error.
+            fail(
+                f"{where}: heading '# {cur_title}' has no paragraph under it —"
+                f" write at least one line of text before the next @directive"
+                f" or the end of the file"
+            )
         n = len(pages)
         page = {"type": "modonomicon:text", "id": f"page{n}", "sort_number": n}
         if cur_title:

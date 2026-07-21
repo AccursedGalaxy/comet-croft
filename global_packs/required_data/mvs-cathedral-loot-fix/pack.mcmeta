@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Comet Croft: shims MVS cathedral chests that reference minecraft:mvs/cathedral_common instead of mvs:cathedral_common.",
+    "pack_format": 101
+  }
+}

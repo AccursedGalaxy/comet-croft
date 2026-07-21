@@ -1,0 +1,29 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:together/claiming_land",
+  "category": "cometcroft:together",
+  "name": "book.cometcroft.field_guide.together.claiming_land.name",
+  "icon": {
+    "id": "minecraft:map"
+  },
+  "x": 2,
+  "y": 0,
+  "sort_number": 2,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.together.claiming_land.page0.title",
+      "text": "book.cometcroft.field_guide.together.claiming_land.page0.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.together.claiming_land.page1.title",
+      "text": "book.cometcroft.field_guide.together.claiming_land.page1.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.together.claiming_land.description"
+}

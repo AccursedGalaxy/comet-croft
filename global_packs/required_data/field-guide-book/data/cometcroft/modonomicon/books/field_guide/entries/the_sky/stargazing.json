@@ -1,0 +1,29 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:the_sky/stargazing",
+  "category": "cometcroft:the_sky",
+  "name": "book.cometcroft.field_guide.the_sky.stargazing.name",
+  "icon": {
+    "id": "minecraft:spyglass"
+  },
+  "x": 2,
+  "y": 0,
+  "sort_number": 2,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.the_sky.stargazing.page0.title",
+      "text": "book.cometcroft.field_guide.the_sky.stargazing.page0.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "minecraft:spyglass",
+      "id": "page1",
+      "sort_number": 1,
+      "text": "book.cometcroft.field_guide.the_sky.stargazing.page1.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.the_sky.stargazing.description"
+}

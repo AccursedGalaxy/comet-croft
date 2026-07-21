@@ -1,0 +1,43 @@
+{
+  "type": "modonomicon:content",
+  "id": "cometcroft:getting_started/storage",
+  "category": "cometcroft:getting_started",
+  "name": "book.cometcroft.field_guide.getting_started.storage.name",
+  "icon": {
+    "id": "extended_drawers:single_drawer"
+  },
+  "x": 3,
+  "y": 0,
+  "sort_number": 3,
+  "pages": [
+    {
+      "type": "modonomicon:text",
+      "id": "page0",
+      "sort_number": 0,
+      "title": "book.cometcroft.field_guide.getting_started.storage.page0.title",
+      "text": "book.cometcroft.field_guide.getting_started.storage.page0.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "extended_drawers:single_drawer",
+      "id": "page1",
+      "sort_number": 1,
+      "text": "book.cometcroft.field_guide.getting_started.storage.page1.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "toms_storage:inventory_connector",
+      "id": "page2",
+      "sort_number": 2,
+      "text": "book.cometcroft.field_guide.getting_started.storage.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "toms_storage:storage_terminal",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.getting_started.storage.page3.text"
+    }
+  ],
+  "description": "book.cometcroft.field_guide.getting_started.storage.description"
+}
