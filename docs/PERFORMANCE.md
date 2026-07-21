@@ -54,6 +54,13 @@ Corollaries:
 
 ## Laptop preset
 
+The in-game half of this preset ships as pack defaults via YOSBR
+(`config/yosbr/options.txt`): render distance 10, sim distance 8, fast
+leaves/clouds, entity shadows off, biome blend 2, smooth lighting on.
+YOSBR only seeds fresh installs — existing instances keep their settings
+and need the values applied by hand. The JVM half can't ship in the pack;
+it lives in each player's launcher instance settings.
+
 In-game:
 - Render distance 8 (10 on 16GB), simulation distance 6–8 (sim distance
   is the tick-cost knob).

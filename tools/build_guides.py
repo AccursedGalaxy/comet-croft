@@ -76,6 +76,102 @@ RECIPE_DIRECTIVES = {
 RESLOC = re.compile(r"^[a-z0-9_.-]+:[a-z0-9_./-]+$")
 PAGE_TEXT_WARN = 700  # chars; longer than this likely overflows a book page
 
+# Recipe-page types only render recipes of the matching vanilla type; a
+# mismatched type shows "recipe not found" in game. Values are accepted
+# `"type"` prefixes of the recipe JSON.
+EXPECTED_RECIPE_TYPE = {
+    "modonomicon:crafting_recipe": ("minecraft:crafting",),
+    "modonomicon:smelting_recipe": ("minecraft:smelting",),
+    "modonomicon:smoking_recipe": ("minecraft:smoking",),
+    "modonomicon:blasting_recipe": ("minecraft:blasting",),
+    "modonomicon:campfire_cooking_recipe": ("minecraft:campfire_cooking",),
+    "modonomicon:stonecutting_recipe": ("minecraft:stonecutting",),
+    "modonomicon:smithing_recipe": ("minecraft:smithing",),
+}
+
+# Sources for the id index: every installed mod jar plus the vanilla client
+# jar. Missing paths downgrade validation to a warning so the build still
+# works on machines without the dev instance (e.g. when Kathi writes guides).
+MOD_JAR_DIRS = [
+    Path.home() / ".local/opt/prismlauncher/instances/CometCroftDev/.minecraft/mods",
+]
+VANILLA_JARS = [
+    Path.home()
+    / ".local/opt/prismlauncher/libraries/com/mojang/minecraft/26.1.2/minecraft-26.1.2-client.jar",
+]
+
+ITEM_RE = re.compile(r"^assets/([a-z0-9_.-]+)/items/([a-z0-9_./-]+)\.json$")
+RECIPE_RE = re.compile(r"^data/([a-z0-9_.-]+)/recipe/([a-z0-9_./-]+)\.json$")
+
+
+def load_registry_index() -> tuple[set[str], dict[str, str]] | None:
+    """Item ids and recipe id -> recipe type, scanned from the installed jars.
+
+    Returns None (validation skipped) when no jars are found.
+    """
+    import zipfile
+
+    jars = [j for d in MOD_JAR_DIRS if d.is_dir() for j in sorted(d.glob("*.jar"))]
+    jars += [j for j in VANILLA_JARS if j.is_file()]
+    if not jars:
+        return None
+    items: set[str] = set()
+    recipes: dict[str, str] = {}
+    for jar in jars:
+        try:
+            with zipfile.ZipFile(jar) as z:
+                for n in z.namelist():
+                    if m := ITEM_RE.match(n):
+                        items.add(f"{m.group(1)}:{m.group(2)}")
+                    elif m := RECIPE_RE.match(n):
+                        rid = f"{m.group(1)}:{m.group(2)}"
+                        try:
+                            recipes[rid] = json.loads(z.read(n)).get("type", "")
+                        except (json.JSONDecodeError, UnicodeDecodeError):
+                            pass
+        except zipfile.BadZipFile:
+            warn(f"skipping unreadable jar: {jar.name}")
+    return items, recipes
+
+
+def validate_ids(entries: dict, categories: dict) -> None:
+    index = load_registry_index()
+    if index is None:
+        warn("id validation SKIPPED — no mod jars found (dev instance not installed?)")
+        return
+    items, recipes = index
+
+    def check_item(item_id: str, where: str):
+        if item_id.endswith(".png"):
+            return  # texture icon, not an item
+        if item_id not in items:
+            fail(f"{where}: item '{item_id}' does not exist in the installed mods")
+
+    for cid, cat in categories.items():
+        check_item(cat["icon"]["id"], f"category '{cid}' icon")
+    for (cid, eid), entry in entries.items():
+        where = f"{cid}/{eid}"
+        check_item(entry["icon"]["id"], f"{where} icon")
+        for page in entry["pages"]:
+            if page["type"] == "modonomicon:spotlight":
+                check_item(page["item"], f"{where} {page['id']} (@item)")
+            elif page["type"] in EXPECTED_RECIPE_TYPE:
+                for key in ("recipe_id_1", "recipe_id_2"):
+                    rid = page.get(key)
+                    if rid is None:
+                        continue
+                    if rid not in recipes:
+                        fail(f"{where} {page['id']}: recipe '{rid}' does not exist")
+                    elif not recipes[rid].startswith(
+                        EXPECTED_RECIPE_TYPE[page["type"]]
+                    ):
+                        fail(
+                            f"{where} {page['id']}: recipe '{rid}' is type"
+                            f" '{recipes[rid]}', which this page type cannot render —"
+                            f" use @item to spotlight the result instead"
+                        )
+
+
 errors: list[str] = []
 warnings: list[str] = []
 lang: dict[str, str] = {}
@@ -282,6 +378,10 @@ def main() -> int:
         ),
         "tooltip": put_lang(lang_key("tooltip"), book_fm.get("tooltip", "")),
         "display_mode": "index",
+        # the guide has no unlock conditions, so the "recently unlocked"
+        # section is noise — and clicking it traps navigation until the book
+        # is closed (observed in playtest 2026-07-21)
+        "show_recently_unlocked": False,
         "generate_book_item": True,
         "model": book_fm.get("model", "modonomicon:modonomicon_blue"),
         "creative_tab": "misc",
@@ -324,6 +424,9 @@ def main() -> int:
                 fail(f"{md}: entry file name must be lowercase_with_underscores")
                 continue
             entries[(cat_id, eid)] = compile_entry(md, cat_id, eid, n)
+
+    if not errors:
+        validate_ids(entries, categories)
 
     if errors:
         for e in errors:

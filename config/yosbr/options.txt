@@ -3,3 +3,11 @@ autoJump:false
 tutorialStep:none
 skipMultiplayerWarning:true
 maxFps:260
+renderDistance:10
+simulationDistance:8
+graphicsPreset:"custom"
+cutoutLeaves:false
+renderClouds:"fast"
+entityShadows:false
+biomeBlendRadius:2
+ao:true

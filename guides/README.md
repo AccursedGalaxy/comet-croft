@@ -62,9 +62,15 @@ press F3+H once (that toggles "advanced tooltips"). The id appears at the
 bottom of the tooltip, something like `farmersdelight:stuffed_potato`.
 
 There are also `@smelting`, `@smoking`, `@blasting`, `@campfire`,
-`@stonecutting` and `@smithing` for recipes made in those blocks. If a
-recipe refuses to show up in the book, it's usually one of these rather
-than a normal crafting recipe.
+`@stonecutting` and `@smithing` for recipes made in those blocks.
+
+Recipes from the cooking pot and the cutting board can't be drawn in the
+book (the book only knows the vanilla recipe shapes). For those, spotlight
+the finished dish with `@item` and tell readers to hover it and press R.
+That opens the real recipe screen, cooking pot and all, right from the
+book. The build script checks every id you use and refuses to build if an
+item doesn't exist or a recipe is the wrong kind for its page, so a typo
+can't quietly ship a broken page.
 
 ## Seeing your work in the game
 

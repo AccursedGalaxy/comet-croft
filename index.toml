@@ -94,11 +94,11 @@ hash = "c623d0f3415865b285beb70b6851c2ed269a010d7cbfa4b2b44ec659ca0bcfd2"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "156eaced79dfa1dfbc9fad9bad2e62934748c9a1cbb09269bddd6c90d198fd24"
+hash = "5b7174e78fe4d123b0c90de043d122533ce9d047cc380d156bb67f660a177e0c"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/book.json"
-hash = "fbabb059573712c3d35e34a1ed49f13024336ebfa4cf983469eb80a5ec4d7c47"
+hash = "4c87d38eab2e240f1f5f9352ca03fdf06347bc245641831acbe58ebfb740b05b"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/getting_started.json"
@@ -106,7 +106,7 @@ hash = "b7610ecdb7552fc999398aa2707fd8b5de4505d59638e397e55e5afc260611f8"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/cooking.json"
-hash = "365e570313626c0d8a2095a276afdc73b4619b92ee7ca35dbbd0fddbd59d53b8"
+hash = "22dee3ad0d3035be61d76456327ad6a628d27f01057202d872dcecc967dec149"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/welcome.json"
@@ -194,7 +194,7 @@ hash = "141e60406e2575c3318e790285893af7a5f56876686bde02235a9b28683bb293"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/assets/cometcroft/lang/en_us.json"
-hash = "811d5081f5c926aa2535a94ebbaf6e9e21aafee3878c41bdf082cbca68b4fc63"
+hash = "8980a89ef81ca70b9d32cb352dd9c90ae4ef7421f97368f66b77884b4f7203f4"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/pack.mcmeta"

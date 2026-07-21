@@ -18,12 +18,26 @@
       "text": "book.cometcroft.field_guide.getting_started.cooking.page0.text"
     },
     {
-      "type": "modonomicon:spotlight",
-      "item": "farmersdelight:stuffed_potato",
+      "type": "modonomicon:text",
       "id": "page1",
       "sort_number": 1,
       "title": "book.cometcroft.field_guide.getting_started.cooking.page1.title",
       "text": "book.cometcroft.field_guide.getting_started.cooking.page1.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": "farmersdelight:vegetable_soup",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.getting_started.cooking.page2.title",
+      "text": "book.cometcroft.field_guide.getting_started.cooking.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:stuffed_potato",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.getting_started.cooking.page3.text"
     }
   ],
   "description": "book.cometcroft.field_guide.getting_started.cooking.description"
