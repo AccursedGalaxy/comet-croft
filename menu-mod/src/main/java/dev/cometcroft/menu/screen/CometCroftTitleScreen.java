@@ -550,13 +550,17 @@ public class CometCroftTitleScreen extends Screen {
         String tagline = "a homestead under a strange sky";
         gfx.text(font, tagline, padX, wordBottom + 6, SUBTITLE);
 
-        // splash: gold, pulsing, dangling off the end of the tagline into open sky
+        // splash: the vanilla-splash spot — hanging off the wordmark's right
+        // side, centered on the logo block, so it clearly belongs to the logo
+        int wordW = Math.max(font.width("Comet"), font.width("Croft")) * wordScale;
+        float splashCx = padX + wordW + 34 + font.width(splash) / 2f;
+        float splashCy = topY + (lineStep + font.lineHeight) * wordScale / 2f;
         pose.pushMatrix();
-        pose.translate(padX + font.width(tagline) + 16, wordBottom + 9);
-        pose.rotate((float) Math.toRadians(-9));
+        pose.translate(splashCx, splashCy);
+        pose.rotate((float) Math.toRadians(-13));
         float pulse = 1f + 0.05f * (float) Math.sin(t * 5.5f);
         pose.scale(pulse);
-        gfx.text(font, splash, 0, 0, SPLASH_GOLD, true);
+        gfx.text(font, splash, -font.width(splash) / 2, -font.lineHeight / 2, SPLASH_GOLD, true);
         pose.popMatrix();
 
         // footer

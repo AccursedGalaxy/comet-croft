@@ -501,7 +501,7 @@ metafile = true
 
 [[files]]
 file = "mods/comet-croft-menu.jar"
-hash = "f25b6378205335ebab25589df492a54762e67697544146e40719833a8bbd19a2"
+hash = "5599f5e5f0f843f59ed150a097f22a0d2e7bbc46e09d9915a17a7dc8c98762e9"
 
 [[files]]
 file = "mods/continents.pw.toml"
