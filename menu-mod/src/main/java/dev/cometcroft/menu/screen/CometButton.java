@@ -149,12 +149,12 @@ final class CometButton extends AbstractButton {
                     gfx.text(font, sub, x + w - 8 - font.width(sub), y + (h - 8) / 2 + 1, subColor);
                 }
             }
-            case CONFIRM_ACCENT, CONFIRM_QUIET -> {
-                gfx.centeredText(font, label, x + w / 2, y + (h - 8) / 2, labelColor);
-            }
-            default -> { // UTILITY / UTILITY_WARN
+            default -> { // UTILITY / UTILITY_WARN / CONFIRM_ACCENT / CONFIRM_QUIET
+                // the 5-arg text() shadows by default; a shadow under the
+                // dark-on-lantern accent label reads as a smeared double-strike
+                boolean shadow = style != Style.CONFIRM_ACCENT;
                 int tw = font.width(label);
-                gfx.text(font, label, x + (w - tw) / 2, y + (h - 8) / 2, labelColor);
+                gfx.text(font, label, x + (w - tw) / 2, y + (h - 8) / 2, labelColor, shadow);
             }
         }
     }

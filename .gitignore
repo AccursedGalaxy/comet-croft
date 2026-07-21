@@ -1,5 +1,4 @@
 *.mrpack
-*.mrpack
 .env
 
 # agent tooling cruft
@@ -10,3 +9,7 @@
 # baked config/fancymenu/assets/menu_sky.png ships)
 branding/moon.jpg
 branding/mw_large.jpg
+
+# menu-mod build output (rebuild via menu-mod/build-and-install.sh)
+menu-mod/.gradle/
+menu-mod/build/

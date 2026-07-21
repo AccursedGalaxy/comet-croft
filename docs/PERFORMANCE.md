@@ -83,6 +83,15 @@ Memory floor: a ~90-mod Fabric+Sodium pack with datapack worldgen runs at
 3GB allocated, 4GB comfortable (FerriteCore does a lot of lifting). 8GB
 machines stay viable as long as DH and shaders stay off.
 
+## Runtime-cost ambience: Sound Physics Remastered
+
+The one ambience mod with real per-event runtime cost: it raytraces every
+sound for occlusion/reverb on the client. Fine on most machines, but it is
+the first thing to disable on a struggling laptop (Mod Menu → Sound
+Physics Remastered → Enabled: off — no restart needed), ahead of touching
+render distance. AmbientSounds/Presence Footsteps/Falling Leaves/Cool Rain
+are near-free by comparison and not worth disabling.
+
 ## Sources
 
 brucethemoose Minecraft-Performance-Flags-Benchmarks · Stardust Labs

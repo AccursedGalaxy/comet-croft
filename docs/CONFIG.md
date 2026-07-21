@@ -323,14 +323,42 @@ Verified end-to-end: setup.sh run in a clean directory against the local
 pack → 204 server mods, Done in ~7s, LuckPerms + Chunky active,
 FancyMenu family absent.
 
-## Menu video (FancyMenu + WaterMedia)
+## Menu video (FancyMenu + WaterMedia) — SUPERSEDED
 
-Title screen plays `config/fancymenu/assets/blackhole.mp4` via FancyMenu's
-video element. Video decoding needs **WaterMedia V3** (`watermedia`
-3.0.0.21) + **WaterMedia Binaries** (`watermedia-binaries` 3.0.0-rc.4),
-both client-only, both **pinned via version URL** — their Modrinth
-metadata stops at 1.21.11 (the jars are multi-version, 1.20.1→1.21.11 in
-one file; FancyMenu 3.9.8 on 26.1.2 links exactly these builds).
-packwiz auto-update will NOT bump pinned mods; re-pin manually alongside
-FancyMenu updates. Playtest flag: verify video playback on 26.1.2 —
-the 26.x gap in WaterMedia's metadata means untested territory upstream.
+**Dead section, kept as history (2026-07-21).** The FancyMenu video title
+screen was replaced by the bespoke `menu-mod/` Fabric mod
+(`mods/comet-croft-menu.jar` takes over the title screen via mixin); the
+FancyMenu `ssui.titlescreen` layout is disabled and WaterMedia +
+WaterMedia Binaries were removed from the pack. Do NOT re-add them from
+the instructions that used to live here. The FancyMenu layer itself
+(loading screen role, remaining assets) is being reworked separately.
+
+## Post-Tier-8 hygiene pass (2026-07-21)
+
+Fixes from a critical review of the pack. Root cause of all three: the
+Lootr/Trinkets/elytra/graves commits after Tier 8 skipped the tier
+discipline (no CONFIG.md entry, no boot gate) and re-imported known traps.
+
+- **Side-metadata regression fixed (the Tier 6 trap, again):** eight mods
+  added post-Tier 8 shipped `side = "server"`, i.e. silently absent from
+  client installs — in singleplayer that meant no Moog's Voyager/Nether/
+  End/Soaring structures, no Easy Elytra Takeoff, no dragon elytra drop,
+  and **no graves at all** (Universal Graves + Polymer). All eight flipped
+  to `side = "both"`. Standing rule restated: only genuinely
+  server-admin-only tooling (LuckPerms, Chunky) is ever `"server"`.
+- **`pack.toml` `acceptable-game-versions`** was one malformed string
+  (`"26.1,26.1.1"`) that matched nothing, so packwiz refused mods
+  published only for 26.1/26.1.1 → fixed to `["26.1", "26.1.1"]`.
+- **menu-mod `fabric.mod.json` pinned `minecraft = "~26.1.2"`** (was
+  `"*"`). It mixin-patches `TitleScreen` against deobfuscated 26.1.2 names
+  with no refmap — on an MC bump it must fail loud at the loader, not load
+  and crash mid-render. Jar rebuilt + reinstalled via
+  `menu-mod/build-and-install.sh`. Remember to widen/re-pin alongside any
+  MC version bump.
+- **Docs gap (open):** the post-Tier-8 additions themselves (Lootr,
+  Trinkets + elytra suite, Universal Graves, OPAC, Spice of Fabric tuning,
+  Waystones/veinminer/Explorer's Compass batch) still have no tier
+  entries recording their config rationale — backfill when each area next
+  gets touched, and boot-gate them.
+- **Playtest flag:** with graves now client-visible, verify a
+  trinket-slot elytra actually lands in the grave on death.

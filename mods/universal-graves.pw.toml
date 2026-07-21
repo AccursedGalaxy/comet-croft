@@ -1,6 +1,6 @@
 name = "Universal Graves"
 filename = "graves-3.11.1+26.1.2.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/yn9u3ypm/versions/hI8eYRJ3/graves-3.11.1%2B26.1.2.jar"

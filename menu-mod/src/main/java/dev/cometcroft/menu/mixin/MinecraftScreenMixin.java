@@ -1,7 +1,10 @@
 package dev.cometcroft.menu.mixin;
 
 import dev.cometcroft.menu.screen.CometCroftTitleScreen;
+import dev.cometcroft.menu.screen.CometLoadingOverlay;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.screens.LoadingOverlay;
+import net.minecraft.client.gui.screens.Overlay;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
@@ -37,5 +40,22 @@ public class MinecraftScreenMixin {
             return new CometCroftTitleScreen();
         }
         return screen;
+    }
+
+    /**
+     * Takes over the boot loading overlay the same way: match the vanilla
+     * class exactly, rebuild ours around the same reload + callback. While a
+     * loading-screen mod (e.g. Drippy) is installed its overlay is a different
+     * class, so this swap stays dormant — remove that mod and ours takes over
+     * on the next launch, no config needed.
+     */
+    @ModifyVariable(method = "setOverlay", at = @At("HEAD"), argsOnly = true)
+    private Overlay cometcroft$swapOverlay(Overlay overlay) {
+        if (overlay != null && overlay.getClass() == LoadingOverlay.class) {
+            LoadingOverlayAccessor acc = (LoadingOverlayAccessor) overlay;
+            return new CometLoadingOverlay((Minecraft) (Object) this,
+                    acc.cometcroft$reload(), acc.cometcroft$onFinish(), acc.cometcroft$fadeIn());
+        }
+        return overlay;
     }
 }

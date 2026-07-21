@@ -6,6 +6,7 @@ branding/
 CometCroft-Prism.zip
 .ruff_cache/
 testing/
+config/fancymenu/
 menu-mod/
 
 # Secrets / agent + dev tooling — must never ship in the distributed pack
