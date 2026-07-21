@@ -7,7 +7,9 @@ import net.minecraft.client.gui.screens.LoadingOverlay;
 import net.minecraft.client.gui.screens.Overlay;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.gui.screens.TitleScreen;
+import net.minecraft.client.multiplayer.ClientLevel;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.ModifyVariable;
@@ -24,8 +26,22 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 @Mixin(Minecraft.class)
 public class MinecraftScreenMixin {
 
+    @Shadow public ClientLevel level;
+    @Shadow private boolean clientLevelTeardownInProgress;
+
+    /**
+     * {@code setScreen(null)} outside a world (the default {@link Screen#onClose()}
+     * of every screen that doesn't track a parent) makes vanilla build a fresh
+     * {@code new TitleScreen()} INSIDE setScreen — after any head injection could
+     * see it. Supplying our screen up front for that exact case keeps the vanilla
+     * fallback branch dead. Teardown-in-progress stays null so vanilla's
+     * "return to in-game GUI during disconnection" guard still fires.
+     */
     @ModifyVariable(method = "setScreen", at = @At("HEAD"), argsOnly = true)
     private Screen cometcroft$swapOnSet(Screen screen) {
+        if (screen == null && this.level == null && !this.clientLevelTeardownInProgress) {
+            return new CometCroftTitleScreen();
+        }
         return cometcroft$maybeSwap(screen);
     }
 

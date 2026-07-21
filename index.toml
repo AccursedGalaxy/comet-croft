@@ -57,6 +57,10 @@ file = "config/yosbr/config/coolrain.json"
 hash = "514f6c02c8d53facdc16fb8e31d143b1a737af8125b0e9de5f4329090bc912fd"
 
 [[files]]
+file = "config/yosbr/config/dailyquests.json5"
+hash = "7afedfe0ba9cb5dfc0fd030c0ee72192d5ff4c53d00cdec89f529ebd4cdc1389"
+
+[[files]]
 file = "config/yosbr/config/fallingleaves2.json"
 hash = "2d44576db007e80145782ea93908373b6b2b0bd853a1be3d36d28574c8ccb1d7"
 
@@ -432,7 +436,7 @@ metafile = true
 
 [[files]]
 file = "mods/comet-croft-menu.jar"
-hash = "dc8acc204a8a83099869cde958f9f4938a8c2d275b764f794bf098ed96b1f9b1"
+hash = "0629c4fbe872ca04d5d0b36586a63d373d5c5bca6c9ac418f09a6509cab7027e"
 
 [[files]]
 file = "mods/continents.pw.toml"
