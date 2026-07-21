@@ -13,6 +13,13 @@ The dragon's parting gift, and the last mode of travel you'll ever need.
 
 # Flying comfortably
 
-Your wings sit in their own slot, so you keep wearing your chestplate while you fly.
+Your wings sit in their own trinket slot — you'll find it beside your armor in the inventory — so you keep wearing your chestplate while you fly.
 
-Fireworks still give the boost. And once you're up, visit a smithing table: wings can be trimmed and colored to match your armor.
+@item minecraft:firework_rocket | Firework rocket
+Paper and gunpowder make a rocket; set one off mid-glide for a push. More gunpowder in the craft means a stronger one.
+
+# Making them yours
+
+Wings needn't stay plain. At a smithing table you can trim them like armor, and a dye in the crafting grid changes their color.
+
+If a landing ever goes wrong, don't worry — the next entry, **If You Fall**, explains why that's an errand, not a disaster.

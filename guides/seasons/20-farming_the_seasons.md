@@ -12,9 +12,9 @@ Planting out of season isn't a disaster here. The crop just grows much slower �
 
 # Greenhouses
 
-Glass changes everything. Any glass block up to sixteen blocks above a crop makes it grow as if it were always the right season.
+Glass changes everything. A crop with any glass block within sixteen blocks directly above it grows as if it were always the right season.
 
-A glass roof over the garden turns winter into spring. Build one before the first snow and the kitchen never goes quiet.
+A glass roof over the garden turns winter into spring. Deep underground works too — below height 48, crops ignore the seasons entirely.
 
-@recipe sereneseasons:season_sensor
-For the redstone-minded: it gives off a signal that changes with the season.
+@item minecraft:glass | The greenhouse roof
+Smelt sand in a furnace and roof the beds. One clear layer overhead, and every season is growing season underneath. Build it before the first snow and the kitchen never goes quiet. If a new season calls for seed you don't have, the market in **Food & Kitchen** sells every kind for emeralds. And the seasons aren't the only thing this sky does — **The Strange Sky**, next, is about the rest.

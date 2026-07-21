@@ -1,6 +1,7 @@
 {
   "name": "book.cometcroft.field_guide.name",
   "tooltip": "book.cometcroft.field_guide.tooltip",
+  "description": "book.cometcroft.field_guide.description",
   "display_mode": "index",
   "show_recently_unlocked": false,
   "generate_book_item": true,

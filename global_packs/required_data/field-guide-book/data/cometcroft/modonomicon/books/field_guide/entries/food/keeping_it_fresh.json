@@ -23,6 +23,28 @@
       "sort_number": 1,
       "title": "book.cometcroft.field_guide.food.keeping_it_fresh.page1.title",
       "text": "book.cometcroft.field_guide.food.keeping_it_fresh.page1.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "cookingforblockheads:white_fridge",
+      "id": "page2",
+      "sort_number": 2,
+      "text": "book.cometcroft.field_guide.food.keeping_it_fresh.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:oak_cabinet",
+      "recipe_id_2": "farmersdelight:wooden_basket",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.food.keeping_it_fresh.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.food.keeping_it_fresh.page4.title",
+      "text": "book.cometcroft.field_guide.food.keeping_it_fresh.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.food.keeping_it_fresh.description"

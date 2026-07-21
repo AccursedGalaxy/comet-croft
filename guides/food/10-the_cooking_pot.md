@@ -17,4 +17,4 @@ Pot recipes don't fit on these pages, and they don't need to: **hover any dish a
 Carrot, potato, beetroot and something leafy. Hover it and press R for the full recipe.
 
 @recipe farmersdelight:stuffed_potato
-No pot needed for this one, just a crafting grid: a baked potato, cooked beef, and milk.
+No pot needed for this one, just a crafting grid: a baked potato, cooked beef, and milk. Once the pot is simmering, read on to *A Real Kitchen* — a proper room makes all of this much easier.

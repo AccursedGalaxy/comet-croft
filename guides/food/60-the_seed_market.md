@@ -16,4 +16,4 @@ Place it and a merchant moves in. They trade emeralds for seeds, saplings, and f
 The market sells the seeds; these keep them growing.
 
 @recipe farmingforblockheads:watering_can
-Fill it up and sprinkle the beds to hurry your crops along. The market also sells three grades of fertilizer, each with its own trick — R tells all.
+Fill it up and sprinkle the beds to hurry your crops along. The market sells three grades of fertilizer too, and each is craftable — hover one and press R. And once the garden is thriving, some of the harvest deserves a keg — the next page shows the cellar's side of the kitchen.

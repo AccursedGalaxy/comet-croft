@@ -20,6 +20,7 @@
     {
       "type": "modonomicon:crafting_recipe",
       "recipe_id_1": "farmersdelight:stove",
+      "recipe_id_2": "farmersdelight:skillet",
       "id": "page1",
       "sort_number": 1,
       "text": "book.cometcroft.field_guide.food.a_real_kitchen.page1.text"

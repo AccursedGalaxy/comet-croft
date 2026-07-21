@@ -16,6 +16,13 @@
       "sort_number": 0,
       "title": "book.cometcroft.field_guide.the_sky.strange_moons.page0.title",
       "text": "book.cometcroft.field_guide.the_sky.strange_moons.page0.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page1",
+      "sort_number": 1,
+      "title": "book.cometcroft.field_guide.the_sky.strange_moons.page1.title",
+      "text": "book.cometcroft.field_guide.the_sky.strange_moons.page1.text"
     }
   ],
   "description": "book.cometcroft.field_guide.the_sky.strange_moons.description"

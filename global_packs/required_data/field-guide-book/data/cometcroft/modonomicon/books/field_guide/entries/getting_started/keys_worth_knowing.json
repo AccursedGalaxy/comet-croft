@@ -23,6 +23,13 @@
       "sort_number": 1,
       "title": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page1.title",
       "text": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page2.title",
+      "text": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.page2.text"
     }
   ],
   "description": "book.cometcroft.field_guide.getting_started.keys_worth_knowing.description"

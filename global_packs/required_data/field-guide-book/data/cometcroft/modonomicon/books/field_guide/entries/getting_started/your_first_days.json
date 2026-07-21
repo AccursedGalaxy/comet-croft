@@ -19,16 +19,16 @@
     },
     {
       "type": "modonomicon:crafting_recipe",
-      "recipe_id_1": "minecraft:campfire",
+      "recipe_id_1": "minecraft:white_bed",
       "id": "page1",
       "sort_number": 1,
       "text": "book.cometcroft.field_guide.getting_started.your_first_days.page1.text"
     },
     {
-      "type": "modonomicon:text",
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "minecraft:campfire",
       "id": "page2",
       "sort_number": 2,
-      "title": "book.cometcroft.field_guide.getting_started.your_first_days.page2.title",
       "text": "book.cometcroft.field_guide.getting_started.your_first_days.page2.text"
     },
     {
@@ -37,6 +37,13 @@
       "sort_number": 3,
       "title": "book.cometcroft.field_guide.getting_started.your_first_days.page3.title",
       "text": "book.cometcroft.field_guide.getting_started.your_first_days.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.getting_started.your_first_days.page4.title",
+      "text": "book.cometcroft.field_guide.getting_started.your_first_days.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.getting_started.your_first_days.description"

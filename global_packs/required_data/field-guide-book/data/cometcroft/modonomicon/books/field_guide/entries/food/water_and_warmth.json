@@ -25,18 +25,25 @@
       "text": "book.cometcroft.field_guide.food.water_and_warmth.page1.text"
     },
     {
-      "type": "modonomicon:text",
+      "type": "modonomicon:campfire_cooking_recipe",
+      "recipe_id_1": "homeostatic:campfire_purified_water_bottle",
       "id": "page2",
       "sort_number": 2,
-      "title": "book.cometcroft.field_guide.food.water_and_warmth.page2.title",
       "text": "book.cometcroft.field_guide.food.water_and_warmth.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page3",
+      "sort_number": 3,
+      "title": "book.cometcroft.field_guide.food.water_and_warmth.page3.title",
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page3.text"
     },
     {
       "type": "modonomicon:crafting_recipe",
       "recipe_id_1": "homeostatic:thermometer",
-      "id": "page3",
-      "sort_number": 3,
-      "text": "book.cometcroft.field_guide.food.water_and_warmth.page3.text"
+      "id": "page4",
+      "sort_number": 4,
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.food.water_and_warmth.description"

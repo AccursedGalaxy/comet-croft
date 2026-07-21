@@ -23,6 +23,13 @@
       "id": "page1",
       "sort_number": 1,
       "text": "book.cometcroft.field_guide.seasons.the_turning_year.page1.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "sereneseasons:season_sensor",
+      "id": "page2",
+      "sort_number": 2,
+      "text": "book.cometcroft.field_guide.seasons.the_turning_year.page2.text"
     }
   ],
   "description": "book.cometcroft.field_guide.seasons.the_turning_year.description"

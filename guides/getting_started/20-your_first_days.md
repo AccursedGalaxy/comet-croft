@@ -8,9 +8,12 @@ description: A gentle checklist for the first week.
 
 The basics, in order:
 
-Chop a tree — here, the whole thing comes down at once. Raise a small shelter before dark and craft a **bed**.
+Chop a tree — here, the whole thing comes down at once. Sneak while chopping if you only want the one log. Raise a small shelter before dark and craft a **bed**.
 
 Then get a fire going and cook whatever the day gave you. Even a simple campfire meal beats eating things raw.
+
+@recipe minecraft:white_bed
+Any colour of wool will do. Sleep skips the night and sets where you'll wake.
 
 @recipe minecraft:campfire
 Dinner, light, and a warm doorstep — one block does all three.
@@ -23,6 +26,6 @@ Plant everything you find, too — but hover the seeds first to check which seas
 
 # Day three and onward
 
-Craft a **calendar** so the seasons never surprise you, and a **leather flask** so the road doesn't dry you out.
+Craft a **calendar** so the seasons never surprise you, and a **leather flask** so the road doesn't dry you out. The **Seasons** chapter covers the first, and **Food & Kitchen** the second.
 
 After that, follow your nose. Build out the kitchen, clear the fields, watch the sky for falling rocks. Each of those has its own chapter waiting.

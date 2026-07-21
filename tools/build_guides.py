@@ -334,6 +334,13 @@ def compile_entry(path: Path, category_id: str, entry_id: str, sort: int) -> dic
                 }
                 if len(parts) > 1 and parts[1]:
                     page["_title_text"] = parts[1]
+                else:
+                    # Modonomicon spotlight pages fail to decode without a
+                    # title (observed at boot: "No key title in MapLike")
+                    fail(
+                        f"{where}: '@item {parts[0]}' needs a title —"
+                        f" write '@item {parts[0]} | Some Title'"
+                    )
                 pending = page
             else:
                 fail(f"{where}: unknown directive '{directive}'")
@@ -406,6 +413,11 @@ def main() -> int:
             lang_key("name"), book_fm.get("name", "Comet Croft Field Guide")
         ),
         "tooltip": put_lang(lang_key("tooltip"), book_fm.get("tooltip", "")),
+        # rendered on the front page's left side, with the chapter list on the
+        # right — gives the book a recognizable cover/start page
+        "description": put_lang(
+            lang_key("description"), book_fm.get("description", "")
+        ),
         "display_mode": "index",
         # the guide has no unlock conditions, so the "recently unlocked"
         # section is noise — and clicking it traps navigation until the book

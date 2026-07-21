@@ -23,6 +23,28 @@
       "id": "page1",
       "sort_number": 1,
       "text": "book.cometcroft.field_guide.the_sky.stargazing.page1.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": "minecraft:amethyst_shard",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.the_sky.stargazing.page2.title",
+      "text": "book.cometcroft.field_guide.the_sky.stargazing.page2.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page3",
+      "sort_number": 3,
+      "title": "book.cometcroft.field_guide.the_sky.stargazing.page3.title",
+      "text": "book.cometcroft.field_guide.the_sky.stargazing.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.the_sky.stargazing.page4.title",
+      "text": "book.cometcroft.field_guide.the_sky.stargazing.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.the_sky.stargazing.description"

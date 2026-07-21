@@ -18,18 +18,47 @@
       "text": "book.cometcroft.field_guide.building.a_prettier_croft.page0.text"
     },
     {
-      "type": "modonomicon:text",
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "mcwfurnitures:oak_chair",
       "id": "page1",
       "sort_number": 1,
-      "title": "book.cometcroft.field_guide.building.a_prettier_croft.page1.title",
       "text": "book.cometcroft.field_guide.building.a_prettier_croft.page1.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page2",
+      "sort_number": 2,
+      "title": "book.cometcroft.field_guide.building.a_prettier_croft.page2.title",
+      "text": "book.cometcroft.field_guide.building.a_prettier_croft.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "mcwroofs:oak_roof",
+      "recipe_id_2": "mcwwindows:oak_window",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.building.a_prettier_croft.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.building.a_prettier_croft.page4.title",
+      "text": "book.cometcroft.field_guide.building.a_prettier_croft.page4.text"
     },
     {
       "type": "modonomicon:crafting_recipe",
       "recipe_id_1": "rechiseled:chisel",
-      "id": "page2",
-      "sort_number": 2,
-      "text": "book.cometcroft.field_guide.building.a_prettier_croft.page2.text"
+      "id": "page5",
+      "sort_number": 5,
+      "text": "book.cometcroft.field_guide.building.a_prettier_croft.page5.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page6",
+      "sort_number": 6,
+      "title": "book.cometcroft.field_guide.building.a_prettier_croft.page6.title",
+      "text": "book.cometcroft.field_guide.building.a_prettier_croft.page6.text"
     }
   ],
   "description": "book.cometcroft.field_guide.building.a_prettier_croft.description"

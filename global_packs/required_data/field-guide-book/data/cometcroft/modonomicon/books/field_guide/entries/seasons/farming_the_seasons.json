@@ -25,10 +25,11 @@
       "text": "book.cometcroft.field_guide.seasons.farming_the_seasons.page1.text"
     },
     {
-      "type": "modonomicon:crafting_recipe",
-      "recipe_id_1": "sereneseasons:season_sensor",
+      "type": "modonomicon:spotlight",
+      "item": "minecraft:glass",
       "id": "page2",
       "sort_number": 2,
+      "title": "book.cometcroft.field_guide.seasons.farming_the_seasons.page2.title",
       "text": "book.cometcroft.field_guide.seasons.farming_the_seasons.page2.text"
     }
   ],

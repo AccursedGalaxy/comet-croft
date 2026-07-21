@@ -19,3 +19,9 @@ Two keys do most of the teaching in this pack, and they work here in this book a
 Hover any item and press **R** to see how it's made. Press **U** to see what it's used for.
 
 That means every dish, tool, and block you'll ever meet carries its own instructions with it. When in doubt: hover it, press R. This book is for the things a recipe can't tell you.
+
+# Finding your way around
+
+One thing worth knowing about this book: the **X** in the corner doesn't just close it — it steps you *back*. From a guide it returns you to the chapter, and from a chapter to the list of all chapters.
+
+Closing the book some other way remembers your place, and you'll reopen right where you left off. So if the book ever seems small, press that X — the rest of it is one step up.

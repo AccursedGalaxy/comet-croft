@@ -18,11 +18,32 @@
       "text": "book.cometcroft.field_guide.food.eat_the_rainbow.page0.text"
     },
     {
-      "type": "modonomicon:text",
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:fruit_salad",
       "id": "page1",
       "sort_number": 1,
-      "title": "book.cometcroft.field_guide.food.eat_the_rainbow.page1.title",
       "text": "book.cometcroft.field_guide.food.eat_the_rainbow.page1.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:egg_sandwich",
+      "id": "page2",
+      "sort_number": 2,
+      "text": "book.cometcroft.field_guide.food.eat_the_rainbow.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "farmersdelight:apple_pie",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.food.eat_the_rainbow.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.food.eat_the_rainbow.page4.title",
+      "text": "book.cometcroft.field_guide.food.eat_the_rainbow.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.food.eat_the_rainbow.description"

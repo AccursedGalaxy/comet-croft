@@ -30,6 +30,20 @@
       "id": "page2",
       "sort_number": 2,
       "text": "book.cometcroft.field_guide.further_afield.waystones.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "waystones:warp_stone",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.further_afield.waystones.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.further_afield.waystones.page4.title",
+      "text": "book.cometcroft.field_guide.further_afield.waystones.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.further_afield.waystones.description"

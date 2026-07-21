@@ -26,10 +26,24 @@
     },
     {
       "type": "modonomicon:crafting_recipe",
-      "recipe_id_1": "ohmymeteors:basic_meteor_laser",
+      "recipe_id_1": "ohmymeteors:focusing_lenses",
       "id": "page2",
       "sort_number": 2,
       "text": "book.cometcroft.field_guide.the_sky.meteors.page2.text"
+    },
+    {
+      "type": "modonomicon:crafting_recipe",
+      "recipe_id_1": "ohmymeteors:basic_meteor_laser",
+      "id": "page3",
+      "sort_number": 3,
+      "text": "book.cometcroft.field_guide.the_sky.meteors.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.the_sky.meteors.page4.title",
+      "text": "book.cometcroft.field_guide.the_sky.meteors.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.the_sky.meteors.description"

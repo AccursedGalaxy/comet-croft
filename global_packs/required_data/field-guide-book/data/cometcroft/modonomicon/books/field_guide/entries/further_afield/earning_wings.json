@@ -31,6 +31,21 @@
       "sort_number": 2,
       "title": "book.cometcroft.field_guide.further_afield.earning_wings.page2.title",
       "text": "book.cometcroft.field_guide.further_afield.earning_wings.page2.text"
+    },
+    {
+      "type": "modonomicon:spotlight",
+      "item": "minecraft:firework_rocket",
+      "id": "page3",
+      "sort_number": 3,
+      "title": "book.cometcroft.field_guide.further_afield.earning_wings.page3.title",
+      "text": "book.cometcroft.field_guide.further_afield.earning_wings.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.further_afield.earning_wings.page4.title",
+      "text": "book.cometcroft.field_guide.further_afield.earning_wings.page4.text"
     }
   ],
   "description": "book.cometcroft.field_guide.further_afield.earning_wings.description"
