@@ -5,3 +5,8 @@
 # agent tooling cruft
 .agent-memory.db
 *.db
+
+# menu sky source photos (re-downloaded by branding/bake_sky.py; only the
+# baked config/fancymenu/assets/menu_sky.png ships)
+branding/moon.jpg
+branding/mw_large.jpg

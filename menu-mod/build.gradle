@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+}
+
+group = 'dev.cometcroft'
+version = project.findProperty('modVersion') ?: '0.1.0'
+
+def prismLibs = project.findProperty('prismLibs')
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://maven.fabricmc.net/' }
+}
+
+dependencies {
+    // The deobfuscated MC 26.1.2 jar + Fabric loader + Mixin + LWJGL + every
+    // runtime library, exactly as the dev instance resolved them. All are
+    // provided at runtime by the game, so compileOnly.
+    compileOnly fileTree(dir: prismLibs, include: '**/*.jar')
+
+    // Mixin annotation processor is added in build.gradle once mixins exist
+    // (it needs sponge-mixin + ASM + gson on the AP classpath).
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    // Target 21 bytecode: loads cleanly on the Java 25 runtime with margin.
+    options.release = 21
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        expand version: project.version
+    }
+}

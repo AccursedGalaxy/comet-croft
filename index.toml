@@ -69,6 +69,10 @@ file = "config/fancymenu/assets/logo_32x32.png"
 hash = "6b24e6ac9304adb3280044513816c6d26302d16b3213c5df235d80369d431651"
 
 [[files]]
+file = "config/fancymenu/assets/night_gradient.png"
+hash = "4495ee56f05d169c09b7ce2b524e4ce9a0812095c9156827268d17cec32d0c67"
+
+[[files]]
 file = "config/fancymenu/assets/themes/default/bar.png"
 hash = "6d7eb0e66a5d6e2e34dca178f8bcbf489da82dfae65f8b7fc145e77480a0bd5b"
 
@@ -242,7 +246,7 @@ hash = "920de788bfbfcebc0f6214670a36868a46ad03d8353863e3f7b97e49a2980d14"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.loadingscreen.txt"
-hash = "86999a416d9658ffee1ca32d1141cb49be3f42d105f7aaaa97af823446c61caf"
+hash = "773da6bd7f101a8469a2910cb3f055292eef5fae16cdf0bc11e1944d5bdbe4f2"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.multiplayer.txt"
@@ -258,7 +262,7 @@ hash = "e761deeb1e6044ad8d285f49459fc8d365a6eb9d9ce7fef2b5a2f2ceb76da3aa"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.titlescreen.txt"
-hash = "78419948621c893fcaf23dc68c8754e95bd388f8e0030bc6992b35d826f81e96"
+hash = "77ff9543136d8fbf92716f2aef5deee675cfcb90ac5a389c69bcc5d7d3a8f113"
 
 [[files]]
 file = "config/fancymenu/customization/ssui.txt"
@@ -425,6 +429,14 @@ file = "config/yosbr/options.txt"
 hash = "156eaced79dfa1dfbc9fad9bad2e62934748c9a1cbb09269bddd6c90d198fd24"
 
 [[files]]
+file = "global_packs/required_data/lootr-advancement-fix/data/lootr/advancement/weathered_copper_chest.json"
+hash = "1a799be19a989b098496a6b920d547a573e137e1f5d1d92cec02771421a08960"
+
+[[files]]
+file = "global_packs/required_data/lootr-advancement-fix/pack.mcmeta"
+hash = "7fe73ae1fd35e80dc0856341121c9a0a45266b7f4840f1b7ca338a6c4b46902a"
+
+[[files]]
 file = "global_packs/required_data/remove-terralith-intro/data/terralith/function/toast.mcfunction"
 hash = "77b6a7b4fddd39224a8c56adcc6e4f42ef6792cf0206657bd27c01d3fdee9d6e"
 
@@ -486,6 +498,10 @@ metafile = true
 file = "mods/collective.pw.toml"
 hash = "4ba6b317dc2829a188b8554cbb5e8805df10f620db606b4070a513e33a86b875"
 metafile = true
+
+[[files]]
+file = "mods/comet-croft-menu.jar"
+hash = "f25b6378205335ebab25589df492a54762e67697544146e40719833a8bbd19a2"
 
 [[files]]
 file = "mods/continents.pw.toml"

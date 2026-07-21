@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cometcroft",
+  "version": "${version}",
+  "name": "Comet Croft Menu",
+  "description": "A bespoke main menu for the Comet Croft pack — a homestead under a strange sky.",
+  "authors": ["AccursedGalaxy"],
+  "contact": {},
+  "license": "ARR",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.cometcroft.menu.CometCroftMenuClient"
+    ]
+  },
+  "mixins": [
+    "cometcroft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "*"
+  }
+}

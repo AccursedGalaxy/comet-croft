@@ -59,13 +59,14 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     col = mix(col, zenith, smoothstep(0.48, 1.0, uv.y));
     col += vec3(0.09, 0.045, 0.12) * pow(1.0 - uv.y, 3.0) * 0.24;
 
-    // A broad diagonal Milky Way: structured enough to read, quiet enough for UI.
-    float galaxyAxis = uv.y - (0.68 + 0.10 * sin(sky.x * 0.85 + 0.4));
-    float galaxy = exp(-galaxyAxis * galaxyAxis * 34.0);
+    // A broad diagonal Milky Way, pulled lower so it reads in the open sky
+    // above the menu rather than hiding up in the corner.
+    float galaxyAxis = uv.y - (0.60 + 0.11 * sin(sky.x * 0.85 + 0.4));
+    float galaxy = exp(-galaxyAxis * galaxyAxis * 30.0);
     float dust = fbm(sky * vec2(2.3, 7.0) + vec2(0.0, iTime * 0.006));
     float darkRift = fbm(sky * vec2(3.2, 10.0) + 19.0);
-    col += mix(vec3(0.09, 0.13, 0.24), vec3(0.18, 0.11, 0.25), dust)
-         * galaxy * smoothstep(0.25, 0.85, dust) * 0.30;
+    col += mix(vec3(0.10, 0.15, 0.27), vec3(0.21, 0.13, 0.29), dust)
+         * galaxy * smoothstep(0.22, 0.85, dust) * 0.40;
     col -= vec3(0.025, 0.030, 0.055) * galaxy * smoothstep(0.58, 0.82, darkRift);
 
     // Two translucent aurora ribbons drift at different rates.
@@ -76,14 +77,16 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     float aurora1 = exp(-abs(uv.y - ribbon1) * 24.0);
     float aurora2 = exp(-abs(uv.y - ribbon2) * 32.0);
     float curtain = 0.35 + 0.65 * fbm(vec2(ax * 3.0 + iTime * 0.025, iTime * 0.018));
-    col += vec3(0.055, 0.32, 0.25) * aurora1 * curtain * 0.20;
-    col += vec3(0.12, 0.16, 0.42) * aurora2 * (1.0 - curtain * 0.35) * 0.17;
+    col += vec3(0.055, 0.32, 0.25) * aurora1 * curtain * 0.24;
+    col += vec3(0.12, 0.16, 0.42) * aurora2 * (1.0 - curtain * 0.35) * 0.19;
 
     // Three parallax-like star scales, with rare cross-shaped bright stars.
-    float horizonFade = smoothstep(0.12, 0.35, uv.y);
-    vec3 stars = starLayer(sky, 28.0, 0.91, 0.105, 1.15) * 0.72;
-    stars += starLayer(sky + vec2(8.7, 3.1), 57.0, 0.945, 0.115, 1.75) * 0.60;
-    stars += starLayer(sky + vec2(21.3, 9.8), 105.0, 0.968, 0.13, 2.25) * 0.40;
+    // Stars now reach a little lower and read a touch brighter so the open
+    // sky the player actually sees is never empty.
+    float horizonFade = smoothstep(0.06, 0.24, uv.y);
+    vec3 stars = starLayer(sky, 28.0, 0.91, 0.105, 1.15) * 0.84;
+    stars += starLayer(sky + vec2(8.7, 3.1), 57.0, 0.945, 0.115, 1.75) * 0.70;
+    stars += starLayer(sky + vec2(21.3, 9.8), 105.0, 0.968, 0.13, 2.25) * 0.48;
     col += stars * horizonFade;
 
     // Soft moon/planet glow, placed away from the centered title.
@@ -134,6 +137,22 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
                            + 0.014 * sin(sky.x * 7.5 + 1.1);
     col = mix(col, vec3(0.026, 0.043, 0.090), smoothstep(farHill + 0.006, farHill - 0.006, uv.y) * 0.82);
     col = mix(col, vec3(0.010, 0.020, 0.047), smoothstep(nearHill + 0.005, nearHill - 0.005, uv.y) * 0.94);
+
+    // The croft: a single warm lit window on the near hill. Warm ground against
+    // the cold sky - the whole pack's identity in one point of light. It breathes
+    // very slightly, like a lantern behind glass.
+    float winX = 0.34 * aspect;
+    float nearHillAtWin = 0.070 + 0.027 * sin(winX * 2.8 - 0.5) + 0.014 * sin(winX * 7.5 + 1.1);
+    vec2 winPos = vec2(winX, nearHillAtWin - 0.028);
+    vec2 wd = sky - winPos;
+    float flicker = 0.92 + 0.08 * sin(iTime * 1.3) * sin(iTime * 0.7 + 1.0);
+    float windowPane = smoothstep(0.011, 0.004, max(abs(wd.x) * 1.9, abs(wd.y) * 3.0));
+    float windowGlow = exp(-dot(wd, wd) * 300.0);
+    float windowHaze = exp(-length(wd) * 24.0) * smoothstep(-0.03, 0.09, sky.y - winPos.y);
+    vec3 warm = vec3(1.00, 0.63, 0.29);
+    col += warm * windowGlow * 0.42 * flicker;
+    col += vec3(1.00, 0.80, 0.52) * windowPane * 0.85 * flicker;
+    col += vec3(1.00, 0.66, 0.34) * windowHaze * 0.045 * flicker;
 
     // Subtle edge vignette and filmic highlight rolloff.
     vec2 vignetteUv = uv * (1.0 - uv.yx);

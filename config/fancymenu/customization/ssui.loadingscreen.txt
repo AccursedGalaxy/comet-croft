@@ -13,9 +13,17 @@ layout-meta {
 }
 
 menu_background {
-  panorama_name = shivtanium
-  instance_identifier = 1f9f6cf2-cfa1-4036-abc9-ab8c66f7c1e1-1771850968666
-  background_type = panorama
+  instance_identifier = a3d5f8c1-0e2b-4a77-b6cd-cc0met0load001
+  background_type = image
+  show_background = true
+  image_path = [source:local]/config/fancymenu/assets/night_gradient.png
+  slide = false
+  repeat_texture = false
+  parallax = false
+  parallax_intensity_x = 0.02
+  parallax_intensity_y = 0.02
+  invert_parallax = false
+  restart_animated_on_menu_load = false
 }
 
 customization {
@@ -39,10 +47,10 @@ layout_action_executable_blocks {
 
 
 element {
-  bar_color = #5295FFFF
-  bar_texture = [source:location]minecraft:textures/gui/sprites/boss_bar/green_progress.png
-  background_color = #ABC8F7FF
-  background_texture = [source:location]textures/gui/sprites/boss_bar/green_background.png
+  bar_color = #FFCB6EFF
+  bar_texture = [source:location]minecraft:textures/gui/sprites/boss_bar/white_progress.png
+  background_color = #0E1636CC
+  background_texture = [source:location]minecraft:textures/gui/sprites/boss_bar/white_background.png
   direction = right
   progress_for_element_anchor = false
   progress_source = {"placeholder":"game_loading_progress"}
