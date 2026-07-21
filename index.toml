@@ -380,6 +380,11 @@ hash = "6adce6422e74091638dbd7872270ee58d9a22dc18340580f809cc50c739e0d4f"
 metafile = true
 
 [[files]]
+file = "mods/extended-drawers.pw.toml"
+hash = "0f855577b63fd6a5e2979158253327c657dda796dc36c6e7304f079c39747b0c"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "fed9bdaac0173f3cab2692f538441afda1e2cd46c6f6363790b424c009e34e03"
 metafile = true
@@ -715,6 +720,11 @@ hash = "3bea1aa7b6a53d828f85f89032bee5849f8cf199a5b2548565c350dbc7f34fcd"
 metafile = true
 
 [[files]]
+file = "mods/shulkerboxtooltip.pw.toml"
+hash = "f0b8a7bece987755b2d54eca26ac561369501250e4afad9c9e30685c9b5c8880"
+metafile = true
+
+[[files]]
 file = "mods/skyboxify.pw.toml"
 hash = "94672357dcfd5ae3c8d2d1656b5338aa5dec644696db47ad09303f386e545087"
 metafile = true
@@ -802,6 +812,11 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "5d451fb0bab301ca1f7f99ae698e13b8c6827dda54704204cfe0e63b420e9cfa"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "437a25feccde17d2809d020262e35327237ab206c4f05fdfc5a382cdd2deea07"
 metafile = true
 
 [[files]]
