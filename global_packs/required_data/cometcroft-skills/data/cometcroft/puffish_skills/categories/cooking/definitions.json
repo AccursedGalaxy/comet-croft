@@ -1,0 +1,40 @@
+{
+	"kitchen_starter": {
+		"title": "Kitchen Starter",
+		"description": "A cook needs tools. Grants a skillet.",
+		"icon": {
+			"type": "item",
+			"data": {
+				"item": "farmersdelight:skillet"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:command",
+				"data": {
+					"command": "give ${player} farmersdelight:skillet"
+				}
+			}
+		]
+	},
+	"hearty_appetite": {
+		"title": "Hearty Appetite",
+		"description": "Home cooking sticks to your ribs. +1 heart.",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "health_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "max_health",
+					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	}
+}

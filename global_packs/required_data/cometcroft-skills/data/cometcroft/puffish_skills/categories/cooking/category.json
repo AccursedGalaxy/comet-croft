@@ -1,0 +1,10 @@
+{
+	"title": "Cooking",
+	"icon": {
+		"type": "item",
+		"data": {
+			"item": "farmersdelight:cooking_pot"
+		}
+	},
+	"background": "textures/gui/advancements/backgrounds/husbandry.png"
+}

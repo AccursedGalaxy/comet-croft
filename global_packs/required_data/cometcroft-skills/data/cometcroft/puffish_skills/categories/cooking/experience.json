@@ -1,0 +1,39 @@
+{
+	"experience_per_level": {
+		"type": "expression",
+		"data": {
+			"expression": "min(level ^ 1.432 + 10, 200)"
+		}
+	},
+	"sources": [
+		{
+			"type": "puffish_skills:eat_food",
+			"data": {
+				"variables": {
+					"is_dish": {
+						"operations": [
+							{
+								"type": "get_eaten_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"item": "#cometcroft:dishes"
+								}
+							}
+						]
+					}
+				},
+				"experience": [
+					{
+						"expression": "2"
+					},
+					{
+						"condition": "is_dish",
+						"expression": "10"
+					}
+				]
+			}
+		}
+	]
+}

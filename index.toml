@@ -101,6 +101,38 @@ file = "config/yosbr/options.txt"
 hash = "5b7174e78fe4d123b0c90de043d122533ce9d047cc380d156bb67f660a177e0c"
 
 [[files]]
+file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/categories/cooking/category.json"
+hash = "8c536e1482610c63df79da3fd1d6c41cb6b6a455b39fd710cbd98ded691ccd1c"
+
+[[files]]
+file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/categories/cooking/connections.json"
+hash = "8c5d53b434bc7c1696438ef742af0e3d0557d3a66455ba15c675bf59aa3f0f1d"
+
+[[files]]
+file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/categories/cooking/definitions.json"
+hash = "54236f03846f1c278a4e1ed22ea39b7d6cf99ced80d090655e6b238b33415e89"
+
+[[files]]
+file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/categories/cooking/experience.json"
+hash = "a9009424e446a75326cae339660469cbf9ab2690bfd204859017f28fe36c52b1"
+
+[[files]]
+file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/categories/cooking/skills.json"
+hash = "13bbb0e5d92c69d87519861915242df4378ab80b77e327f80e883a50af4a3942"
+
+[[files]]
+file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/config.json"
+hash = "14aca53ea3c5481f914f20f5feb3d7f826641194542aedeec2b489a96212b259"
+
+[[files]]
+file = "global_packs/required_data/cometcroft-skills/data/cometcroft/tags/item/dishes.json"
+hash = "510afa361f4b8952b7b9a19fd3e44b4df07add15b5f093f1c45ea2ecfe774d5f"
+
+[[files]]
+file = "global_packs/required_data/cometcroft-skills/pack.mcmeta"
+hash = "f0543fa354acd97da4809275df4f218531ff2e270b86a1897d0a95df9ab8266a"
+
+[[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/book.json"
 hash = "201170278dff2708d6346945134bc9b8bfa49d97f47333b58bbe61b176d60de4"
 

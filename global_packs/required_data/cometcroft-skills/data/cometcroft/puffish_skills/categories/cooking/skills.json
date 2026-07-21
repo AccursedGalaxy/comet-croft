@@ -1,0 +1,13 @@
+{
+	"start": {
+		"definition": "kitchen_starter",
+		"x": 0,
+		"y": 0,
+		"root": true
+	},
+	"heart1": {
+		"definition": "hearty_appetite",
+		"x": 0,
+		"y": -48
+	}
+}
