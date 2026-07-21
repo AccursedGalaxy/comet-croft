@@ -363,6 +363,44 @@ discipline (no CONFIG.md entry, no boot gate) and re-imported known traps.
 - **Playtest flag:** with graves now client-visible, verify a
   trinket-slot elytra actually lands in the grave on death.
 
+## Tier 9 — Field Guide as a Modonomicon book (2026-07-21)
+
+The written-book Field Guide is replaced by a **Modonomicon** book
+(`modonomicon` 26.1.2-2.2.0, `side = "both"` from Modrinth — correct as-is).
+Chosen over building guides into menu-mod (recipes only exist in-world, so
+a guide needs an in-game screen anyway) and over Patchouli (26.1 beta only).
+Lavender (markdown-native) has no 26.1.x port.
+
+- **Content pipeline:** authors write markdown in `guides/<category>/<entry>.md`
+  (front matter + `# Heading` per page + `@recipe`/`@item`/`@smelting`/…
+  directives); `tools/build_guides.py` compiles it to the book JSON in
+  `global_packs/required_data/field-guide-book/` + lang strings in
+  `global_packs/required_resources/field-guide-lang/` (Global Packs loads
+  both; `required_resources/` confirmed supported in the mod's jar). Both
+  output dirs are fully generated — never hand-edit; `guides/` + `tools/`
+  are packwiz-ignored. Authoring guide for non-technical writers:
+  `guides/README.md`.
+- **Format gotchas (26.1.2 / Modonomicon 2.x — the published docs are
+  outdated):** entries need `"type": "modonomicon:content"` and a full
+  `"id": "ns:category/entry"`; every inline page needs `"id"` +
+  `"sort_number"`; icons are objects (`{"id": ...}`); spotlight `item` is a
+  plain string. Ground truth: the demo book under
+  `fabric/src/generated/resources/` on the mod's `version/26.1.2` branch.
+- **Recipe pages** exist for the seven vanilla recipe types only. Farmer's
+  Delight cutting-board/cooking-pot recipes have no renderer — use `@item`
+  spotlights for dishes (FD's cooking *pot item* itself is a normal crafting
+  recipe and renders fine). A custom page renderer via Modonomicon's API is
+  a possible later menu-mod-style extension.
+- **First-join give** (`global_packs/required_data/field-guide/`): now gives
+  `modonomicon:modonomicon[modonomicon:book_id="cometcroft:field_guide"]`;
+  the old written-book text lives on as guide copy. `cometcroft:test_guide`
+  is a dev function that puts the book in the main hand (used by e2e).
+- Boot gate: PASS, zero BookErrorManager errors on the generated book.
+- **Playtest flags:** (1) in-game look of index mode + recipe page under
+  the pack's GUI resource pack; (2) whether `/reload` hot-reloads book
+  content for fast authoring (else full rejoin); (3) book styling to the
+  menu palette (theme.json) is still default.
+
 ## Cooking Tier 2 — drinks, spoilage, seasonal (2026-07-21)
 
 Second increment of the cooking system (Tier 1 = the Delight ring + Spice

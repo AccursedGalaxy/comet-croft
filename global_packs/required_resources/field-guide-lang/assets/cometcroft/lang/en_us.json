@@ -1,0 +1,14 @@
+{
+  "book.cometcroft.field_guide.getting_started.cooking.description": "Your first real kitchen upgrade.",
+  "book.cometcroft.field_guide.getting_started.cooking.name": "The Cooking Pot",
+  "book.cometcroft.field_guide.getting_started.cooking.page0.text": "Build one early — simmered meals feed you far better than raw crops, and variety keeps you strong.",
+  "book.cometcroft.field_guide.getting_started.cooking.page1.text": "Cooked in the pot from humble potatoes. The first dish that makes the croft feel like home.",
+  "book.cometcroft.field_guide.getting_started.cooking.page1.title": "A proper meal",
+  "book.cometcroft.field_guide.getting_started.name": "Getting Started",
+  "book.cometcroft.field_guide.getting_started.welcome.description": "What this place is, and where to begin.",
+  "book.cometcroft.field_guide.getting_started.welcome.name": "Welcome to the Croft",
+  "book.cometcroft.field_guide.getting_started.welcome.page0.text": "A croft is a small homestead. This one is yours.\n\nFarm through **real seasons**. Build it up, room by room. And watch the sky.\n\nWhen you meet an item you don't know: open your inventory, hover it, and press **R** to see how it's made — **U** shows what it's used for.",
+  "book.cometcroft.field_guide.getting_started.welcome.page0.title": "Welcome",
+  "book.cometcroft.field_guide.name": "Comet Croft Field Guide",
+  "book.cometcroft.field_guide.tooltip": "A homestead under a strange sky."
+}

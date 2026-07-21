@@ -97,8 +97,32 @@ file = "config/yosbr/options.txt"
 hash = "156eaced79dfa1dfbc9fad9bad2e62934748c9a1cbb09269bddd6c90d198fd24"
 
 [[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/book.json"
+hash = "fbabb059573712c3d35e34a1ed49f13024336ebfa4cf983469eb80a5ec4d7c47"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/categories/getting_started.json"
+hash = "b7610ecdb7552fc999398aa2707fd8b5de4505d59638e397e55e5afc260611f8"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/cooking.json"
+hash = "365e570313626c0d8a2095a276afdc73b4619b92ee7ca35dbbd0fddbd59d53b8"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/getting_started/welcome.json"
+hash = "dc758bba2ac294ca7fbb631da3393852472a53fe7dc61ccc5bc948b717dfc761"
+
+[[files]]
+file = "global_packs/required_data/field-guide-book/pack.mcmeta"
+hash = "446d4783b265b66b68221ccb5088b9ae676dd9830437a1e4ab1a2dfd29971924"
+
+[[files]]
 file = "global_packs/required_data/field-guide/data/cometcroft/function/give_field_guide.mcfunction"
-hash = "6c01edbd2b0fe379475cac154e094d4138aca135fe2501934db4e405d8afed18"
+hash = "374a6f8f10b0253e39dcc2f5c9e31ed4244044ebad49bcf2fcde7fe346e9b7bf"
+
+[[files]]
+file = "global_packs/required_data/field-guide/data/cometcroft/function/test_guide.mcfunction"
+hash = "795388ec5fc113206edf8f56b1b5425f0ba968d04978efb0ea7487cc3f033532"
 
 [[files]]
 file = "global_packs/required_data/field-guide/data/cometcroft/function/tick.mcfunction"
@@ -167,6 +191,14 @@ hash = "7f3baf97bc8597d56a0f2392df76189bf99c5c1d1a6f3ed9b9e3bb59b10a2a44"
 [[files]]
 file = "global_packs/required_data/seasonhud-slot-icon-fix/pack.mcmeta"
 hash = "141e60406e2575c3318e790285893af7a5f56876686bde02235a9b28683bb293"
+
+[[files]]
+file = "global_packs/required_resources/field-guide-lang/assets/cometcroft/lang/en_us.json"
+hash = "811d5081f5c926aa2535a94ebbaf6e9e21aafee3878c41bdf082cbca68b4fc63"
+
+[[files]]
+file = "global_packs/required_resources/field-guide-lang/pack.mcmeta"
+hash = "60404cd4be34fb80486573360af4e56990dbd3c6bb9c9536f3a17b5e5a0e7419"
 
 [[files]]
 file = "mods/3d-placeable-food.pw.toml"
@@ -560,6 +592,11 @@ metafile = true
 [[files]]
 file = "mods/modmenu.pw.toml"
 hash = "137f9f7268efee46f378498be772d7828ac77ba239294c7051a782c9f0ee56ae"
+metafile = true
+
+[[files]]
+file = "mods/modonomicon.pw.toml"
+hash = "c126204479ccafa835fc8db27309ee65e65642008b33ca27e705585766d29673"
 metafile = true
 
 [[files]]

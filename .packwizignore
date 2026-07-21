@@ -23,3 +23,7 @@ docs/
 *.log
 *.py
 .DS_Store
+
+# Guide sources + build tooling — compiled into global_packs by tools/build_guides.py
+guides/
+tools/

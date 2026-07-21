@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Comet Croft: the Field Guide as a Modonomicon book (data side). Generated content lands here via tools/build_guides.py — do not hand-edit generated files.",
+    "pack_format": 101
+  }
+}

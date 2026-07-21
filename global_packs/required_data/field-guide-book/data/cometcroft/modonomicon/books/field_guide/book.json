@@ -1,0 +1,8 @@
+{
+  "name": "book.cometcroft.field_guide.name",
+  "tooltip": "book.cometcroft.field_guide.tooltip",
+  "display_mode": "index",
+  "generate_book_item": true,
+  "model": "modonomicon:modonomicon_blue",
+  "creative_tab": "misc"
+}

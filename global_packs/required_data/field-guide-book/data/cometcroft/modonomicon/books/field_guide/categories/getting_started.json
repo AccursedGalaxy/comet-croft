@@ -1,0 +1,8 @@
+{
+  "name": "book.cometcroft.field_guide.getting_started.name",
+  "icon": {
+    "id": "minecraft:lantern"
+  },
+  "display_mode": "index",
+  "sort_number": 1
+}
