@@ -74,7 +74,28 @@ RECIPE_DIRECTIVES = {
 }
 
 RESLOC = re.compile(r"^[a-z0-9_.-]+:[a-z0-9_./-]+$")
-PAGE_TEXT_WARN = 700  # chars; longer than this likely overflows a book page
+# Modonomicon scales text down to fit the page, so long pages render tiny and
+# cramped; warn well before that gets bad.
+PAGE_TEXT_WARN = 500
+
+# Modonomicon's markdown renderer flattens blank-line paragraph breaks to
+# NOTHING (adjacent words fuse); only hard breaks (backslash-newline) render.
+# Two in a row = newline + one blank line, i.e. a visible paragraph gap.
+PARA_SEP = "\\\n\\\n"
+
+
+def md_paragraphs(lines: list[str]) -> str:
+    """Join source lines into Modonomicon markdown: lines within a paragraph
+    keep their newlines (so markdown lists still work), blank lines become
+    hard-break paragraph gaps."""
+    paras: list[list[str]] = [[]]
+    for line in lines:
+        if line.strip():
+            paras[-1].append(line.rstrip())
+        elif paras[-1]:
+            paras.append([])
+    return PARA_SEP.join("\n".join(p) for p in paras if p)
+
 
 # Recipe-page types only render recipes of the matching vanilla type; a
 # mismatched type shows "recipe not found" in game. Values are accepted
@@ -236,7 +257,7 @@ def compile_entry(path: Path, category_id: str, entry_id: str, sort: int) -> dic
 
     def flush_text():
         nonlocal cur_text, cur_title
-        text = "\n".join(cur_text).strip()
+        text = md_paragraphs(cur_text)
         if not text and cur_title is None:
             return
         if not text:
