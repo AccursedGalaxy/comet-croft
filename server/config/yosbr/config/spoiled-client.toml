@@ -1,0 +1,4 @@
+#Client settings
+[client]
+	#Show freshness as a percentage so spoilage reads as information, not a jump-scare
+	showPercentage = true

@@ -1,0 +1,18 @@
+{
+  "vanillaRainVolume": 0.12,
+  "metalBlocksVolume": 0.3,
+  "fabricBlocksVolume": 0.4,
+  "glassBlocksVolume": 0.3,
+  "foliageBlocksVolume": 0.3,
+  "waterBlocksVolume": 0.1,
+  "musicalBlocksVolume": 0.12,
+  "crystalBlocksVolume": 0.18,
+  "evaporativeBlocksVolume": 0.12,
+  "bellBlocksVolume": 0.12,
+  "thunderstormWinds": true,
+  "thunderstormWindsVolume": 0.9,
+  "thunderstormWindsFrequency": 25,
+  "additionalThunderSounds": true,
+  "additionalThunderVolume": 6.0,
+  "additionalThunderFrequency": 220
+}

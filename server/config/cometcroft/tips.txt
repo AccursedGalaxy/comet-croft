@@ -1,0 +1,15 @@
+Open your inventory and hover an item, then press R to see how it's made. Press U to see what it's for.
+Crops grow in their season. Plant with the year, not against it.
+A varied diet keeps you fed longer here. Try not to eat the same meal twice in a row.
+In your inventory, hover any item and press R for its recipe, U for its uses. Nearly everything explains itself this way.
+Right-click a waystone to bind it, then travel between any you've visited.
+Winter here means it. Put food by while summer lasts.
+Hover an item in your inventory and press R (recipe) or U (uses). That's how you learn this pack.
+Hold a spyglass and look up at night. The sky has things worth finding.
+On an 8GB laptop? Keep render distance near 8 and shaders off. It runs smooth that way.
+Open your inventory, hover an item, press R for its recipe. Press U to see what it's for.
+Sometimes the sky sends something down. It's worth walking out to look.
+The comet keeps its own calendar. Learn to read it.
+Stuck on how to make something? Hover it in your inventory and press R.
+New here? Open the Comet Croft Field Guide in your inventory to get started.
+R and U are the default JEI keys. If they do nothing, check Options → Controls.

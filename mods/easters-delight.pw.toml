@@ -1,0 +1,13 @@
+name = "Easter's Delight"
+filename = "eastersdelight-fabric-26.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Eg1DyRej/versions/ofnrUjf4/eastersdelight-fabric-26.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "bcd1190de40847caa28db1f3e6472dcf5638fb0617639dd8ff710141a2635f87ceba5702de6b11c01de1c06381768172ecdf09bc5ae14a6022370fd5926561c4"
+
+[update]
+[update.modrinth]
+mod-id = "Eg1DyRej"
+version = "ofnrUjf4"

@@ -141,9 +141,12 @@ def stage_server(run_dir: Path, boot_timeout: int = 420) -> dict:
     issue a few console commands, stop cleanly, analyze the log."""
     scratch = run_dir / "server"
     scratch.mkdir()
-    setup = REPO / "server" / "setup.sh"
+    # setup.sh cd's to its own directory (the manual flow runs it in place in
+    # server/), so copy it into the scratch dir to keep the install isolated.
+    setup = scratch / "setup.sh"
+    shutil.copy2(REPO / "server" / "setup.sh", setup)
     r = subprocess.run(
-        ["bash", str(setup), "--accept-eula"],
+        ["bash", str(setup), "--accept-eula", f"file://{REPO}/pack.toml"],
         cwd=scratch,
         capture_output=True,
         text=True,
@@ -326,14 +329,14 @@ def stage_play(run_dir: Path, world: str = "test", keep_open: bool = False) -> d
 
     try:
         # Prism has no working world-quickplay in this build, so navigate the
-        # UI: title screen → Local → search world → double-click the row.
+        # UI: title screen → Singleplayer → search world → double-click the row.
         sess.wait_for_log(r"Backend library: LWJGL|Sound engine started", timeout=240)
-        time.sleep(25)  # FancyMenu title settles
+        time.sleep(25)  # title screen settles
         hypr.focus_window(win)
         vi = VirtualInput()
         shot("00_title")
-        note(run_dir, "clicking 'Local' (singleplayer)")
-        click_at(0.49, 0.375)
+        note(run_dir, "clicking 'Singleplayer' (left-column menu)")
+        click_at(0.24, 0.427)
         time.sleep(2.5)
         shot("00_world_list")
         note(run_dir, f"searching world '{world}'")

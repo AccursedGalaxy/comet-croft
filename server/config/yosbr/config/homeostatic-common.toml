@@ -1,0 +1,7 @@
+debugEnabled = false
+showTemperatureValues = true
+requireThermometer = false
+#Passive thirst decay at the minimum (default 0.15): thirst exists and drinks
+#matter, but a full water bar lasts hours of idle play instead of ~50 minutes.
+randomWaterLoss = 0.01
+radiationReductionPercent = 0.2

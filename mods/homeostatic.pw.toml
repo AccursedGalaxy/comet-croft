@@ -1,0 +1,13 @@
+name = "Homeostatic"
+filename = "homeostatic-26.1.2-fabric-2.13.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oDobngty/versions/7NDY9TiZ/homeostatic-26.1.2-fabric-2.13.0.2.jar"
+hash-format = "sha512"
+hash = "cfb628ae7e676a5ab4eaccec92d9ba632965a3967dc465f9a497a54a9bf9db812d2cd624588450b56f1c091f947c88068851ed571f94f791db827a4fdd70ef6a"
+
+[update]
+[update.modrinth]
+mod-id = "oDobngty"
+version = "7NDY9TiZ"

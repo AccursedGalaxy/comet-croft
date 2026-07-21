@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Comet Croft: fixes SeasonHUD's calendar trinket slot icon path (gui/slots -> gui/slot) so the slot doesn't render the missing texture.",
+    "pack_format": 101
+  }
+}

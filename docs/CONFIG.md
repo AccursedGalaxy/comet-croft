@@ -362,3 +362,48 @@ discipline (no CONFIG.md entry, no boot gate) and re-imported known traps.
   gets touched, and boot-gate them.
 - **Playtest flag:** with graves now client-visible, verify a
   trinket-slot elytra actually lands in the grave on death.
+
+## Cooking Tier 2 — drinks, spoilage, seasonal (2026-07-21)
+
+Second increment of the cooking system (Tier 1 = the Delight ring + Spice
+of Fabric, already in). Design line unchanged: mechanics may create gentle
+reasons to engage (drink variety, preservation), never routine-neglect
+deaths. All four `side = "both"`.
+
+- **AlcoCraft+ 2.1.3** — brewing/wine content. Pulled in **Architectury
+  API 20.0.9** (new dep, library). No config shipped; defaults are pure
+  content.
+- **Easter's Delight 1.2.0** — seasonal FD addon. No config shipped.
+- **Spoiled 12.1.0** — food spoilage, tuned long via
+  `config/yosbr/config/spoiled-common.toml`: total spoil time
+  120 s × 80 updates = **8 in-game days** (mod default: 1 day);
+  CFB fridge pauses spoilage entirely (`containerModifier` rate 0);
+  CFB/FD cabinets, counters and baskets slow it to 25%; golden apple,
+  cake, honey bottle and milk added to the blacklist;
+  `mergeSpoilingFood = true`. Client config shows freshness as a
+  percentage. Notes: config is cached at server start (world restart to
+  apply changes); `itemContainerModifier` is dead code on Fabric; FD food
+  spoils via `#c:foods` (verified in the pinned jar).
+- **Homeostatic 2.13.0.2** — temperature + thirst. The only gameplay
+  config knob is passive thirst decay: `randomWaterLoss = 0.01` (minimum;
+  default 0.15) via `config/yosbr/config/homeostatic-common.toml`. All
+  damage is HARDCODED in the mod, so the cozy line is enforced by the
+  `homeostatic-cozy` datapack (`global_packs/required_data/`):
+  - Dirty water / suspicious stew / poisonous potato no longer roll the
+    Thirst debuff (`effect_chance` 0) — purified water and drinks stay
+    strictly better (3 water vs 1), just never punitive.
+  - The mod adds its hyperthermia/scalding/dehydration damage types to
+    `minecraft:bypasses_invulnerability` and `bypasses_armor`; the
+    datapack overrides both tags with `replace: true` + vanilla 26.1.2
+    contents (extracted from the client jar), restoring i-frames and
+    armor — dehydration drops from ~10 dmg/s to ~1 dmg/s worst case.
+    **Trap:** `replace: true` clobbers ANY other mod's additions to these
+    two tags; re-check on every mod addition/bump that touches damage
+    types, and re-extract vanilla contents on MC bumps.
+  - `cozy_rules.mcfunction` on the load tag sets `freeze_damage false`
+    (gamerules are snake_case since 26.x; camelCase fails to parse) —
+    Homeostatic's hypothermia damage rides entirely on vanilla freezing,
+    so cold becomes visual only.
+  - Residual risk accepted: hyperthermia/scalding damage can't be zeroed
+    without a mixin; thresholds are Nether-extreme, armor now absorbs it.
+- **Boot gate:** pending — needs a server + client boot before commit.

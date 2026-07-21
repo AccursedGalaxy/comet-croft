@@ -1,0 +1,13 @@
+name = "Spoiled"
+filename = "Spoiled-fabric-26.1.2-12.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FsHyEZFS/versions/bEOjyZyc/Spoiled-fabric-26.1.2-12.1.0.jar"
+hash-format = "sha512"
+hash = "932df277bb89640061073ed256ba3e19e4c4ba9a6e0654797b203b63a81099507e6bd84ae17f3f9c9288575fe34312e4e721650f9f9a14dd12f8df08c20dd7f3"
+
+[update]
+[update.modrinth]
+mod-id = "FsHyEZFS"
+version = "bEOjyZyc"

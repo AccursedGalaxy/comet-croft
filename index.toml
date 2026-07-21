@@ -61,6 +61,10 @@ file = "config/yosbr/config/fallingleaves2.json"
 hash = "2d44576db007e80145782ea93908373b6b2b0bd853a1be3d36d28574c8ccb1d7"
 
 [[files]]
+file = "config/yosbr/config/homeostatic-common.toml"
+hash = "74254933d34222b3cb91113381fb5b0c8ecb6d53b3c2e858303aa89968bff2ab"
+
+[[files]]
 file = "config/yosbr/config/presencefootsteps/userconfig.json"
 hash = "065d813748cd7a858139afa8a72770ac15b54c7179058212770dca70f853801e"
 
@@ -73,6 +77,14 @@ file = "config/yosbr/config/spiceoffabric.hjson"
 hash = "54addfba083970b3547c0b7d55010f63885c908b7a51f2d2cc8265af6218b718"
 
 [[files]]
+file = "config/yosbr/config/spoiled-client.toml"
+hash = "e1c84f8c138429a753acd4adc8336ffcc0de7b79baf3bbc9faaf76e151e2d1a4"
+
+[[files]]
+file = "config/yosbr/config/spoiled-common.toml"
+hash = "8214387bc90c3d07f636d75db73d5209120aa2e98785eddfc2f3e56b0bea8d19"
+
+[[files]]
 file = "config/yosbr/config/xaero/minimap/profiles/default.cfg"
 hash = "c6894ba0e0cf24f1f42c512affbbad59886041d98c4222cc5f594f5a753f7091"
 
@@ -83,6 +95,54 @@ hash = "c623d0f3415865b285beb70b6851c2ed269a010d7cbfa4b2b44ec659ca0bcfd2"
 [[files]]
 file = "config/yosbr/options.txt"
 hash = "156eaced79dfa1dfbc9fad9bad2e62934748c9a1cbb09269bddd6c90d198fd24"
+
+[[files]]
+file = "global_packs/required_data/field-guide/data/cometcroft/function/give_field_guide.mcfunction"
+hash = "6c01edbd2b0fe379475cac154e094d4138aca135fe2501934db4e405d8afed18"
+
+[[files]]
+file = "global_packs/required_data/field-guide/data/cometcroft/function/tick.mcfunction"
+hash = "771ea630277907fca2555231709edda8a763766409e8461edb1e921086572081"
+
+[[files]]
+file = "global_packs/required_data/field-guide/data/minecraft/tags/function/tick.json"
+hash = "c05e17d835a528f2592bbdc7c77b0442212464a48184131b02f0de5b3ff0ea8a"
+
+[[files]]
+file = "global_packs/required_data/field-guide/pack.mcmeta"
+hash = "9f3a9be546c77640efbad95f873a939b5a884d10e89289aec58b9805d3b609e2"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cometcroft/function/cozy_rules.mcfunction"
+hash = "ac60d58596b3d7379a8e0d6bc21ddd1d50905fc2e70fe9310baef5387ee5d27a"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/minecraft/environment/drinkable/poisonous_potato.json"
+hash = "69cee054f7d820e59d9d995267208f16830239268612e5bcbab786f096e3485a"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/minecraft/environment/drinkable/suspicious_stew.json"
+hash = "b428f8cade860392523e90d84da939bca6c2533082f168e18eef0167a55aeead"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/minecraft/environment/fluids/water.json"
+hash = "cf0dabf174c514565328a981515dac375d021bf4305fc41d8335c238761a1a36"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/minecraft/tags/damage_type/bypasses_armor.json"
+hash = "2bb3aea0fa93fec035322f04136ba99a3d88d1f8418785dbce928f9f3aac1011"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/minecraft/tags/damage_type/bypasses_invulnerability.json"
+hash = "0f359cbf01321cf8cebae3fc0422fc47e27e140d804116025f565c328c1f6f4f"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/minecraft/tags/function/load.json"
+hash = "d6b1abd5d5782a6fb1650879809100a1b33682adddf9324db0f552601df78d48"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/pack.mcmeta"
+hash = "1c15c9fd7c2ed55d53f088f61794eed1dbd2081f51b5e797361e1c43ca3cee39"
 
 [[files]]
 file = "global_packs/required_data/lootr-advancement-fix/data/lootr/advancement/weathered_copper_chest.json"
@@ -101,6 +161,14 @@ file = "global_packs/required_data/remove-terralith-intro/pack.mcmeta"
 hash = "8f69a534000ad0e61e5f7a8c4ad734129db93b5254d3739d7fa346ff8b573188"
 
 [[files]]
+file = "global_packs/required_data/seasonhud-slot-icon-fix/data/trinkets/slots/calendar/calendarslot.json"
+hash = "7f3baf97bc8597d56a0f2392df76189bf99c5c1d1a6f3ed9b9e3bb59b10a2a44"
+
+[[files]]
+file = "global_packs/required_data/seasonhud-slot-icon-fix/pack.mcmeta"
+hash = "141e60406e2575c3318e790285893af7a5f56876686bde02235a9b28683bb293"
+
+[[files]]
 file = "mods/3d-placeable-food.pw.toml"
 hash = "5ddf30147b1362e288658817d9abd3b1069a6ebfb79185b575926befacf6d205"
 metafile = true
@@ -111,6 +179,11 @@ hash = "dfa96c8cb0a861ab368d5788f92f268e505fcdace71446cbe7b22a09463305ca"
 metafile = true
 
 [[files]]
+file = "mods/alcocraft.pw.toml"
+hash = "a4728a254aa05a404e2ebae77438840b64811010dc7d5dae5598605bac906ba2"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "97280c6f029ca84101dc38eb6bafbb7e615e3e0780bc766e0848b2eb0b577202"
 metafile = true
@@ -118,6 +191,11 @@ metafile = true
 [[files]]
 file = "mods/appleskin.pw.toml"
 hash = "785e74169e884a0535517140796a8448a831abf7f7dfa29cf6326b178c0dcf48"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "2178a153baf1abf1d693dc921ed647359d512b99bfe003a65a34032fc235bfdd"
 metafile = true
 
 [[files]]
@@ -230,6 +308,11 @@ hash = "42f5637a87150687969d64b172ce8ef91bc3a92ee2eb68a2a17153350ff92b4b"
 metafile = true
 
 [[files]]
+file = "mods/easters-delight.pw.toml"
+hash = "51e5527672611fc944c815319e68d4fa8ea55082461a54a65ad65d550251f918"
+metafile = true
+
+[[files]]
 file = "mods/easy-elytra-takeoff.pw.toml"
 hash = "9d6846ea82088a47315bcd7d234a5e6baf4f91940de12df35861301bccc15c2c"
 metafile = true
@@ -337,6 +420,11 @@ metafile = true
 [[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "4054621ba956c149298aeddeb452272f9b9cab2fff6a525ca76e73a5321e10fc"
+metafile = true
+
+[[files]]
+file = "mods/homeostatic.pw.toml"
+hash = "4c4872e879b321fe71d84d63d5ffe70a57c812d0242b8251e5667712f86ba2d1"
 metafile = true
 
 [[files]]
@@ -617,6 +705,11 @@ metafile = true
 [[files]]
 file = "mods/spice-of-fabric.pw.toml"
 hash = "b32628466d1ae6d476d8b231825df85a6112ddd34752ca9ba57a2feb3e7ec9e5"
+metafile = true
+
+[[files]]
+file = "mods/spoiled.pw.toml"
+hash = "1d97fe9227c1d887a3422ae230b14da381bf291fb59693eb53bdced5d2f4a41a"
 metafile = true
 
 [[files]]

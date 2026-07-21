@@ -1,0 +1,5 @@
+resourcePacks:["vanilla","fabric","file/Reimagined GUI - Dark - 1.20.2-26.x.zip","file/qrafty's-capitalized-font-3.5.zip"]
+autoJump:false
+tutorialStep:none
+skipMultiplayerWarning:true
+maxFps:260

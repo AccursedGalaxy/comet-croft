@@ -1,0 +1,12 @@
+{
+  "volume": {
+    "volume": 55,
+    "clientPlayerVolume": 70,
+    "otherPlayerVolume": 60,
+    "hostileEntitiesVolume": 55,
+    "passiveEntitiesVolume": 45,
+    "wetSoundsVolume": 40,
+    "foliageSoundsVolume": 70,
+    "runningVolumeIncrease": 0
+  }
+}

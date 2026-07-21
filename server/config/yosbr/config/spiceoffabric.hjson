@@ -1,0 +1,45 @@
+# Spice of Fabric - Comet Croft cozy tuning
+# Design target: gently reward variety, never punish. Friction-light, especially early game.
+# Only the food formulas and container toggles are changed from mod defaults.
+
+{
+  "show-last-eaten-tips": "NONE",
+  "enable-journal-command": false,
+
+  "respawn": {
+    "hunger": "max(14, hunger)",
+    "saturation": "saturation",
+    "reset-history": false,
+    "reset-carrot-mode": false
+  },
+
+  "food": {
+    # Cozy tuning: gentler decay (0.85 vs vanilla-mod 0.7) with a hard 0.5 floor,
+    # so a food never restores less than half its value no matter how often it's eaten.
+    # Default was: hungerValue * power(0.7, timesEaten)
+    "hunger": "hungerValue * max(0.5, power(0.85, timesEaten))",
+
+    "saturation": "saturationValue",
+
+    # Cozy tuning: remove the eating-speed penalty entirely.
+    # Default was: consumeDuration * power(1.3, timesEaten)  (repeated foods ate slower and slower)
+    "consume-duration": "consumeDuration",
+
+    "history-length": 20
+  },
+
+  "carrot": {
+    "enable": false,
+    "health-formula": "0.6 * baseHealth + max(2 * floor(log2(uniqueFoodsEaten)), 0)",
+    "max-health": -1,
+    "uneaten-in-journal": true
+  },
+
+  "items": {
+    "use-polymer": false,
+    # Enabled: carry-multiple-food containers help keep variety on hand.
+    "enable-paper-bag": true,
+    "enable-lunch-box": true,
+    "enable-picnic-basket": true
+  }
+}

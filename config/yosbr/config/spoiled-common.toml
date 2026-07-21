@@ -1,0 +1,20 @@
+#General settings
+[General]
+	#Fridges pause spoilage entirely; cabinets/counters/baskets slow it to 25%; shulkers stay paused
+	containerModifier = ["minecraft:shulker_box,0", "cookingforblockheads:fridge,0", "cookingforblockheads:cabinet,0.25", "cookingforblockheads:counter,0.25", "cookingforblockheads:fruit_basket,0.25", "farmersdelight:cabinet,0.25", "farmersdelight:basket,0.25"]
+	#Unused on Fabric (kept in sync with containerModifier intent)
+	itemContainerModifier = ["minecraft:shulker_box,0"]
+	#Seconds between spoil updates
+	spoilRate = 120
+	initializeSpoiling = true
+	#QoL: partially-spoiled stacks can be merged
+	mergeSpoilingFood = true
+	spoilEverything = false
+	spoilBlacklist = ["minecraft:rotten_flesh", "minecraft:enchanted_golden_apple", "minecraft:golden_apple", "minecraft:cake", "minecraft:honey_bottle", "minecraft:milk_bucket"]
+	#120 s x 80 updates = 9600 s = 8 in-game days to spoil
+	defaultSpoilTime = 80
+	defaultSpoilItem = "minecraft:rotten_flesh"
+
+#Compatibility settings
+[compatibility]
+	ignoredComponents = []

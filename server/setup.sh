@@ -40,9 +40,9 @@ cd "$(dirname "$0")"
 
 INSTALLER=$(curl -s https://meta.fabricmc.net/v2/versions/installer | grep -o '"version": *"[^"]*"' | head -1 | cut -d'"' -f4)
 echo "Fetching Fabric server launcher (MC $MC_VERSION, loader $FABRIC_LOADER, installer $INSTALLER)…"
-curl -sL -o fabric-server.jar \
+curl -fsSL --retry 3 -o fabric-server.jar \
   "https://meta.fabricmc.net/v2/versions/loader/$MC_VERSION/$FABRIC_LOADER/$INSTALLER/server/jar"
-curl -sL -o packwiz-installer-bootstrap.jar \
+curl -fsSL --retry 3 -o packwiz-installer-bootstrap.jar \
   https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
 
 echo "Installing pack (server side) from: $PACK_URL"

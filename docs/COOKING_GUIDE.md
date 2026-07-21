@@ -52,6 +52,18 @@ Please test this one carefully and tell us how it feels. On default settings it 
 
 **Serene Seasons + Seasonal Integration** make crops grow (or not) depending on the season, and the seasons change over time. This adds a light rhythm to farming, since some crops are out of season sometimes. Worth noting how it interacts with the cooking grind: is it a nice texture, or annoying when you can't grow what a recipe needs?
 
+### New this round: drinks, brewing, and food that goes off
+
+Four additions since your first playthrough. The theme is drinks and preservation, and all of it is tuned gentle. Nothing here can realistically kill you.
+
+**Homeostatic** adds a thirst bar and an ambient temperature readout. We set thirst decay to the mod's minimum, so a full bar lasts hours even if you ignore it. The point is that drinks now do something: plain water works, purified water and proper drinks fill you up three times faster. Cold and heat show on the HUD but we defanged the damage, so treat the thermometer as scenery. If thirst ever feels like a chore instead of a nice excuse to brew tea, that's exactly the feedback we need.
+
+**Spoiled** makes food go off, eventually. A meal takes about eight in-game days to spoil, and hovering over it shows a freshness percentage. The fridge from Cooking for Blockheads stops spoilage completely, and cabinets, counters and baskets slow it way down. You now have an actual reason to build that fridge. If you ever feel pressured to eat something before it turns, tell us, because that would mean we tuned it wrong.
+
+**AlcoCraft+** is brewing: beers, wines and spirits with their own gear and small buffs. It pairs nicely with the wine aging in Crop & Kettle. Fair warning that drinking a lot has visual effects.
+
+**Easter's Delight** is a small seasonal addon for Farmer's Delight, mostly egg dishes and springtime treats. A little extra grind fuel.
+
 ### Cozy / decorative (food as decoration)
 
 Not gameplay-critical, but a big part of the cozy feel. Worth a look for whether they're fun and worth keeping.
@@ -74,6 +86,8 @@ A rough order that builds up naturally. Feel free to wander off it.
 4. **Live with Spice of Fabric for a few in-game days.** Eat repetitively on purpose, then eat varied. Do you actually feel the difference? Is it motivating or annoying?
 5. **Try the extras.** The Farming for Blockheads market, the wine-aging in Crop & Kettle, decorating with Display Delight and placeable food.
 6. **Notice the seasons.** Over a longer session, does seasonal crop growth add nice rhythm or get in the way?
+7. **Build the fridge and stock it.** Cook a batch of meals, keep half in the fridge and half in a chest, and check the freshness numbers a few days later. Does spoilage read as a fun reason to preserve, or as homework?
+8. **Keep a drink on you.** Live with the thirst bar for a session. Brew something from AlcoCraft or make tea and juices where you find them. Does drinking feel like part of the cozy loop or like a second hunger bar?
 
 ---
 
@@ -108,6 +122,10 @@ Everything is Fabric on Minecraft 26.1.2.
 | Spice of Fabric | 1.6.3-beta.2 | Variety-reward mechanic |
 | Cooking for Blockheads | 26.1.2.3 | Kitchen + cookbook UX |
 | Farming for Blockheads | 26.1.2.2 | Seed/animal market |
+| AlcoCraft+ | 2.1.3 | Brewing: beers, wines, spirits |
+| Homeostatic | 2.13.0.2 | Thirst (tuned very gentle) |
+| Spoiled | 12.1.0 | Food spoilage (8-day timers, fridge pauses it) |
+| Easter's Delight | 1.2.0 | Seasonal egg dishes |
 | AppleSkin | 3.0.10 | Food value HUD |
 | Display Delight | 1.8.3 | Food display blocks |
 | 3D Placeable Food | 3.0.2 | 3D food models |

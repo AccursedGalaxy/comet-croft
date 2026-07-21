@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "leafSpawnRate": 10,
+  "coniferLeafSpawnRate": 4,
+  "snowflakeSpawnRate": 18,
+  "maxDecayLeaves": 6,
+  "leafSize": 5,
+  "leafLifespan": 200,
+  "windEnabled": true,
+  "fallSpawnRateFactor": 1.8,
+  "winterSpawnRateFactor": 0.1,
+  "decaySpawnRateFactor": 2.0
+}
