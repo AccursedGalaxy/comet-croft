@@ -108,6 +108,8 @@ def stage_static(run_dir: Path) -> dict:
                 ".cache",
                 "testing/",
                 ".pyc",
+                ".github",
+                ".env",
             )
         )
     ]

@@ -1,0 +1,34 @@
+name: validate pack
+
+# Players' instances sync straight from raw.githubusercontent.com master on
+# every launch, so a broken or stale index on master breaks every install
+# immediately. This gate runs the same static checks as testing/e2e.py.
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Index must be in sync (packwiz refresh produces no diff)
+        run: |
+          ~/go/bin/packwiz refresh
+          git diff --exit-code index.toml pack.toml || {
+            echo "::error::index.toml/pack.toml are stale — run 'packwiz refresh' and commit the result"
+            exit 1
+          }
+
+      - name: Static pack lint (junk paths, mod side metadata)
+        run: python3 testing/e2e.py static

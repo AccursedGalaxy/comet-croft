@@ -9,6 +9,9 @@ testing/
 config/fancymenu/
 menu-mod/
 
+# CI — repo tooling, not pack content
+.github/
+
 # Secrets / agent + dev tooling — must never ship in the distributed pack
 .env
 .env.*

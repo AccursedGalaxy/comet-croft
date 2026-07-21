@@ -60,3 +60,17 @@ prism/packwiz logs, and `steps.log`.
 - The virtual-input charmap is de-layout specific (`lib/vinput.py`).
 - Screenshots are the ground truth: the agent (or you) should eyeball them;
   pixel-perfect UI assertions are deliberately out of scope.
+
+## Guards against shipping a broken pack
+
+Players' instances sync straight from raw GitHub master on every launch, so
+a stale or junk-bearing `index.toml` on master breaks every install at once.
+Three layers prevent that:
+
+- **`.git/hooks/pre-commit`** (local, untracked) — runs `packwiz refresh`
+  and refuses the commit if `index.toml`/`pack.toml` change. If you clone
+  fresh, recreate it or run `packwiz refresh` before committing by hand.
+- **`.github/workflows/validate.yml`** (CI) — same check on every push to
+  master plus `e2e.py static`.
+- **`e2e.py static` junk lint** — fails if cache/CI/env-shaped paths appear
+  in the index (`.packwizignore` is the fix when it fires).
