@@ -1,5 +1,7 @@
 {
 	"title": "Cooking",
+	"description": "Eating food earns Cooking XP — proper cooked dishes earn far more. Each level grants a skill point to spend here.",
+	"starting_points": 1,
 	"icon": {
 		"type": "item",
 		"data": {

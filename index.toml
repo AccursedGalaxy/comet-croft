@@ -102,7 +102,7 @@ hash = "5b7174e78fe4d123b0c90de043d122533ce9d047cc380d156bb67f660a177e0c"
 
 [[files]]
 file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/categories/cooking/category.json"
-hash = "8c536e1482610c63df79da3fd1d6c41cb6b6a455b39fd710cbd98ded691ccd1c"
+hash = "0220a35fce33bd4f2c93e1ab8fc673b6462e813dcefdeaefaf6d40187744f393"
 
 [[files]]
 file = "global_packs/required_data/cometcroft-skills/data/cometcroft/puffish_skills/categories/cooking/connections.json"
