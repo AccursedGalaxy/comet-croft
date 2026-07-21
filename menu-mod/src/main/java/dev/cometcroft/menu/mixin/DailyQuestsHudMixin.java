@@ -22,7 +22,7 @@ public class DailyQuestsHudMixin {
     private static Field cometcroft$collapsedField;
     private static boolean cometcroft$lookupFailed;
 
-    @Inject(method = "renderOverlay", at = @At("HEAD"), cancellable = true, require = 0)
+    @Inject(method = "renderOverlay", at = @At("HEAD"), cancellable = true)
     private static void cometcroft$hideWhenCollapsed(CallbackInfo ci) {
         if (cometcroft$isCollapsed()) {
             ci.cancel();
