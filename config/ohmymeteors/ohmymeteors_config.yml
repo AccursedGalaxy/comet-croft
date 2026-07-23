@@ -112,7 +112,7 @@ use_better_explosions:true
 #How far should meteors be rendered. WARNING: YOU NEED TO RESTART YOUR SERVER AND CLIENT IF YOU CHANGE THIS VALUE in order for it to take effect. It is multiplied by the 'entity render' distance of the server | default= 200 | type= Integer
 meteor_render_distance:200
 #If true, makes the sky glow a certain color when a meteor passes by. This only applies if the meteor is in rendering range and not world or server wide. | default= true | type= Boolean
-meteor_skyglow:true
+meteor_skyglow:false
 #The color to apply to the sky when a meteor passes by if it's enabled. By default it's a lightblue-cyan color. Bear in mind that Minecraft still applies its own colors, so some shades (like green) work less well than others (blue) | default= #048da5 | type= String
 meteor_skyglow_color:#048da5
 
@@ -143,7 +143,7 @@ max_meteors_in_shower:20
 #The delay (in ticks) between each meteor that gets spawned in delayed and direction delayed meteor showers | default= 15 | type= Integer
 meteor_shower_delay_ticks:15
 #If true, makes the sky glow a certain color when a meteor passes by. This only applies if the meteor is in rendering range and not world or server wide. | default= true | type= Boolean
-meteor_skyglow:true
+meteor_skyglow:false
 #The color to apply to the sky when a meteor passes by if it's enabled. By default it's a lightblue-cyan color | default= #048da5 | type= String
 meteor_skyglow_color:#048da5
 
