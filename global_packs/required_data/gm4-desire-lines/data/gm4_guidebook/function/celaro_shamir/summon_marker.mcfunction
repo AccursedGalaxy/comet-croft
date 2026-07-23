@@ -1,0 +1,1 @@
+execute if score gm4_desire_lines load.status matches 1.. run summon marker ~ 659.208197558196 ~ {CustomName:"gm4_celaro_shamir",Tags:["gm4_guide","gm4_guide_celaro_shamir"],data:{type:"expansion",base:"metallurgy",id:"celaro_shamir",trigger:76,module_name:"Celaro Shamir",toc_line:"  \u25cf Celaro Shamir",line_count:1}}

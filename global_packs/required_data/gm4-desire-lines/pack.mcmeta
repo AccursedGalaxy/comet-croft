@@ -1,0 +1,16 @@
+{
+  "pack": {
+    "min_format": 101,
+    "max_format": 101,
+    "description": [
+      "Desire Lines",
+      "\n",
+      {
+        "text": "Gamemode 4 for 26.1",
+        "color": "#4AA0C7"
+      }
+    ]
+  },
+  "version": "1.7.3",
+  "commit_hash": "55687fd"
+}

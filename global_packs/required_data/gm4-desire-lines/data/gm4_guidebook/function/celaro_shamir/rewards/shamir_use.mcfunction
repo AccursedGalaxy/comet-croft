@@ -1,0 +1,3 @@
+tellraw @s ["",{translate:"text.gm4.guidebook.discovered",fallback:"%1$s has discovered a guidebook page from %2$s",with:[{selector:"@s"},{text:"[Celaro Shamir]",color:"#4AA0C7",hover_event:{action:"show_text",value:[{text:"Celaro Shamir",color:"#4AA0C7"},{text:"\n"},{translate:"text.gm4.guidebook.module_desc.celaro_shamir",fallback:"Creates natural looking trodden paths in high traffic areas, but be careful not to ruin your neighbour's lawn!",italic:true,color:"gray"}]}}]}]
+advancement grant @s only gm4_guidebook:celaro_shamir/display/shamir_use
+function gm4_guidebook:celaro_shamir/rewards/unlock/shamir_use

@@ -293,6 +293,1034 @@ file = "global_packs/required_data/field-guide/pack.mcmeta"
 hash = "9f3a9be546c77640efbad95f873a939b5a884d10e89289aec58b9805d3b609e2"
 
 [[files]]
+file = "global_packs/required_data/gm4-desire-lines/LICENSE.md"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/advancement/intro_song/invisible_root.json"
+hash = "e7ee4e4bb79087090f20f1899e0cbad83a8f9767660524dbcba7dfa67604d7a9"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/advancement/intro_song/play_song.json"
+hash = "29a9fd41fa006527adc1e90c9f704d10a34dd5e23d58cfd6e1b36b31fae8f351"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/advancement/intro_song/welcome_toast.json"
+hash = "323d4fd32f1205064cdaf6693abd3ffb958cc8503a479e9047136ed8903e47dc"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/advancement/upgrade_paths/changed_dimension.json"
+hash = "a441d216f9f02a22f0020d0794add8af1b33ec48b7fe961aaedc3452e2c847bb"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/advancement/upgrade_paths/join_game.json"
+hash = "a9d998907c3bd46f5abbcc2e70070ff7d1083583c76e81b4d075183f0d8198a1"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/conflict_logs/traverse.mcfunction"
+hash = "260e955f791b3d27302bb4d02aa53c2378e05bcb14771cd65815620b6cf983c2"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/conflict_logs/version_conflict_start.mcfunction"
+hash = "fb4c0e38eba81c4944b1581807ee729a6e5c966239eec5d9f0474fdf1a02bdc1"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/enumerate.mcfunction"
+hash = "e91fac941d80989479f82bb894c4f5b35dbea02574304ae9542da374520c7256"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/init.mcfunction"
+hash = "6b9f7dc918c83fdb3c766690760276b3046cded27e1e03d8b89028b8de5e2fd0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/init_song.mcfunction"
+hash = "2cb82ce5d327829cd8d760a299b022fb9da95acb956ee41c3cd3a8033a052428"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/main.mcfunction"
+hash = "29d44f3687d4a275b718b21f53f9880bd4f4128d1f9800ddd065154be693accf"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/0.mcfunction"
+hash = "5eef0530c91b4c3f21956fce140c1c92205d7f935f72a84b121028e639ca167f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/10.mcfunction"
+hash = "7be95f7012bb198c927aa048876318981926f828484c1712a867e3edd802f376"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/12.mcfunction"
+hash = "85f2ab72bc4d80daa24135b52f595936cbb56424a61d8c5732d2a2922b8bcc9c"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/14.mcfunction"
+hash = "e864a13fa31e151de4dd681d7aae3ca479b7365c3d637d3043489147760c6d0f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/16.mcfunction"
+hash = "d4c08216065e488090026360a926d40441084b86e5564cb28121920ff1c66f80"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/20.mcfunction"
+hash = "9d69a43fe70a58465fefe366b58a67d1be4c407f80f538e4ac46899c348fb54d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/23.mcfunction"
+hash = "44934b9eae61666af6208e4abdaf22b9dcec76c8d640e37708fd389c757c7936"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/24.mcfunction"
+hash = "fdee8782ff16c98f3bf63f5ca35970b3ef99d519c968b9203476b1f392f8cc3d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/26.mcfunction"
+hash = "8b25540450568c009acf29f393d5adf283ec3f9e5e4ddd0793fe034ee00fde52"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/28.mcfunction"
+hash = "469ebdaa081db62ee23662ac119472ed7298727bc7f8f82013478d0b7c4f1dcc"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/30.mcfunction"
+hash = "e2182f9ee07a2b926163e660c14cc8757a0675bc95ad5948ccca442dc960f220"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/32.mcfunction"
+hash = "4d3a8e5355765058f8cd24127894fa87388baaae91ec26f291a477d9a80295b3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/35.mcfunction"
+hash = "44c2b027e00b8f32e0d059c0d2be532e33446d0ecece63757cfd69a8ac9bdf03"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/36.mcfunction"
+hash = "179e38784572caa316aaaec5fa328a4e5aeb36d931cab67779e028c09ebab953"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/38.mcfunction"
+hash = "e01affc6bbd5b92d540017cb4a6583f4110a8aa0f4a7ea5d426d1658866bba2b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/39.mcfunction"
+hash = "6f9f9dd1289a315eae6d662d6025a5c1e7f206136440c08a7db782d8670e4578"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/4.mcfunction"
+hash = "79d48234ab7d1661df50a3f2b445d0d6db72a82eb0f33f1d0e249ba445dd6ee6"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/40.mcfunction"
+hash = "7b5c8704f5667848aeb9329ce1720e44188ccc801fc64c326cf83b365ba5c6b4"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/41.mcfunction"
+hash = "dc0c1167946cf7e125ffac467a5bf5a1049345a35b565c2738e792ad2b3a2884"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/42.mcfunction"
+hash = "9a63169c21319f4485525ca81230088728836656b3ccbd798f5a52388feed21b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/43.mcfunction"
+hash = "6bf585a5e24445b228c27d2c34eb08e70c653f8e62034f8bc72595c0c410101f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/44.mcfunction"
+hash = "a6ef9c1ef3cc1f8c3a3c070b5b2aa69129365c512516eb4269a600d57fc9edad"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/45.mcfunction"
+hash = "c7f71e7294a14d489cbf3afa213f82ed3e0275f5a90f501602b8e12c4e9a55b8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/46.mcfunction"
+hash = "9035cab65e14c4799b36440df9ab9aa2d4d734a06c77655e4007bbf23a769517"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/47.mcfunction"
+hash = "806836268e9028baabad02f70c68a599bf847513009b46ccc7f634b757e8d4a3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/48.mcfunction"
+hash = "90c9fc6ad58b746f4912db1e432d9acbd82ac78f0be425270bdb86b859cda722"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/51.mcfunction"
+hash = "f132a6bcaecae7e73919bfd2bf2b189480cd9f1b480f739cf197c9a82f581314"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/52.mcfunction"
+hash = "16a1660a034aed6ab7fbd36853cce69c39f13e3eb3cdf09fd156b4660862989b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/54.mcfunction"
+hash = "3955efd67cd4da8a04ca7d3efe198440c939a333ec1fd1b26695af59d7e03986"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/55.mcfunction"
+hash = "37d49c050c255063e18d9a33c602a5c0ba3c57fc1686aba56751cd02f16182cf"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/56.mcfunction"
+hash = "5106d279f0ddd3b88cc90f1bb18ea0a06696db2be75b9225547c080293a97d33"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/58.mcfunction"
+hash = "f84b4f85850df04cc6f3d1a503c2e2757cbbc1d6f96af6a5fbc94729207a88e3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/60.mcfunction"
+hash = "44257e0dbeb2531dc14f2e22ea31ba7c5a68f00446fc99bf0648446739759a2c"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/62.mcfunction"
+hash = "1b2d78f5686bb6e29306a1fc8675444d4abe5c75b84aaf3c380bfed3439ce148"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/64.mcfunction"
+hash = "fdffe90599df38e862216f5bc367c0cb0f933365475a60a430415a0dd6105f06"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/65.mcfunction"
+hash = "42738ff33b878170dcb5e9c875ce5ba5822e6149be06e2085cf8f8dd7be0697a"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/66.mcfunction"
+hash = "dac77aa10ee042032465f6dc1430935bc784077d3d0986754f5e3e9e3a65f324"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/67.mcfunction"
+hash = "1e5fa1e6889813cc44b114867a3dc32d04b7f51c100c1a7d876a0a5d94058991"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/68.mcfunction"
+hash = "c4635d36fb8995fb32858ceaa097bfef3e6ed4becec9ee10dba403577376d334"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/69.mcfunction"
+hash = "75be8bbfb22589e6cd4d9f1651adb706e8a0096e826c34c25b9271d57b1d2f7a"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/7.mcfunction"
+hash = "f06666b9cd7e216a68f06198ae2a6b90ecf9de50acf91741b55abd967f357294"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/70.mcfunction"
+hash = "78e9383dd94165703f96a0768739dbf631f54f59d89757c98c1cb4bbe8f8ebcb"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/71.mcfunction"
+hash = "1d91d34e8f1daf5752a7b0d241f316656a05735429da7b3352897835a732e975"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/72.mcfunction"
+hash = "62806f1ceb7e55f094a90629d90c7658ec46bc55f4fac6de5140768a162122b0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/73.mcfunction"
+hash = "76910f09711a1fc73e5f29aa24ee3688c29a9f83e6c564bdaa0dff4cf404b45b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/74.mcfunction"
+hash = "9f4c75e175dfdf9575ac6fd10469c4ee95a53f1fa7560d61abc85322c1e50dc1"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/75.mcfunction"
+hash = "34f1ea02dbe1a00d06fbde8913a1cfda226545b2dd2d029959e04930abf3c558"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/76.mcfunction"
+hash = "fdb26de7e9c1975f85b4810e63cdda961044157a844817df2a70ce5e618161e2"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/77.mcfunction"
+hash = "330394ac8869a5c53f9ed330f11e26ebf7cfc3a00f1c63fb35de145feccf2a2b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/78.mcfunction"
+hash = "13aefcccd99c04f699f4f8b44c0fac8538247a3ff676af2e29b1a59c5073fcee"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/79.mcfunction"
+hash = "26c7b04359778578cb79a73234c76c985a3765b69f2768d246188a3cfa2e53bf"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/8.mcfunction"
+hash = "ab678e21990829753581e79b89c7feb953eb643fd6642e3075c42dc821e5eb40"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/80.mcfunction"
+hash = "13a2c248f636ebc629104c32c660e722f3376f5422aee962d8fdf3f3da28a000"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/notes/84.mcfunction"
+hash = "fb952e97999a1c8c10c594ce295e119b50a64311426aacb3101e9f466872af6f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/play.mcfunction"
+hash = "e8986bb1e711f83e4c3f8a4de809a81644a087a3d56a2f663246c2b237a639ee"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/stop.mcfunction"
+hash = "cfae6c0027b7315f710bebedbdb6b9425866fbd0ec6492d58516c5bda28d763e"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/0_1.mcfunction"
+hash = "d8880557c1706dd695a6ce79403a1ea1a929cef52d74edeb9fcadfbb4f6ec729"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/0_127.mcfunction"
+hash = "49e72b67bfd9d54058bcfb9aa0fe869d4f0b6e53b92ecac005431527b554c6b3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/0_15.mcfunction"
+hash = "8512705e92edd86a5f58508f6a9c0dacab196fbf80b920cca44b829864aef1f7"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/0_3.mcfunction"
+hash = "f89a4cbc05184d916e492b43e1e4c8f8580ed8b9c0b5354013367598b7aa1ff5"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/0_31.mcfunction"
+hash = "481b99dd526dbab44e541ecfaa09aaa736da53d89aeb6021527189d553c3a552"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/0_63.mcfunction"
+hash = "1c96770afea5377048b7282626732b842be9c80d966084b5c51c0c3be2042d24"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/0_7.mcfunction"
+hash = "1ada21082da71c541e6e65375da99eb9d01619104fb15babacba6cb4606f3da6"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/10_11.mcfunction"
+hash = "529a44be39e64e501c923ca00f30f29e9eb67a9aeb82cf1bb4f8192eb2e76e92"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/12_13.mcfunction"
+hash = "342906aff16e1e6babd341450b20c4fa979613eea2fbf0c2683547841fd2305b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/12_15.mcfunction"
+hash = "6387118dd0abf814936059291d65c77a78864ed102680cc5798123df1a9a4450"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/14_15.mcfunction"
+hash = "34ff5084a4b7848e7aa00cdf5363acb9f332a57441943e7b1d2a5daadef9e9a9"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/16_17.mcfunction"
+hash = "669c63bc457096b3288f2cdada180857db80746d2e4c4f77151b35ff195f9dc4"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/16_19.mcfunction"
+hash = "c7d3fa22ec66367d8270d246a6c0c921ebcf4d1f49238ad1ad042cbb40b6fde0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/16_23.mcfunction"
+hash = "3a01a49bc05c635c0ee7425cb7fef1db73668b6e7dee199e9a21a11691ab5fae"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/16_31.mcfunction"
+hash = "92b138ec090bfdcea33013b3481336b598719151ca89951f9fb783e0a59e17b5"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/20_21.mcfunction"
+hash = "2b2143bcf38c33b3de5873613a7ff3e58e00d36ec9e672809e46c08511beef75"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/20_23.mcfunction"
+hash = "2e1de62265b1f472a9740ede823425b9f93300dc2b1e3593e8470463a1e5d425"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/22_23.mcfunction"
+hash = "771377a9b276c44c5500fc47b87475084b179b2e6a31772c9d98dfe274f3ef2f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/24_25.mcfunction"
+hash = "7017a681013a57c3373de67d1a417cb83e63b1ecf9ebb078f70a41b3a17e360d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/24_27.mcfunction"
+hash = "85fb32a312bcb5505a23767cd79124055916af8bf2137516734079367371827f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/24_31.mcfunction"
+hash = "6cccabaddf539f4dbbdae1677450c00f4b10a57d94f7ecd5e8588487ee440662"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/26_27.mcfunction"
+hash = "0c5eba4d57887396ad05bc3e95221e406541513035abd721d92f6c9393edb650"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/28_29.mcfunction"
+hash = "48179e7905d3d39ae1b663767c0345aa57672972cbc80bd8a4b5f47405b3df28"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/28_31.mcfunction"
+hash = "d16eb5e864b6bf2bb6566708f9faaa59fc204f0ae2403959eb713670ecce2492"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/30_31.mcfunction"
+hash = "24f847dff91b70d8335ed2d5d0b580e1c1553dc472e2a923d16d6eb68b913cb2"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/32_33.mcfunction"
+hash = "2cd8affd462cf28b52a31b1b91c71e3d7c93b3d31b86f5784897e9bee9c8cff3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/32_35.mcfunction"
+hash = "af8930dd3cd184d19964045bd475ea630e0657b67b852ca5670d5552b6e93eab"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/32_39.mcfunction"
+hash = "042b273475d5517bd3f1124c289059ccf2b32df4084ff9f115cd7e39943c0c66"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/32_47.mcfunction"
+hash = "598570efad2d228e12a2f106651e9355ac00b63b6e2e940f036f257a3527134a"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/32_63.mcfunction"
+hash = "7114ae268704c716361a47c974add106e743e574857f1dfd045e080b2d29b068"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/34_35.mcfunction"
+hash = "c022965542f6d9af325856de9ab172ec1c95bbd29b409fe0bb4bda4587b62ecc"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/36_37.mcfunction"
+hash = "1d6f5ebfa2d8ff812f9e232ae38bc7cedb6a14028796af264e94f7f92c429dbe"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/36_39.mcfunction"
+hash = "4775527b65e25d0c5fc29bb6ee27a860da2a971bdb6f4f226db32c0aaa5017c2"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/38_39.mcfunction"
+hash = "1c34deccc0606e939505995022ab2449f3f626adc753f3c09c400fdcb31fa370"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/40_41.mcfunction"
+hash = "2ff03e107b0874536049685f99d9e9e879a02321a9f5461768b66a6ffeed1356"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/40_43.mcfunction"
+hash = "1a61b75c81be93740b2e45104deeda6a128e1c3de2fefb626cc431dd7cc504b4"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/40_47.mcfunction"
+hash = "d0476855c419e900eeaa34a6ca726cd55b4feae75221e51312a1e72c797664d7"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/42_43.mcfunction"
+hash = "798a38ebbd57fd5650fa5a81910f9df331b1bad6d69043aefb237894fac63078"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/44_45.mcfunction"
+hash = "8a7d9f1fe12f0bfbc9fd804782497a3d42a961df35240a41963aa6dce0e92ff3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/44_47.mcfunction"
+hash = "1fd60ea3b4c7b1ac8635da1b03e524771a14b8506d4e7f40f4942f3187b21aa0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/46_47.mcfunction"
+hash = "28aaf6f90709e9c41b8f9116e3d218170cc9c79f794bcc05974c573f8e32b930"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/48_49.mcfunction"
+hash = "2cb492c66acea0699d1c2eb58eef159970de32478a3ac72ecab7bd393e2bc621"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/48_51.mcfunction"
+hash = "b08d7679f27cdfe844c7a296eb2bf913c5fadfcb846924e72cca665fc79e9a41"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/48_55.mcfunction"
+hash = "fb946dc33de5152741e3c1b3e0a15e8e01d1026e9f5957704a0623e30efd7f7f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/48_63.mcfunction"
+hash = "bc3d6b17fabbada1386633de7611087d7b61b6024ab976a885ea4142eb08333c"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/4_5.mcfunction"
+hash = "32cab0fce8583be50eb37475ca0a2bb3938969126f0ecb501c5b1bc355d0d02d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/4_7.mcfunction"
+hash = "e4c12aad85c8993ed13439590ce0c528bb97c4013cb9cac4c533ab4dc93019b6"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/50_51.mcfunction"
+hash = "02582370058d6b559c4afcbfe3bb135829c546b238f57859c88ef1aec2ac8f78"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/52_53.mcfunction"
+hash = "76c2ec20658446526d029a0155f694a8ec88b80a45b4e351d2ad39c135292e70"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/52_55.mcfunction"
+hash = "3296a38fe9c00014cb35798d4d2c7017228464de82642ee9df598684c2b41c87"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/54_55.mcfunction"
+hash = "1e678e5dd8e631d2c5c1d48582d1b0abd4475c1b265a51a2c700c9a7ef4cf7dd"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/56_57.mcfunction"
+hash = "0f9ea9e03ccd0c1244b4d197af2c42fc0c8f65f18dc6531e7c5d15df50bab3e8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/56_59.mcfunction"
+hash = "871bfdd6976b0e3ffc5637fed0c7729867827c86fd8345274d5c97da4c57a47a"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/56_63.mcfunction"
+hash = "e17299a2178d3f4bcc0151e08a2669e196c390ea794d6c57175f6f4ab36f20d6"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/58_59.mcfunction"
+hash = "1d900c740094f0acb5cfe5a9c7b2324cb6a3eaec2c49ffc999ac33fa6dcc4a32"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/60_61.mcfunction"
+hash = "308e26d65b896e96ffc60012cd1c38cae0a2a825d100890fc9f871aba2b1583c"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/60_63.mcfunction"
+hash = "233d5b61a09bc26e94c5f254830c6fc75a28044c8b24d150fa9d1055559424e5"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/62_63.mcfunction"
+hash = "9c3f4147f2ec8d8ba11c9668107f517a357656c4bdbc885c547f69faf831f056"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/64_127.mcfunction"
+hash = "d5cd3cb2f0229130820d06eb39ab91f8607543b9dd855d7a37d4f203dffdadf8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/64_65.mcfunction"
+hash = "fccc8d67e0947c927ad85b7f73da7957827b1f3181a6a2ccdcad110b10e886d6"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/64_67.mcfunction"
+hash = "75c381d7699ae6367cf92549acc32629fa84c76a0737198f13d19fe031a85dc0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/64_71.mcfunction"
+hash = "1e9cb630782ecd4729ae554dce0a1ef94b26b904521a99d611bde9ba5a0c33e3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/64_79.mcfunction"
+hash = "0271cbb4036aa18d3881039eba18d03992495d08a9de456bba2b06de4274197b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/64_95.mcfunction"
+hash = "a5692094112cf1978aea3d7dc650c8d8e8dd769eb0911e69f32f8532f7721cf0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/66_67.mcfunction"
+hash = "8ce76c7a5f9a383a306d17deb45e5a150813670f2876923959d37611add02f5c"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/68_69.mcfunction"
+hash = "5a1fe486a54e47e5eca70519c1efe1ceef0b1f4951bdc83762f249ded01d53a5"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/68_71.mcfunction"
+hash = "fba4ba6989b553233a40b800b30282293159a7f68862735b30e41194641b119b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/6_7.mcfunction"
+hash = "9a3872d108182303037012c4c6b4e863cafb8d6a4af7b744a1b297ea8f27086f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/70_71.mcfunction"
+hash = "c6305c136b17feea0bbe0ed27b510a2d74f9085198a696073c666ed068bdc7e8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/72_73.mcfunction"
+hash = "46af942cc04f0d7d5b03d68b56c00d642c04a991c5804f5ce1b354480923ab64"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/72_75.mcfunction"
+hash = "f4219c9fa1d46036ce4c8e800a07fa95b9bbfc0158413c611d4fc44b7f3f27f8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/72_79.mcfunction"
+hash = "3321be069f10d952836c0996f54463a2446152068e5885719761a02ccce7b9aa"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/74_75.mcfunction"
+hash = "c8187805d58111ab45fdecb7a17bd409c2854fec521680b4ea6bd0a1cd86838a"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/76_77.mcfunction"
+hash = "3b66bfa15e6d1f9bc5ace41ba24b3ff783858fb6032edd632b02c94b062849e4"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/76_79.mcfunction"
+hash = "e4ea8c41c4deb2ea0684742d260137090d1ef3015bb45a2468db72c19f264590"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/78_79.mcfunction"
+hash = "969d8d97b9f435f48d85be458669b43a9ce80e95fcc146dd1dbd7fbed931cb12"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/80_81.mcfunction"
+hash = "aad836abf300a0c7fd08f99fcf60490e36c19632da06671fa8e42693c0f930bc"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/80_83.mcfunction"
+hash = "6154492ebf8b39d8352e06d873b0bb91bf8b2001f898fcb6ed23608f9bc40b3f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/80_87.mcfunction"
+hash = "82c807c0262e091b4fb16c692384f398d976fb632a43429cc03f51007b4a8141"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/80_95.mcfunction"
+hash = "271706851530de7d8f0c856d477b91cd1d10c075be11573ad12dbd8d3c023a40"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/84_85.mcfunction"
+hash = "a2d25a2302dd09641fec636de708c24e90d688100cee92662f16d84b984e3589"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/84_87.mcfunction"
+hash = "45ec34d0c0addbf41e712cfe7e3180bd9c7abd1f040eaffdedd45b0ada78d0fd"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/8_11.mcfunction"
+hash = "3d35f372ee55926f84168e3088d97c6310fa0e2bbf7f91ee3042608dcfad7af2"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/8_15.mcfunction"
+hash = "a5610c1fd766ad7a2f4fa8ec782e2c94f2a30508dead20690c617740c2e0b635"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/intro_song/tree/8_9.mcfunction"
+hash = "687ce2f27fe9dd1cb8193bd6f91b07ffa7664c16ea227c1b62ade6cec9a80a85"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/load.mcfunction"
+hash = "065b948845ca7ac66f0db437bdc1bce5cec553f6d4c3b75346b7d2d64f527192"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/log.mcfunction"
+hash = "4849c0d971e7749e48e1e9fb40b150a52924636ec4e94d0be6a9b8693f75241b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/log_start.mcfunction"
+hash = "b0af65d8bfccd74311a9c7ff51fbdc1f14189f769825c5c8cbf35b69de5dc261"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/log_wait.mcfunction"
+hash = "605f7b228999c93b5dbf414b55697ba1e2256414b19ce5c92ccfab057e51ddc3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/outdated_logs/outdated_start.mcfunction"
+hash = "e233103fea177a6e275917e3824ecf31dbfa09ca787663a01a9a69e15f1aa827"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/outdated_logs/traverse.mcfunction"
+hash = "8a91ceaeb07c391d267d71dea84b0537c86624cb7cb2b85762c45145f842d4ba"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/post_load.mcfunction"
+hash = "ca332790d0863aed6714a126eab2be237638d6aca819fbf38b4b10eb9a93ddce"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/resolve_load.mcfunction"
+hash = "2ea4e0d38ad3cf6fd61dbcd8c9f0417138098676d121041c53a0a7f94cfe4913"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/resolve_post_load.mcfunction"
+hash = "a1a81ddc755512cfe3c6ec8dbd6aa03d175aeb7bf3e851df6e2f56ee054e4a41"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/upgrade_paths/changed_dimension.mcfunction"
+hash = "b9910e309f4e36cc80f24ab8fa13895fba1c55e387f68ffa14f954dd8cd60ff4"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/upgrade_paths/join_game.mcfunction"
+hash = "f3687da58899280c833cb2571d270936d3e8c884d5ec3262224561cc51db9d29"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/upgrade_paths/load.mcfunction"
+hash = "88b7e70ab6e6e8e6fabae8931687d2170c126a100fe1829535b291796ea7c709"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/upgrade_paths/main.mcfunction"
+hash = "3ef85a1a70609ffc73882d2ff93e700dc002ce56f1b812b6550d64d4c879530b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4-1.9/function/upgrade_paths/run_when_loaded.mcfunction"
+hash = "dd5c586414d6393a3380ac45167d52c9d412ed197956423804b849ee58d20808"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/advancement/desire_lines_10000.json"
+hash = "1e6f37e37512348d9691349d7c84a1a2cacb03e47da947c857d377f73d4af644"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/advancement/desire_lines_8000.json"
+hash = "194ff93860562085ca5c2ef0c4ad583bd118174d9bab676f172fbda0a233031c"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/advancement/root.json"
+hash = "dbb1fcf1fe913e93847fde3b216d774d3829cba3f034ce2989724b1cfff96556"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/loot_table/air.json"
+hash = "054468dfdfce8d9c8fe7f35ac1605b03d5cb9e315f0d365a5d0b3e534a7314b6"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/loot_table/empty.json"
+hash = "af73bfdbddd392cbfcf94acfc3638cdeb8cc8f69f70341727b8e174504a838d3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/block/foliage.json"
+hash = "7364737e4087581f63ca9df2c820b0ba021afd6d10dc3ff47f565b922b52ef97"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/block/full_collision.json"
+hash = "42dc7c25ab5c7212b9ba7f60cf93e946361aae0c90c4ebfc6cef1c8fa1c12592"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/block/no_collision.json"
+hash = "20f2ad4ea3378a56e0b717a8bcfaf70553ae491762b2b583cde4818882bf19a5"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/block/replaceable.json"
+hash = "2e07bbb82305f293681d07250f5cbf6b7ffec0bca2a312a9f819319644c02ba3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/block/water.json"
+hash = "9c4c2d08a1f8376b4ea46378c9831c0c1a4a293fcc607ce09df89daed7278a7a"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/block/waterloggable.json"
+hash = "478d4d98e70e0debf382742684666a43d96466a61c8472afb4242d1ecb2a4bbe"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/boss.json"
+hash = "6d28a4e43f491ec93d1823f55f8c0309a9ee92232eca215a7399933d7a8f7dd7"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/chest_boats.json"
+hash = "e038a3105297efe1dfa4f2e0e34b4bf36e1abdd301160549fd700b3bd764ad54"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/hostile.json"
+hash = "23c2f0e2f6319c782361251dfc82a4543c499e9f1bf0982beb5cafa2e35ed557"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/minecarts.json"
+hash = "4433d5b5072029fc77e56507a74634e159a29e21148a890050f1d3917619b904"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/neutral.json"
+hash = "370406f47079bf24ff7258fd1dd722161827b8a01bbaed2b927b80956b8f8d95"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/neutral_hostile.json"
+hash = "615713a1810766e56ca6ac59d9aaa5c2d5d12de87fee0d7d1bfdb89cdad615ac"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/neutral_passive.json"
+hash = "4bc3677455db499622c32086af14f9cc0e07637a0fc9c3d9f2c171738948ec4d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/non_living.json"
+hash = "c61e968c8f73d5e9532652547bfd9899cc4f7ee6863ae5ccf6557a8772c75c20"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4/tags/entity_type/passive.json"
+hash = "a5692d2c03ce71d8fa6e35a00f18aafb44c0040efce145b3cb57aa1c8fe544f0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/function/active.mcfunction"
+hash = "737d74b072dc131d4234e77c993845f9c0316ab7f6ad84a58f96665c99616edb"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/function/check_item_validity.mcfunction"
+hash = "a61d486b5ae43034a32e8d3d565c993299365e8877610d28688807f69f70fa92"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/function/summon_band.mcfunction"
+hash = "1ad227bbf0d369ff058570e7c694f3806d8bcccb36363078483a7438a4a7657d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/function/tick.mcfunction"
+hash = "f438e61fb10cdb6f34d74755bce8ae85bca8e0bae7c58781fe40c05df1c48677"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/loot_table/band.json"
+hash = "f9bbb3fa749b865946836413347447635bb00983933fe89d848dece90ab49298"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/predicate/shamir_active.json"
+hash = "cd5af05d70991c553250832cbac6c7a3e90943010448b6e46e947d61c4fa57dc"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/predicate/stealth_active.json"
+hash = "6036145c7a35d1a585f0055127564ec0df1147e12682588a54fe3c05c6e67c35"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/tags/block/tall_plants.json"
+hash = "c02dbf567664ea45e8c51ef4c6de97aa989669578ebe1746b387fb0cd1f731b3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_celaro_shamir/tags/item/valid_items.json"
+hash = "dceb2930c5f1447114250605ad0fabe857c76eb1c9b019dd447b550a5c634e27"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/function/init.mcfunction"
+hash = "0bdebb89dc23efd829024b0a8c09c881dd7321c09f7e8c9a497e64777b87a165"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/function/load.mcfunction"
+hash = "b3c6cfbb46bf0fcb03d56a5ead79213e14fc53c7bc87769fa32ed644537ad13c"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/function/path.mcfunction"
+hash = "ae51b572ed3c59124d3a7fc899c84f030b678c881bdf206c89ce861c7a31c940"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/function/player.mcfunction"
+hash = "b0c73843feda1091da5bf2bd791b0d10edc236dfd8f474f3e9b31bbca1f2055d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/function/tick.mcfunction"
+hash = "9a53e3bf71ceda02b270bf571fc7643de9f26aec3ce9250f31b8628d4b75047d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/predicate/can_coarse_dirt.json"
+hash = "e3a1315cea4bc1a801a1a1e39c7108b55860a7f01a8de27c271de6323f9415bf"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/predicate/feather_falling_fail.json"
+hash = "574be01fd7b8f00559593db5bb025832dee159665b34248c115c8f0abfde1507"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/predicate/is_affected.json"
+hash = "4da002432f74b3574dd8d9f4893163b3ee187101d1d775f6334a418096f8e9bb"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/tags/function/expansion.json"
+hash = "59f224d962f442153f46edb569328596a7ae7b5e296a17e8ebedee4485f34673"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_desire_lines/tags/function/load.json"
+hash = "4930b0f21aa14fc3b63521de4c54c8ce594b788a61422a1502bd5e97533165f8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/celaro_shamir/display/shamir_use.json"
+hash = "631b7d661945f0ccb2595d9fb0a0f427319f1fb09a47e09fde1f62c95e0c0539"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/celaro_shamir/unlock/shamir_use.json"
+hash = "8f4457676bd99f8d643223781559ed2044939c0e22318c2a02445a29fa31bc49"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/display/trampling_foliage-boots_of_ostara-metallurgy.json"
+hash = "fad51947a3dfbcb851438d43e9e1d7ae536b4877a7f3702629f48a3d12119dd9"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/display/trampling_foliage-boots_of_ostara.json"
+hash = "fad51947a3dfbcb851438d43e9e1d7ae536b4877a7f3702629f48a3d12119dd9"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/display/trampling_foliage-metallurgy.json"
+hash = "fad51947a3dfbcb851438d43e9e1d7ae536b4877a7f3702629f48a3d12119dd9"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/display/trampling_foliage.json"
+hash = "fad51947a3dfbcb851438d43e9e1d7ae536b4877a7f3702629f48a3d12119dd9"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/unlock/trampling_foliage-boots_of_ostara-metallurgy.json"
+hash = "6d600acfa17a9dbcb69dd53009650e764dd993f8d91d2d578b5993eecb2d3da7"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/unlock/trampling_foliage-boots_of_ostara.json"
+hash = "767fd1c9255e7cb50e8d4564d332e7d0dd32a3c58d34e1f4f8d3fd649cf6118d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/unlock/trampling_foliage-metallurgy.json"
+hash = "3048b21711f7e4f556217f774e92c1831152623231e1faddcd0556f334d9eb0f"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/desire_lines/unlock/trampling_foliage.json"
+hash = "00a52211230a6d2849a6e0fa31fe771720d80a199a42fb514722e1a3b6273631"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/advancement/root.json"
+hash = "295f1f163842bdc61074ed527a798d8447ecce7c035aefd548cacaf0e6a5636e"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/celaro_shamir/add_toc_line.mcfunction"
+hash = "a3fd5d14a1548beebce0e037b72ef2b31c4981d0921832d9e30a9f0d52d0fedc"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/celaro_shamir/init_player_db.mcfunction"
+hash = "10d55e56b94687851bdebbf83deda2a317eabd7981a3b66b8e17c52911f58db8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/celaro_shamir/rewards/shamir_use.mcfunction"
+hash = "291bd5e73668eafd27e0cad547ace3bc0d23534c371cbeaaada8bf8a7b6d3737"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/celaro_shamir/rewards/unlock/shamir_use.mcfunction"
+hash = "c1d24fe4db05365e445024be387e17a633a4c07ce479d08727319e48af80a360"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/celaro_shamir/setup_storage.mcfunction"
+hash = "c6a0bd834711099e0cb2dd5621ad7844675596d6b630d3560deaef113d5eb549"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/celaro_shamir/summon_marker.mcfunction"
+hash = "b200fe7de3f0d66220a1731edd22e37520e392a4f6f04dd2ab914d29c44a05cc"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/add_toc_line.mcfunction"
+hash = "76e6658bf7c6dcaa82a3b131f27849d4e5b37e070a90e8ad38d044434a619274"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/init_player_db.mcfunction"
+hash = "5e7b4cdf72a95f6d86399f6e6ea9658c08af6c27b30592cd864f9139e9804144"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/trampling_foliage-boots_of_ostara-metallurgy.mcfunction"
+hash = "1c50de994c6f718ca246d26bdfe5be5fe269344dc5b372c29b664a445a0ad8a6"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/trampling_foliage-boots_of_ostara.mcfunction"
+hash = "e46d8f07252d859e9a99cbe887149684a95eec3228023fe0c08fdcb2ddc3d737"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/trampling_foliage-metallurgy.mcfunction"
+hash = "c60edb41be1835609882baa55882b51f757aa3752fae51df38805567f1145269"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/trampling_foliage.mcfunction"
+hash = "23a6f9475ef9861f408c4e7fb223b514ad354ef0264177ec110359acba747b30"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/unlock/trampling_foliage-boots_of_ostara-metallurgy.mcfunction"
+hash = "554cd597e5e8772da16607013ef9295343651695eb797b896a92e5061402b503"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/unlock/trampling_foliage-boots_of_ostara.mcfunction"
+hash = "095ebc4a06712733779c5ba6ce063c7a53eb23931e032fb8edb617940a662ed8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/unlock/trampling_foliage-metallurgy.mcfunction"
+hash = "6f2bb90bb7f43b64e8912dba823d425c483d8d7843a1fa7ed071e4007d2e0287"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/rewards/unlock/trampling_foliage.mcfunction"
+hash = "5aff36f9e553ad6be73f30477acae1ad7219fa5a2674027a719891b4bc1024d9"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/setup_storage.mcfunction"
+hash = "3de422bdc8947615c9e2ac6a62ab87a366d10eb39b16f3b21dfbccc459f1a36b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/function/desire_lines/summon_marker.mcfunction"
+hash = "6f148779bd61c1feb153a650770472785ceeabe2a0fd9326dca8486b5e89d041"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/tags/function/add_toc_line.json"
+hash = "98bdb79c45fb0da167ac54a426cf489b4ce475d7de7bd455c51978c4beb0c136"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/tags/function/init_player_db.json"
+hash = "91fa77bcb1165cdc7ff16ec9ae5b1a23d8771c55cb9dc6e0a65f60f2e61da11a"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/tags/function/setup_storage.json"
+hash = "b77075074c83e600daf6f3f10b8c81994dad8e1371f5f98bdc8360cb73b6f098"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_guidebook/tags/function/summon_marker.json"
+hash = "3dd46585496d80acdc3c61691287648695578c0cdc13b0b18241a00417723f5b"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_metallurgy/tags/function/check_item_validity.json"
+hash = "7a9604942492111da194d200ad5e955ebdcdf161bce35e798604d1ef868a2fbe"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/gm4_metallurgy/tags/function/summon_band/aluminium.json"
+hash = "c1f74d5cc4430b1653b42c105a8ffac42f5ad635dc71d19d1d6d573e622841ba"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/function/_private/init.mcfunction"
+hash = "2f1e79c01d786e6fa0775f8e48a21306c74bf9ae5b2d581459b4a7ee493e8e50"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/_private/init.json"
+hash = "7ec21e291b45d6a723389e0ae47a92df2d27313689c1c6b7eb333bd3bddf92e4"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/_private/load.json"
+hash = "238fb3573d2a65c34a9ece1c02650cc934957fdf015ae4f42d949128de8b1312"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/gm4.json"
+hash = "10a75de9b86833c97bfb713b8c9897d79c6e5881768c9ff38ca3ea58e50506c0"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/gm4/enumerate.json"
+hash = "4dd6514336db326c5e2a43c855ae3aee75c3b490097dacda0da53c9bbe611821"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/gm4/resolve_load.json"
+hash = "d5fc942fd9fb3162ac3c7a8c3a895d89e1e2515375a2523f9975a1bc132f2156"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/gm4/resolve_post_load.json"
+hash = "65dce286deaa842523aecf85897d4a31a400eaa536e321e5e07e05a0675e1f00"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/gm4_desire_lines.json"
+hash = "4930b0f21aa14fc3b63521de4c54c8ce594b788a61422a1502bd5e97533165f8"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/load.json"
+hash = "4fb670a1d7e783107571a1377f87a8b3f38ed377369cfb70919f8d9c74806eb1"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/post_load.json"
+hash = "4da1e6c733f81dd1138748fc60d488191a97ee92d1041ac1c4773cd2ed16bc49"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/load/tags/function/pre_load.json"
+hash = "3c699af9b935bfb385750e3a22d2fea986f2b526bd767e851df4999dcbfcc993"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/minecraft/loot_table/blocks/player_head.json"
+hash = "aa46caab92a41852bfa1dc03cab5e5a6fc99b2eba127eb31e0301f630979243d"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/minecraft/loot_table/empty.json"
+hash = "af73bfdbddd392cbfcf94acfc3638cdeb8cc8f69f70341727b8e174504a838d3"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/data/minecraft/tags/function/load.json"
+hash = "e809d0551b9752474d480b3e74a0168b8812d4895c74690a743b6e6de88f05e1"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/pack.mcmeta"
+hash = "da344897ff7b4d89c8d47933f63f209eecaf798f2b1b5158116d46fdc619babd"
+
+[[files]]
+file = "global_packs/required_data/gm4-desire-lines/pack.png"
+hash = "d2042fcaf1d85dfec1eadc8869d1016a1eef3be3deba86c5be5f6d9354c68afd"
+
+[[files]]
 file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/chorus_ale.json"
 hash = "cfb3fb5784e8599b7a9a97681c70c8f304d1313fc97a6999bb058964bccb488c"
 

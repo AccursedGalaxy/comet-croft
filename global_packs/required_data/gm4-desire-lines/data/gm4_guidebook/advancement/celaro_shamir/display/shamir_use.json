@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil",
+      "components": {
+        "minecraft:custom_model_data": {
+          "strings": [
+            "gm4_desire_lines:guidebook_icon/celaro_shamir"
+          ]
+        }
+      }
+    },
+    "title": [
+      "",
+      {
+        "translate": "gui.gm4.guidebook.toast",
+        "fallback": "",
+        "color": "white",
+        "font": "gm4:guidebook"
+      },
+      {
+        "translate": "text.gm4.guidebook.discovered_page",
+        "fallback": "Check your guidebook!",
+        "color": "#4AA0C7",
+        "italic": true
+      }
+    ],
+    "description": "Celaro Shamir",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "gm4_guidebook:root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

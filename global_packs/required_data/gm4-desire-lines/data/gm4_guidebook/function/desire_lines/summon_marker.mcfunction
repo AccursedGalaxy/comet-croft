@@ -1,0 +1,1 @@
+execute if score gm4_desire_lines load.status matches 1.. run summon marker ~ 867.159872053633 ~ {CustomName:"gm4_desire_lines",Tags:["gm4_guide","gm4_guide_desire_lines"],data:{type:"module",id:"desire_lines",trigger:77,module_name:"Desire Lines",toc_line:"\u25cf Desire Lines",line_count:1}}
