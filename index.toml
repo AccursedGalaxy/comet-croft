@@ -17,6 +17,10 @@ file = "config/iris.properties"
 hash = "6a4760b11e55fd387935c8b461f17d6a69d8cf8d273e61cfeb0a59df042e9ebf"
 
 [[files]]
+file = "config/lambdynlights.toml"
+hash = "6fea369a399ff0dcc879d7f1d926432dec26558986f0b965dd06c1193779515d"
+
+[[files]]
 file = "config/lunar-common.toml"
 hash = "455b9d5db24bc421cc65ee35c470b9fe41fa73d782802cd90ccbfe21beadfaf9"
 
@@ -743,6 +747,11 @@ metafile = true
 [[files]]
 file = "mods/krypton.pw.toml"
 hash = "d5060b22fa47d5d56e0f4617904731e9d397d1ba104320b7ec8e59f7ca0700a7"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "4af50837d039d8b8a8857674033cbc87e90c441de2c296b2bd80a70ee04d3c96"
 metafile = true
 
 [[files]]
