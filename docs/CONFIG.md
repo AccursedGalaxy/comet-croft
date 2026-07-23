@@ -456,3 +456,34 @@ deaths. All four `side = "both"`.
   - Residual risk accepted: hyperthermia/scalding damage can't be zeroed
     without a mixin; thresholds are Nether-extreme, armor now absorbs it.
 - **Boot gate:** pending — needs a server + client boot before commit.
+
+## Cooking Tier 2b — drinks hydration expansion (2026-07-23)
+
+Finding: Homeostatic only hydrates items it has `environment/drinkable`
+data for. Its bundled data covers FD/Vinery/Brewery etc. but NOT
+`alcocraftplus` or `cnk` (Crop & Kettle) — so the pack's entire brewing
+content gave **zero** thirst. Fixed data-side in `homeostatic-cozy`
+(43 new JSONs under `data/{alcocraftplus,cnk}/environment/drinkable/`),
+tiered so brewing beats bottling:
+
+| Tier | amount / saturation | Items |
+|---|---|---|
+| Brewed & aged | 4 / 1.0 | all 12 AlcoCraft drinks; CnK wines (15), beer, ginger beer, apple cider |
+| Café drinks | 3 / 0.7 | CnK tea, builder's tea, coffee, iced coffee, hot chocolate, pumpkin latte, milk bottle |
+| Soups & wet food | 2 / 0.5 | CnK tomato/vegetable/stone soup, stew, ramen, cereal |
+
+Reference scale: water sip/bottle 1, purified bottle 3, milk bucket 9.
+All entries `effect_chance` 0 (no thirst debuffs, per cozy line). Item
+IDs verified against `assets/<ns>/items/` in the pinned jars.
+
+Harshness pass (same date):
+- **Spoiled blacklist grown**: all AlcoCraft + CnK drinks plus FD
+  milk bottle / apple cider / melon juice / hot cocoa never rot —
+  wine aging into rotten flesh was absurd. Soups still spoil (food).
+  yosbr caveat applies: existing installs keep their old
+  `spoiled-common.toml`; dev-instance copy synced by hand 2026-07-23,
+  server installs need the same on next deploy.
+- AlcoCraft beer debuffs are HARDCODED (checked decompiled
+  `ItemsRegistry`): nausea 10 s (one beer 5 s) + themed effect up to
+  10 min at 100% chance on drink. Left as flavor — a config/mixin would
+  be needed to change; revisit only if playtests hate it.

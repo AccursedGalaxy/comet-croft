@@ -35,15 +35,21 @@
       "type": "modonomicon:text",
       "id": "page3",
       "sort_number": 3,
-      "title": "book.cometcroft.field_guide.food.water_and_warmth.page3.title",
       "text": "book.cometcroft.field_guide.food.water_and_warmth.page3.text"
+    },
+    {
+      "type": "modonomicon:text",
+      "id": "page4",
+      "sort_number": 4,
+      "title": "book.cometcroft.field_guide.food.water_and_warmth.page4.title",
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page4.text"
     },
     {
       "type": "modonomicon:crafting_recipe",
       "recipe_id_1": "homeostatic:thermometer",
-      "id": "page4",
-      "sort_number": 4,
-      "text": "book.cometcroft.field_guide.food.water_and_warmth.page4.text"
+      "id": "page5",
+      "sort_number": 5,
+      "text": "book.cometcroft.field_guide.food.water_and_warmth.page5.text"
     }
   ],
   "description": "book.cometcroft.field_guide.food.water_and_warmth.description"

@@ -90,7 +90,7 @@ hash = "e1c84f8c138429a753acd4adc8336ffcc0de7b79baf3bbc9faaf76e151e2d1a4"
 
 [[files]]
 file = "config/yosbr/config/spoiled-common.toml"
-hash = "8214387bc90c3d07f636d75db73d5209120aa2e98785eddfc2f3e56b0bea8d19"
+hash = "db90565514fcfb06308d4858ffcc1671f5371a1201bbbbd322b8d2e544cfb2d6"
 
 [[files]]
 file = "config/yosbr/config/xaero/minimap/profiles/default.cfg"
@@ -202,7 +202,7 @@ hash = "80cdd25705b47a1203e703b14c925b86697e2890830c0407af969a367cc9e2b5"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/food/water_and_warmth.json"
-hash = "b78fcf3ec19a27a0c1659aa458960ba3aef14ac0ef2567d8a4d23d7161b27696"
+hash = "fd58148f5fcda7771428c22f4fd86f390296e9e2fd9af07c9e93f9a411c95a2f"
 
 [[files]]
 file = "global_packs/required_data/field-guide-book/data/cometcroft/modonomicon/books/field_guide/entries/further_afield/earning_wings.json"
@@ -291,6 +291,178 @@ hash = "c05e17d835a528f2592bbdc7c77b0442212464a48184131b02f0de5b3ff0ea8a"
 [[files]]
 file = "global_packs/required_data/field-guide/pack.mcmeta"
 hash = "9f3a9be546c77640efbad95f873a939b5a884d10e89289aec58b9805d3b609e2"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/chorus_ale.json"
+hash = "cfb3fb5784e8599b7a9a97681c70c8f304d1313fc97a6999bb058964bccb488c"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/digger_bitter.json"
+hash = "4920c845cd19c62f2024f956676780f1c650488c4842442a6139cdee52075fe6"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/drowned_ale.json"
+hash = "2c0e36092872960b6fe069bc67e86e4264d82ecd9f2fa735e48d9675d0c5ca9c"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/ice_beer.json"
+hash = "130bc59dd54bc5eb2c319c58ae496a2237aaab14b8b91deee46c2eb9a7a9780b"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/kvass.json"
+hash = "2a2380d9a5c331b2ca58b258e50696a5b80fea3e54d6b1a324952491fb0f2054"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/leprechaun_cider.json"
+hash = "7d3e7c8f98d07a2c73dad7be16a5bee10cacd90d2a7656dd84d21fb576e4157d"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/magnet_pilsner.json"
+hash = "0a857c42333b479535ad1e17886936eb1161c0f086335febe81c21be6fd97c10"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/nether_porter.json"
+hash = "95b6ffa435d98e59fb8fe0bf2b979ee2a2ad1605ca510239faabf5d0af8f4b86"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/nether_star_lager.json"
+hash = "625771327ff5ca69547e3c122d22c509c6ee8f91a2696faedc87ce0c288c8606"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/night_rauch.json"
+hash = "2c06fad1ce9bbbc1c6e66bf34ac784263dccc11fdcc7367dfffb9bcc99288f3c"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/sun_pale_ale.json"
+hash = "46a836f7c21c464c355d47e3909149aedf7db3bd30330f35efa6e704623d1d7a"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/alcocraftplus/environment/drinkable/wither_stout.json"
+hash = "f2e66519cde2a693d013be47dbaf8c6c93dee49aba5ad417ee5ed9e8534787f6"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/apple_cider.json"
+hash = "b179529bbcfb6de50b4e5c8500503c5f7239af0758dfe37f7db0b023abaab04b"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/beer.json"
+hash = "198928c427b63a4c4984979b4e6003315f3f0dbe9f67e01ceae43369c5426e64"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/blazing_wine.json"
+hash = "b8965ef13bd33b458af6ee485838da9e43762df0bd3ba98c3b8f05432dc7b0c7"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/blessing_wine.json"
+hash = "26162e628916fb286bb2404fda6878ad2e3c4e992fd5ab0d40fbe396042e0b03"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/breezing_wine.json"
+hash = "31e5562f86267720c12410b1d6b2c87c9b9788bf485e7c9112238a624109cb19"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/builders_tea.json"
+hash = "0ad25a6e3748e965545810b9161d04022a2c57108e704d069ef19ba2ccbc9349"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/cereal.json"
+hash = "e6c83cb71338bbc2ebd01b032916ffab3c928597014bf32110d898616798de1d"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/chorus_wine.json"
+hash = "d137e40a86fcaaed4f04e8e3460fa41b65ba33500aad49c7c55ffd3a450c6cbe"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/coffee.json"
+hash = "160c09fc38eeb7994c6acd229c82e0aff359fb8935ae8605ba7bb70bad5b727d"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/creeping_wine.json"
+hash = "07f28d7097bcc439c7f4125b03c5e8f9e24d6da33fc54a6cc96aa3a36d1b7752"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/diving_wine.json"
+hash = "3bb0715378b6d43c2fe61d08bbcb09bea33774712e2ca67a23239b77a9c73bc4"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/fine_wine.json"
+hash = "20b55ccd48a508ad793b0da4a2efd0ecdef72dd66ff19625fc3c2c932be7ce8e"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/ginger_beer.json"
+hash = "43d22a9968c7e9c1ce65467559b84ee1f6292da28d370cbc13fbfb8a1ef039f9"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/gleaming_wine.json"
+hash = "366574b48533544414cf8a31b0784468d7e56036b0b2f3326cd0867ec784d4b9"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/glow_berry_wine.json"
+hash = "b0340361c800ae7055da738e74e717e3a4c4672f2a9eb91046ea7286c63df316"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/grape_wine.json"
+hash = "83554c6a04319674a2b40983e889b5effd8fb0205fb311667d78e516b9c4a29a"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/heroic_wine.json"
+hash = "73520e0c6d37d2897f02b6622594b2d50abba89344c94b61c9f51f3ddd2710bd"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/hot_chocolate.json"
+hash = "ee04e5aa9832fbc48e1ba649d94b0c191491c97440198c4b22f993d6b0fb2a43"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/iced_coffee.json"
+hash = "b776f7157b5179d706b1ef8e52701a37bf77ef1b1f3fc0094a1378a964a37502"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/milk_bottle.json"
+hash = "f918e2464cda30d33d846a7e50c0a772d7671d97ea8221417dcad6b06ed91a95"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/mulled_wine.json"
+hash = "b004008abaf0fd119391db51f1e991d478ba443758a72ddfd91371c4231b19e8"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/prospecting_wine.json"
+hash = "9a80f4ce577b456256fed41c86627f3e7815166688e5d57d416ccfd248eaa97c"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/pumpkin_latte.json"
+hash = "c337d231404bbb3b11046e3ef2bb8839a13409068e562b48f02ac681837641d1"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/ramen.json"
+hash = "d86726a7d318f3e1965d17017a2c34bd15264321ab0dfd3f978d79363ce91fe0"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/stew.json"
+hash = "da30d6cacebdcf4022db0ade70e2264923ab26a940db7732483f81c311e85380"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/stone_soup.json"
+hash = "72ca09a8dad46ddf5ed2663b92d4f7d0f58f57f890c9e4fe4cb0d492faeab4b7"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/sweet_berry_wine.json"
+hash = "ecd7cc15acdf98f064e9590a7562246de5cc774319014bb7463dae78d381dab4"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/tea.json"
+hash = "06295c421365e75ae1fdee160f05d7ffe1c6e47589709654b3ca3f54c65b23b3"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/tomato_soup.json"
+hash = "923b137fcfb0744723fe7359276208115423c9caa59f5d993c5a02f80d0fbb30"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/vegetable_soup.json"
+hash = "4452c05bcf3f60d8e2c8fb51372d5b46ec3a6ee67292efaefed5087c2ccb3846"
+
+[[files]]
+file = "global_packs/required_data/homeostatic-cozy/data/cnk/environment/drinkable/wine.json"
+hash = "78e934a7694a420fb51a7bf0006fc9c7555492a731578dd1d563e77b252a5a89"
 
 [[files]]
 file = "global_packs/required_data/homeostatic-cozy/data/cometcroft/function/cozy_rules.mcfunction"
@@ -394,7 +566,7 @@ hash = "141e60406e2575c3318e790285893af7a5f56876686bde02235a9b28683bb293"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/assets/cometcroft/lang/en_us.json"
-hash = "b0841df58f493739ec0598afdc8bae8d3c5d1636637e5ed9da19fdecee74fc55"
+hash = "1d8990a7c0ff30405240a390c83d40059a7612da8c75bf3ae5520ac3d8f42f9b"
 
 [[files]]
 file = "global_packs/required_resources/field-guide-lang/pack.mcmeta"

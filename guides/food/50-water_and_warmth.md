@@ -16,6 +16,8 @@ Fill it at any pond and sip as you walk. One of the best early crafts in the pac
 @campfire homeostatic:campfire_purified_water_bottle
 Set a bottle of water over the fire and wait. A furnace or smoker does the same job, and there's a craftable **water filter** too — hover it and press R.
 
+The better answer is anything you made yourself. Tea, coffee, and hot cocoa match purified water; a mug of your own beer or an aged wine beats it, and milk beats everything. Soups count too — a stew warms and waters you at once. Drinks keep forever, so brew ahead.
+
 # Warmth
 
 Deserts scorch, peaks freeze, and getting soaked in winter is as miserable as it sounds. It's a nudge rather than a threat — dress for the trip, keep a fire near in the cold, and dry off under a roof.

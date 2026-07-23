@@ -10,7 +10,8 @@
 	#QoL: partially-spoiled stacks can be merged
 	mergeSpoilingFood = true
 	spoilEverything = false
-	spoilBlacklist = ["minecraft:rotten_flesh", "minecraft:enchanted_golden_apple", "minecraft:golden_apple", "minecraft:cake", "minecraft:honey_bottle", "minecraft:milk_bucket"]
+	#Drinks never rot (bottled/brewed/hot drinks stay good; only real food spoils)
+	spoilBlacklist = ["minecraft:rotten_flesh", "minecraft:enchanted_golden_apple", "minecraft:golden_apple", "minecraft:cake", "minecraft:honey_bottle", "minecraft:milk_bucket", "farmersdelight:milk_bottle", "farmersdelight:apple_cider", "farmersdelight:melon_juice", "farmersdelight:hot_cocoa", "alcocraftplus:chorus_ale", "alcocraftplus:digger_bitter", "alcocraftplus:drowned_ale", "alcocraftplus:ice_beer", "alcocraftplus:kvass", "alcocraftplus:leprechaun_cider", "alcocraftplus:magnet_pilsner", "alcocraftplus:nether_porter", "alcocraftplus:nether_star_lager", "alcocraftplus:night_rauch", "alcocraftplus:sun_pale_ale", "alcocraftplus:wither_stout", "cnk:wine", "cnk:grape_wine", "cnk:fine_wine", "cnk:mulled_wine", "cnk:sweet_berry_wine", "cnk:glow_berry_wine", "cnk:chorus_wine", "cnk:blazing_wine", "cnk:blessing_wine", "cnk:breezing_wine", "cnk:creeping_wine", "cnk:diving_wine", "cnk:gleaming_wine", "cnk:heroic_wine", "cnk:prospecting_wine", "cnk:beer", "cnk:ginger_beer", "cnk:apple_cider", "cnk:tea", "cnk:builders_tea", "cnk:coffee", "cnk:iced_coffee", "cnk:hot_chocolate", "cnk:pumpkin_latte", "cnk:milk_bottle"]
 	#120 s x 80 updates = 9600 s = 8 in-game days to spoil
 	defaultSpoilTime = 80
 	defaultSpoilItem = "minecraft:rotten_flesh"
