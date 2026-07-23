@@ -650,6 +650,11 @@ hash = "0521dbfd8dd75e896f8204fd03a0081dcc644ae48ac7987f4faa65ec897dcd32"
 metafile = true
 
 [[files]]
+file = "mods/fence-jump-plus.pw.toml"
+hash = "77619f3eeaa018a94298146a7c5cf16ca0857446a37caa43c0bf24db56058833"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "069d81cab53c0141459ad4d70bcf3e10f17652f24cc62d3b4a0fc2cd2b700871"
 metafile = true

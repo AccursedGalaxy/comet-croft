@@ -1,0 +1,13 @@
+name = "Fence Jump Plus"
+filename = "jumpoverfences-fabric-26.1.x-1.13.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WQByZEKE/versions/3V9tiHBR/jumpoverfences-fabric-26.1.x-1.13.2.jar"
+hash-format = "sha512"
+hash = "45482c61e2c06d6e09ac327b80e2b2424660b35bd8dd04fe87dd0489df6665e86ede4db32ac24f1787c7b28e0e10c9e8e625f16a3172a1b77da052409da6420b"
+
+[update]
+[update.modrinth]
+mod-id = "WQByZEKE"
+version = "3V9tiHBR"
