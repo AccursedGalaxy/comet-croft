@@ -156,6 +156,17 @@ update, re-check that the config file the pack ships is the one the mod
 actually reads (the boot log line "Config '<name>' is missing, generating
 default one" is the tell).
 
+**Errata to the errata (2026-07-23):** OMM 1.5.0 on 26.1 moved BACK to
+fzzy-config `.toml`; the shipped `.yml` went dead again and the mod
+regenerated pure defaults — griefing/fire back on, spawn chance back to
+30000, End spawns re-enabled. Caught in play (too-frequent meteors, teal
+sky-glow tint). All tuning re-ported into the `.toml`, the `.yml` deleted,
+plus two new tweaks: `meteor_skyglow = false` (the sudden whole-sky teal
+recolor near a falling meteor reads as a bug without shaders) and
+`min_meteor_cooldown_time = 180` (guards against back-to-back falls).
+This config has now flip-flopped formats twice — treat it as a mandatory
+recheck on every OMM update.
+
 ## Tier 6 — Worldgen & structures
 
 Added (20 mods + 4 auto-deps): Tectonic (+Lithostitched), Geophilic,

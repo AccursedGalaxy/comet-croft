@@ -5,7 +5,7 @@ version = 8
 
 [meteorSpawning]
 # Expressed as '1 in <x>' chances of spawning a meteor each tick (similar to randomTickSpeed). Setting it to a negative value will disable natural meteor spawn. For example, by default it has a chance of 1 in 30000, so 0.03%, or 1/30000
-meteor_spawn_chance = 30000
+meteor_spawn_chance = 400000
 # Should the spawn rate be different during the night?
 modify_spawn_chance_at_night = false
 # The chance for a meteor to spawn at night if enabled. Expressed as in 1 in <x> chances, as described above.
@@ -17,21 +17,20 @@ spawn_huge_meteors = true
 # The chance for a spawned meteor to be of huge size. Expressed as in 1 in <x> chances. (on top of the 'normal' spawning chance)
 huge_meteor_chance = 100
 # Expressed in blocks, represents the min distance (as in a radius) from the origin of the meteor (like a player) in which the meteor wont' spawn in. (Remember that it has an angled trajectory so it could end up in that area regardless)
-min_meteor_spawn_distance = 5
+min_meteor_spawn_distance = 15
 # Expressed in blocks, represents the max distance (as in a radius) from the origin of the meteor (like a player) in which a meteor can spawn in. (Remember that it has an angled trajectory so it could end up in that area regardless)
-max_meteor_spawn_distance = 25
+max_meteor_spawn_distance = 40
 # The world height (y level) at which meteors spawn in the world
 meteor_spawn_height = 300
 # Should there be a cooldown between a meteor spawning one meteor and then another?
 should_cooldown_between_meteors = true
 # The minimum time interval (in seconds) between spawning a meteor and then another
-min_meteor_cooldown_time = 20
+min_meteor_cooldown_time = 180
 # The higher the value the less the meteor will go diagonally, and will keep mostly vertical. (randomness remains so it's not 100%). Generally, you should remain between 1 and 10.
 meteor_dispersion_factor = 3.1
 # A list of the IDs of the dimensions in which meteors can or cannot naturally spawn in (see mode setting below), vanilla or not.
 spawn_dimensions = [
-    "minecraft:overworld",
-    "minecraft:the_end"
+    "minecraft:overworld"
 ]
 # If set to false will behave like a blacklist, aka meteors won't spawn in those dimensions. If true will behave like a whitelist, meteors will spawn ONLY in those dimensions.
 dimension_list_mode = true
@@ -68,15 +67,15 @@ explosion_power_modifier = 0
 # A factor to MULTIPLY the explosion power (by default, the power is equal to the meteor size), thus increasing the damage and radius of the explosion.
 explosion_power_multiplier = 1.0
 # Should meteors be able to destroy blocks on impact?
-meteor_griefing = true
+meteor_griefing = false
 # Should meteors spawn the meteor structure after impact?
 meteor_structure = true
 # Should the meteor structure only replace air blocks?
-only_replace_air = false
+only_replace_air = true
 # Should scatter meteors be spawned when a Basic laser destroys a bigger meteor?
 spawn_scatter_meteors = false
 # Should the meteors that come out of a bigger meteor when it's broken be able to destroy blocks on impact?
-scatter_meteor_griefing = true
+scatter_meteor_griefing = false
 # Should the meteors that come out of a bigger meteor when it's broken be able to destroy spawn structures on impact?
 scatter_meteor_structure = true
 # Should the meteors that come out of a bigger meteor when it's broken only replace air blocks for their structure?
@@ -84,7 +83,7 @@ scatter_only_replace_air = true
 # Should meteors explode when they come into contact with an entity? (if true you could use an arrow to make the meteor explode for example)
 explode_on_entity_collision = false
 # Should fire be spawned on meteor impact? (it looks cool!)
-spawn_fire_with_meteor = true
+spawn_fire_with_meteor = false
 # If true will use a spherical explosion instead of the vanilla cubical one. These look nicer at higher explosion power/ranges, but after power 100 become a bit laggy.
 use_better_explosions = true
 # A factor to ADD to the speed at which the meteor falls downwards. It is added to a randomly generated number between 1 and 0. Also supports negative numbers (the meteor may go upwards tho!)

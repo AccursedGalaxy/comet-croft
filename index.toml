@@ -30,11 +30,7 @@ hash = "f10e01975242706ac1e2ca06589f2c7e120522d6a85034932e99a5813f204d46"
 
 [[files]]
 file = "config/ohmymeteors/ohmymeteors_config.toml"
-hash = "53ba6a1d82f818d99361534a042aa69f576679bf51c1b9d5d3c314e8ffd916fb"
-
-[[files]]
-file = "config/ohmymeteors/ohmymeteors_config.yml"
-hash = "9ceac1aad627a25ff66e0fb2ed5fba82de3aeebd13c6e8745a17a8187ec0521a"
+hash = "dd86fb18e0ecae25eb87b391454866ece26bb4ac7cc2b394d95547d6e7339b8e"
 
 [[files]]
 file = "config/sereneseasons/fertility.toml"
